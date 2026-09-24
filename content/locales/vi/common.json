@@ -8,7 +8,7 @@
       "timeline": "Dòng thời gian",
       "deductions": "Suy luận",
       "inventory": "Hành trang",
-      "save": "Lưu game",
+      "save": "Lưu",
       "lang": "🌐 EN / VI"
     },
     "title": {
@@ -31,7 +31,7 @@
       "timeline_title": "Dòng thời gian ngày dạ tiệc",
       "deductions_title": "Suy luận",
       "inventory_title": "Hành trang",
-      "save_title": "Lưu / Tải game",
+      "save_title": "Lưu / Tải",
       "accusation_title": "Đưa ra lời kết tội",
       "close": "✕"
     },
@@ -77,7 +77,7 @@
       "wrong_msg": "Bánh răng xoay rồi dừng lại. Không có phản ứng."
     },
     "deductions": {
-      "warn_hypothesis": "Xây dựng giả thuyết từ các chứng cứ thu thập được. Bảng suy luận sẽ không báo cho bạn biết giả thuyết đúng hay sai.",
+      "warn_hypothesis": "Xây dựng giả thuyết từ những gì bạn đã tìm thấy. Bảng suy luận sẽ không cho bạn biết giả thuyết đúng hay sai.",
       "lbl_suspect": "Nghi phạm",
       "lbl_motive": "Động cơ",
       "lbl_opportunity": "Cơ hội",
@@ -119,9 +119,9 @@
     "save": {
       "info_saved": "Bản lưu: {clues} manh mối, {date}",
       "info_none": "Chưa có bản lưu. Trò chơi có tính năng tự động lưu.",
-      "btn_save": "LƯU GAME",
-      "btn_load": "TẢI GAME",
-      "btn_new": "GAME MỚI",
+      "btn_save": "LƯU",
+      "btn_load": "TẢI",
+      "btn_new": "TRÒ CHƠI MỚI",
       "lbl_settings": "Cài đặt",
       "typewriter_label": "Hiệu ứng chữ chạy (có thể nhấp để hiện ngay)",
       "sound_label": "Âm thanh tiếng mưa",
@@ -144,10 +144,10 @@
       "btn_review_case": "Xem lại các bằng chứng",
       "hidden_prompt": "Toàn bộ sự thật nằm trong tay bạn. Bạn sẽ quyết định ra sao?",
       "opt_back_stair": "Dẫn Pell đi theo lối cầu thang sau.",
-      "opt_cinder_row": "Công khai toàn bộ sự thật về thảm kịch Cinder Row trước Giáo hội."
+      "opt_cinder_row": "Công khai toàn bộ sự thật về thảm kịch Cinder Row trước Hội."
     },
     "toasts": {
-      "game_saved": "Đã lưu game thành công.",
+      "game_saved": "Đã lưu trò chơi thành công.",
       "game_loaded": "Đã tải bản lưu.",
       "no_save_found": "Không tìm thấy dữ liệu lưu.",
       "finish_scene_first": "Hãy hoàn thành xong cảnh hiện tại.",
