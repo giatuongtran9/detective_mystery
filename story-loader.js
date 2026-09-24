@@ -54,8 +54,25 @@
     window.TEXTS = {};
   }
 
-  function installLocale(lang, data) {
-    if (window.i18n) window.i18n.registerTranslations(lang, data);
+  function mergeLocaleData(common, story) {
+    const out = {};
+    const merge = (target, source) => {
+      if (!source || typeof source !== 'object') return target;
+      Object.keys(source).forEach(key => {
+        const value = source[key];
+        if (Array.isArray(value)) target[key] = value.slice();
+        else if (value && typeof value === 'object') {
+          if (!target[key] || typeof target[key] !== 'object' || Array.isArray(target[key])) target[key] = {};
+          merge(target[key], value);
+        } else target[key] = value;
+      });
+      return target;
+    };
+    return merge(merge(out, common), story);
+  }
+
+  function installLocale(lang, common, story) {
+    if (window.i18n) window.i18n.registerTranslations(lang, mergeLocaleData(common, story));
   }
 
   function makeStoryPicker(stories, active) {
