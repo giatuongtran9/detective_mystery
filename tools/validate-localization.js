@@ -47,7 +47,7 @@ function flatten(value, prefix = "", out = {}) {
 
 const technicalLeaf = /(^|\.)(id|req|suspect|img|portrait|type|go|flag|vis|kind|tl|key)$/i;
 const technicalValue = /^(C\d+|T\d+|r-|x-|b-|e-|p-|[A-Za-z]+Room|[A-Za-z]+)$/;
-const intentionalEnglish = new Set(["🌐 EN / VI", "ILSA MARROW", "HOB LARKIN", "NELL SPARROW", "NED BRACKEN", "Tobias Pell", "Odalys Vennard", "Ilsa Marrow", "Miss Thorne", "FENWICK & SONS", "<b>FENWICK & SONS</b>"]);
+const intentionalEnglish = new Set(["🌐 EN / VI", "ILSA MARROW", "HOB LARKIN", "NELL SPARROW", "NED BRACKEN", "Tobias Pell", "Odalys Vennard", "Ilsa Marrow", "Miss Thorne", "FENWICK & SONS", "<b>FENWICK & SONS</b>", "Tinkers' Row", "Bastian Corvane", "Dr. Ferris Quillon"]);
 
 const ef = flatten(en), vf = flatten(vi);
 const missing = Object.keys(ef).filter(k => !(k in vf));
@@ -124,6 +124,21 @@ function validateRuntimeOverlay(root) {
   if (!vi.texts || !vi.texts.topic || !vi.texts.intro || !vi.texts.clue) {
     errors.push('Vietnamese story locale is missing one or more player-facing text sections (texts.intro/topic/clue).');
   }
+
+  // Canonical gameplay facts must never drift between languages.
+  const enTimeline = en.timeline || [], viTimeline = vi.timeline || [];
+  if (enTimeline.length !== viTimeline.length) errors.push('Vietnamese timeline entry count differs from English.');
+  enTimeline.forEach((e, i) => {
+    const v = viTimeline[i];
+    if (!v || v.id !== e.id || v.m !== e.m) errors.push(`Vietnamese timeline metadata differs at ${e.id}.`);
+  });
+  if (JSON.stringify((en.official || {}).challengedBy || []) !== JSON.stringify((vi.official || {}).challengedBy || [])) {
+    errors.push('Vietnamese official account challengedBy differs from English.');
+  }
+  ['Odalys','Corvane','Quillon','Cordelia','Ilsa'].forEach(id => {
+    if ((chars[id] || {}).name && (vi.characters[id] || {}).name === (chars[id] || {}).name) return;
+    if (!(vi.characters || {})[id]) errors.push(`Vietnamese character ${id} is missing.`);
+  });
   return errors;
 }
 
