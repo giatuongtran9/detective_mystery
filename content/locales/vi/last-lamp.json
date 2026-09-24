@@ -53,7 +53,7 @@
       },
       {
         "doc": [
-          "<b>Hale. Đột quỵ. Hãy kín đáo. Hãy nhanh gọn. Đừng làm phật lòng các quan khách, nhiều người trong số họ ngồi trong Hội đồng Giáo hội. — A. Grale, Cảnh sát trưởng</b>"
+          "<b>Hale. Đột quỵ. Hãy kín đáo. Hãy nhanh gọn. Đừng làm phật lòng các quan khách, nhiều người trong số họ ngồi trong Hội đồng Hội. — A. Grale, Cảnh sát trưởng</b>"
         ]
       },
       {
@@ -174,7 +174,7 @@
       {
         "id": "o_co1",
         "suspect": "Corvane",
-        "text": "Rời phòng khiêu vũ ra ban công từ 9:45 đến 10:05",
+        "text": "Rời phòng khiêu vũ ra sân hiên từ 9:45 đến 10:05",
         "req": [
           "C14"
         ]
@@ -266,10 +266,10 @@
             "n": "Đội Cảnh vệ áp giải Pell xuống cầu thang sau theo yêu cầu của chính ông, để khách khứa không nhìn thấy. Ông bước đi với hai tay đưa ra trước, như một người đang mang thứ gì đó có thể đổ ra."
           },
           {
-            "n": "Cái chết của Master Vennard được ghi nhận là một vụ giết người, và hung thủ được nêu tên. Miss Odalys rất khẽ hỏi liệu vụ cháy năm 1166 có thể được xem xét lại hay không. Đó là một lời đề nghị, không phải lời buộc tội."
+            "n": "Cái chết của Lão gia Vennard được ghi nhận là một vụ giết người, và hung thủ được nêu tên. Miss Odalys rất khẽ hỏi liệu vụ cháy năm 1166 có thể được xem xét lại hay không. Đó là một lời đề nghị, không phải lời buộc tội."
           },
           {
-            "n": "Bạn nói mình sẽ xem Hall of Records còn lưu giữ những gì."
+            "n": "Bạn nói mình sẽ xem Văn khố còn lưu giữ những gì."
           },
           {
             "n": "Bạn cất chiếc còi trong một ngăn kéo tại Nhà Cảnh vệ. Đôi khi, vào những đêm mưa, bạn lại lấy nó ra."
@@ -289,14 +289,14 @@
         "img": "x-wrong",
         "beats": [
           {
-            "n": "Chief Constable đọc báo cáo của bạn hai lần, rồi lại đọc thành tiếng từ <i>đột quỵ</i> một lần nữa, với vẻ thích thú thấy rõ."
+            "n": "Cảnh sát trưởng đọc báo cáo của bạn hai lần, rồi lại đọc thành tiếng từ <i>đột quỵ</i> một lần nữa, với vẻ thích thú thấy rõ."
           },
           {
             "s": "Grale",
             "t": "\"Hoàn toàn đúng, Hale. Một người vĩ đại, chịu áp lực lớn. Anh đã xử lý rất hợp lý.\""
           },
           {
-            "n": "Master Vennard được chôn cất giữa những bài điếu văn. Chiếc Đèn Tưởng niệm được khánh thành muộn một tuần, và tấm bảng của nó được khắc rất đẹp."
+            "n": "Lão gia Vennard được chôn cất giữa những bài điếu văn. Chiếc Đèn Tưởng niệm được khánh thành muộn một tuần, và tấm bảng của nó được khắc rất đẹp."
           },
           {
             "n": "Giá đỡ trên tường được sơn lại. Hộp thiếc, chiếc cờ-lê và chiếc còi đồng nhỏ vẫn nằm nguyên chỗ cũ, chờ một người đến nhìn."
@@ -308,7 +308,7 @@
         "img": "x-gold"
       }
     },
-    "title_blurb": "Một vụ án trinh thám xảy ra trong đêm bão bùng tại đại biệt thự Victorian..."
+    "title_blurb": "Một vụ án bí ẩn giữa ánh đèn gas và đồng thau, tại Vương quốc Verrenmoor. Khoảng hai giờ. Có cảnh chết vì khí gas, thảm họa lịch sử, ngoại tình và bất công giai cấp. Không có cảnh máu me."
   },
   "locations": {
     "study": {
@@ -329,7 +329,7 @@
               "n": "Bạn quỳ xuống bên ghế trường kỷ và nhấc chiếc áo khoác dạ tiệc lên."
             },
             {
-              "n": "Master Aldous Vennard trông trẻ hơn tuổi sáu mươi ba. Không có máu, không có vết bầm, hoàn toàn không có dấu vết nào."
+              "n": "Lão gia Aldous Vennard trông trẻ hơn tuổi sáu mươi ba. Không có máu, không có vết bầm, hoàn toàn không có dấu vết nào."
             },
             {
               "n": "Nhưng khuôn mặt ông có một sắc màu bạn không ngờ tới: một màu hồng anh đào ấm áp, khỏe mạnh, như thể ông vừa từ ngoài trời lạnh bước vào."
@@ -458,8 +458,8 @@
       ]
     },
     "stairs": {
-      "name": "Biệt thự Vennard: Khu tầng hầm",
-      "short": "Khu tầng hầm",
+      "name": "Biệt thự Vennard: Khu vực dành cho gia nhân",
+      "short": "Khu vực dành cho gia nhân",
       "img": "b-below-stairs",
       "recap": "Phòng sinh hoạt của gia nhân ấm áp và rầm rộ tiếng thì thầm. Mọi người dừng lại khi bạn bước vào.",
       "people": [
@@ -539,8 +539,8 @@
       ]
     },
     "watch": {
-      "name": "Đồn cảnh sát Watch House",
-      "short": "Đồn cảnh sát",
+      "name": "Nhà Cảnh vệ, phố Halberd",
+      "short": "Nhà Cảnh vệ",
       "img": "b-watch-house",
       "recap": "Đồn cảnh sát Marrowgate bốc mùi áo mưa ướt và mực in. Bác sĩ Brine đang đợi ở phòng phẫu thuật.",
       "people": [],
@@ -585,7 +585,7 @@
           "label": "Nói chuyện với Cảnh sát trưởng Grale",
           "beats": [
             {
-              "n": "Chief Constable bước xuống trong chiếc áo khoác cổ lông, rõ ràng vừa bị gọi khỏi giường và không hề vui vì chuyện đó."
+              "n": "Cảnh sát trưởng bước xuống trong chiếc áo khoác cổ lông, rõ ràng vừa bị gọi khỏi giường và không hề vui vì chuyện đó."
             },
             {
               "s": "Grale",
@@ -603,8 +603,8 @@
       ]
     },
     "lampworks": {
-      "name": "Xưởng Đèn Lumenhithe",
-      "short": "Xưởng Đèn",
+      "name": "Xưởng Đèn Vennard, Cinder Row",
+      "short": "Xưởng Đèn Vennard",
       "img": "b-lampworks",
       "recap": "Những chiếc ống khói khổng lồ đứng sừng sững trong đêm mưa. Cổng xưởng khóa chặt, chỉ có ông Amberley gác cổng.",
       "people": [],
@@ -632,8 +632,8 @@
       ]
     },
     "infirmary": {
-      "name": "Bệnh viện Dã chiến Marrowgate",
-      "short": "Bệnh viện",
+      "name": "Phòng khám Quillon, phố Ashlar",
+      "short": "Phòng khám Quillon",
       "img": "b-infirmary",
       "recap": "Mùi carbolic nồng nặc. Y tá Coll đang kiểm tra danh sách bệnh nhân ca chiều.",
       "people": [],
@@ -656,8 +656,8 @@
       ]
     },
     "tinkers": {
-      "name": "Phố Thợ Rèn: Tiệm cầm đồ Grubb",
-      "short": "Tiệm cầm đồ Grubb",
+      "name": "Xưởng ở Tinkers' Row",
+      "short": "Tinkers' Row",
       "img": "b-tinkers-row",
       "recap": "Mưa rơi lộp bộp trên mái sắt. Cửa hiệu chật nát mùi kim loại cũ và vải ẩm.",
       "people": [
@@ -677,7 +677,7 @@
       ]
     },
     "wire": {
-      "name": "Sở Điện báo Marrowgate",
+      "name": "Sở Điện báo",
       "short": "Sở Điện báo",
       "img": "b-wire-office",
       "recap": "Tiếng máy điện báo gõ lạch cạch không ngừng. Nhân viên ca đêm ngước nhìn khi bạn bước vào.",
@@ -701,8 +701,8 @@
       ]
     },
     "records": {
-      "name": "Lưu trữ sở & Văn khố Giáo hội",
-      "short": "Lưu trữ sở",
+      "name": "Văn khố",
+      "short": "Văn khố",
       "img": "b-records",
       "recap": "Hàng nghìn hồ sơ đóng da xếp trên giá cao. Người lưu trữ Dunstan đốt đèn dầu chờ bạn.",
       "people": [],
@@ -721,12 +721,11 @@
     }
   },
   "locked_text": {
-    "watch": "Chưa thể tới. Cần lý do làm việc với Cảnh sát.",
-    "records": "Chưa thể tới. Cần đầu mối về hồ sơ Giáo hội.",
-    "tinkers": "Chưa thể tới. Cần thông tin về tiệm cầm đồ.",
-    "lampworks": "Chưa thể tới. Cần lý do kiểm tra xưởng đèn.",
-    "wire": "Chưa thể tới. Cần kiểm tra nội dung điện báo.",
-    "infirmary": "Chưa thể tới. Cần đầu mối tại bệnh viện."
+    "lampworks": "Bạn chưa có lý do để tới đó. Có lẽ phòng thí nghiệm sẽ cho bạn một lý do.",
+    "infirmary": "Bạn chưa có lý do để tới phố Ashlar.",
+    "tinkers": "Bạn chưa có lý do để tới Tinkers' Row.",
+    "wire": "Bạn chưa có lý do để tới Sở Điện báo.",
+    "records": "Bạn chưa có lý do để tới Văn khố."
   },
   "characters": {
     "Ottley": {
@@ -753,11 +752,11 @@
           "label": "Hỏi xem còn tìm thấy gì trên thi thể không.",
           "beats": [
             {
-              "y": "Có tìm thấy gì khác trên người Master không?"
+              "y": "Có tìm thấy gì khác trên người Lão gia không?"
             },
             {
               "s": "Ottley",
-              "t": "\"Thanh tra. Dây đồng hồ của Master, từ áo ghi-lê. Lẽ ra tôi phải giao nó sớm hơn.\""
+              "t": "\"Thanh tra. Dây đồng hồ của Lão gia, từ áo ghi-lê. Lẽ ra tôi phải giao nó sớm hơn.\""
             },
             {
               "n": "Nó bằng vàng nặng. Chiếc vòng trên đó giữ một chiếc chìa khóa nhỏ, và một vòng trống nơi từng treo một chiếc lớn hơn."
@@ -815,11 +814,11 @@
       "topics": [
         {
           "id": "tell_me_about_the_study_lamp",
-          "label": "Hỏi về việc bảo dưỡng cây đèn phòng làm việc lúc 5 giờ."
+          "label": "Hỏi về việc bảo dưỡng cây đèn phòng làm việc."
         },
         {
           "id": "you_know_lamps",
-          "label": "Hỏi về hiểu biết của ông ta đối với khí gas và ống dẫn."
+          "label": "Hỏi về hiểu biết của ông ta về đèn gas."
         },
         {
           "id": "what_do_you_make_of_the_fire_of_sixty_si"
@@ -925,13 +924,13 @@
     },
     "Odalys": {
       "name": "Odalys Vennard",
-      "role": "Con gái Lão gia Vennard",
-      "rel": "Con gái duy nhất của nạn nhân.",
+      "role": "Kế toán trưởng kiêm quản lý Xưởng Đèn",
+      "rel": "Con gái của Lão gia với người vợ đầu Marguerite.",
       "portrait": "p-odalys",
       "startSus": 20,
       "facts": [
         {
-          "t": "Kế toán trưởng. Con gái của người vợ đầu tiên của Master, người có của hồi môn đã gây dựng nên Xưởng."
+          "t": "Kế toán trưởng. Con gái của người vợ đầu tiên của Lão gia, người có của hồi môn đã gây dựng nên Xưởng."
         },
         {
           "t": "Cô nói mình ở Xưởng từ tám giờ hai mươi đến sáu giờ mười, và về tới nhà lúc kém bảy giờ."
@@ -1003,9 +1002,9 @@
       }
     },
     "Corvane": {
-      "name": "Arthur Corvane",
-      "role": "Kỹ sư trưởng",
-      "rel": "Đồng hành cùng Lão gia Vennard từ ngày thành lập Xưởng Đèn.",
+      "name": "Bastian Corvane",
+      "role": "Đối tác cấp dưới kiêm kỹ sư trưởng",
+      "rel": "Đối tác của Lão gia; người thiết kế Safe-Valve.",
       "portrait": "p-corvane",
       "startSus": 25,
       "facts": [
@@ -1025,10 +1024,10 @@
           "t": "Được dạy phương pháp ghim dải kim loại kiểu cũ."
         },
         {
-          "t": "Ở Lampworks từ 6:10 sáng đến 5:35 chiều, rồi ở thư viện dưới sự giám sát của hầu bàn từ sáu đến bảy giờ."
+          "t": "Ở Xưởng Đèn từ 6:10 sáng đến 5:35 chiều, rồi ở thư viện dưới sự giám sát của hầu bàn từ sáu đến bảy giờ."
         },
         {
-          "t": "Stenn điện tín cho ông ta rằng ghế trong ban quản trị của League phụ thuộc vào chữ ký của Master."
+          "t": "Stenn điện tín cho ông ta rằng ghế trong ban quản trị của League phụ thuộc vào chữ ký của Lão gia."
         }
       ],
       "topics": [
@@ -1060,9 +1059,9 @@
       }
     },
     "Quillon": {
-      "name": "Bác sĩ Alan Quillon",
+      "name": "Bác sĩ Ferris Quillon",
       "role": "Bác sĩ gia đình",
-      "rel": "Thường xuyên thăm khám cho Lão gia Vennard.",
+      "rel": "Bác sĩ riêng của Lão gia và là người mắc nợ ông.",
       "portrait": "p-quillon",
       "startSus": 20,
       "facts": [
@@ -1073,10 +1072,10 @@
           "t": "Nói rằng ông ta chưa từng rời phòng khiêu vũ và tuyên bố đó là \"đột quỵ\"."
         },
         {
-          "t": "Nợ Master 1.200 crown, đến hạn cuối tháng."
+          "t": "Nợ Lão gia 1.200 crown, đến hạn cuối tháng."
         },
         {
-          "t": "Gặp Lady Cordelia hằng tuần trên phố Ashlar; Master biết chuyện và định đối chất với họ sau dạ tiệc."
+          "t": "Gặp Lady Cordelia hằng tuần trên phố Ashlar; Lão gia biết chuyện và định đối chất với họ sau dạ tiệc."
         },
         {
           "t": "Ở một mình với Lady Cordelia dưới hàng cọ từ 9:35 đến 10:05."
@@ -1085,7 +1084,7 @@
           "t": "Ở phòng khám từ 4:30 đến 5:50 chiều, sau đó đi xe ngựa tới Marrowgate cùng Lady Cordelia."
         },
         {
-          "t": "Biết rằng Master không thể ngửi thấy mùi gas."
+          "t": "Biết rằng Lão gia không thể ngửi thấy mùi gas."
         }
       ],
       "topics": [
@@ -1141,20 +1140,20 @@
       }
     },
     "Cordelia": {
-      "name": "Phu nhân Cordelia",
-      "role": "Khách quý dạ tiệc",
-      "rel": "Bạn thân của gia đình Vennard.",
+      "name": "Phu nhân Cordelia Vennard",
+      "role": "Người vợ thứ hai của Lão gia",
+      "rel": "Mẹ kế của Odalys, chỉ lớn hơn cô bốn tuổi.",
       "portrait": "p-cordelia",
       "startSus": 20,
       "facts": [
         {
-          "t": "Người vợ thứ hai của Master. Nỗi đau được thể hiện hoàn hảo đến mức hơi quá."
+          "t": "Người vợ thứ hai của Lão gia. Nỗi đau được thể hiện hoàn hảo đến mức hơi quá."
         },
         {
           "t": "Nói rằng bà nằm nghỉ trong phòng suốt buổi chiều."
         },
         {
-          "t": "Master định đối chất với bà sau dạ tiệc."
+          "t": "Lão gia định đối chất với bà sau dạ tiệc."
         },
         {
           "t": "Ở phòng khám cùng Dr. Quillon từ 4:30 đến 5:50 chiều."
@@ -1187,7 +1186,7 @@
     "Ilsa": {
       "name": "Ilsa Marrow",
       "role": "Hầu gái tạm thời",
-      "rel": "Mới nhận việc hai tuần trước dạ tiệc.",
+      "rel": "Con gái của Emmeric Marrow, người có thiết kế chụp đèn bị Lão gia đăng ký thành bằng sáng chế.",
       "portrait": "p-ilsa",
       "startSus": 15,
       "hostile": [
@@ -1201,7 +1200,7 @@
           "t": "Điều hành một xưởng trên Tinkers’ Row. Hai bàn tay có những vết bỏng do đồng."
         },
         {
-          "t": "Cha cô, Emmeric, đã vẽ thiết kế chụp đèn mà Master đăng ký dưới dạng bằng sáng chế của Xưởng."
+          "t": "Cha cô, Emmeric, đã vẽ thiết kế chụp đèn mà Lão gia đăng ký dưới dạng bằng sáng chế của Xưởng."
         },
         {
           "t": "Đi vào phòng làm việc qua cửa sổ kiểu Pháp lúc 6:35 và rời đi lúc 6:50, cải trang thành cô hầu gái \"Ida March\"."
@@ -1372,7 +1371,7 @@
       ]
     },
     "C14": {
-      "title": "Corvane trên ban công",
+      "title": "Corvane trên sân hiên",
       "kind": "note",
       "inv": true,
       "summary": "Corvane rời đi cùng Halvard Stenn lúc 9:45 và quay lại lúc 10:05.",
@@ -1654,158 +1653,158 @@
       "id": "T01",
       "t": "7:30 sáng",
       "m": 450,
-      "text": "Nell lau chùi khớp đèn phòng làm việc. Nó thẳng và sạch vẽ."
+      "text": "Nell lau chùi cổ đèn phòng làm việc. Nó thẳng và sạch sẽ."
     },
     {
       "id": "T02",
       "t": "8:00 sáng",
       "m": 480,
-      "text": "Lão gia khóa phòng làm việc bằng chìa khóa riêng và rời đi."
+      "text": "Lão gia khóa phòng làm việc bằng chìa khóa riêng rồi rời đi."
     },
     {
       "id": "T03",
       "t": "8:40 sáng",
       "m": 520,
-      "text": "Lão gia điểm danh tại Xưởng Đèn."
+      "text": "Lão gia ký tên vào sổ tại Xưởng Đèn."
     },
     {
       "id": "T25",
       "t": "4:00 tối",
       "m": 960,
-      "text": "Vết cắt sáp xuất hiện trong tủ bếp hầm."
+      "text": "Bánh sáp màu oải hương trong phòng đựng thức ăn vẫn còn nguyên vẹn."
     },
     {
       "id": "T04",
       "t": "4:50 tối",
       "m": 1010,
-      "text": "Pell ký mượn chìa khóa dự phòng phòng làm việc tại tủ quản gia."
+      "text": "Chìa khóa dự phòng phòng làm việc được ký nhận: T.P."
     },
     {
       "id": "T05",
       "t": "5:25 tối",
       "m": 1045,
-      "text": "Pell ký trả chìa khóa dự phòng phòng làm việc."
+      "text": "Chìa khóa dự phòng phòng làm việc được ký trả."
     },
     {
       "id": "T06",
       "t": "5:35 tối",
       "m": 1055,
-      "text": "Cô Odalys đến Xưởng Đèn."
+      "text": "Lão gia và ông Corvane cùng rời Xưởng Đèn."
     },
     {
       "id": "T07",
       "t": "5:50 tối",
       "m": 1070,
-      "text": "Bác sĩ Quillon và Phu nhân Cordelia rời Bệnh viện Dã chiến trên xe ngựa."
+      "text": "Phu nhân Cordelia và Bác sĩ Quillon rời phòng khám trên cùng một chiếc xe ngựa."
     },
     {
       "id": "T08",
       "t": "6:10 tối",
       "m": 1090,
-      "text": "Lão gia và Corvane rời Xưởng Đèn cùng nhau."
+      "text": "Cô Odalys rời Xưởng Đèn."
     },
     {
       "id": "T09",
       "t": "6:35 tối",
       "m": 1115,
-      "text": "Một người hầu gái trèo qua cửa sổ Pháp vào phòng làm việc."
+      "text": "Một cô hầu gái lẻn qua cửa sổ kiểu Pháp vào phòng làm việc."
     },
     {
       "id": "T10",
       "t": "6:50 tối",
       "m": 1130,
-      "text": "Người hầu gái rời phòng làm việc qua cửa sổ Pháp."
+      "text": "Cô hầu gái lại lẻn ra ngoài."
     },
     {
       "id": "T11",
       "t": "8:50 tối",
       "m": 1250,
-      "text": "Lão gia tranh cãi gay gắt với Cô Odalys bên ngoài phòng làm việc."
+      "text": "Odalys và Lão gia tranh cãi ở hành lang bên ngoài phòng làm việc."
     },
     {
       "id": "T12",
       "t": "9:02 tối",
       "m": 1262,
-      "text": "Lão gia tự chốt cửa phòng làm việc từ bên trong."
+      "text": "Lão gia tự chốt cửa từ bên trong. Đến năm phút sau, ánh sáng vẫn hắt ra dưới cánh cửa."
     },
     {
       "id": "T13",
       "t": "9:15 tối",
       "m": 1275,
-      "text": "Pell có mặt ở gian bếp hầm cùng bà đầu bếp Tallowby."
+      "text": "Pell ngồi cùng bà đầu bếp trong bếp."
     },
     {
       "id": "T14",
       "t": "9:35 tối",
       "m": 1295,
-      "text": "Quillon và Cordelia gặp nhau ở nhà kính dưới cây cọ."
+      "text": "Bác sĩ Quillon và Phu nhân Cordelia đứng cùng nhau dưới hàng cọ cho đến khoảng năm phút sau mười giờ."
     },
     {
       "id": "T15",
       "t": "9:45 tối",
       "m": 1305,
-      "text": "Corvane ra ban công cùng Đại diện Stenn."
+      "text": "Ông Corvane rời phòng khiêu vũ cùng Halvard Stenn."
     },
     {
       "id": "T16",
       "t": "10:05 tối",
       "m": 1325,
-      "text": "Corvane quay lại đại sảnh."
+      "text": "Ông Corvane quay lại phòng khiêu vũ."
     },
     {
       "id": "T17",
       "t": "Khoảng 10:00 tối",
       "m": 1320,
-      "text": "Sáp trong khớp nối mềm ra do nhiệt đèn. Khí đốt bắt đầu rò rỉ."
+      "text": "Theo tính toán của phòng thí nghiệm, sáp sẽ bắt đầu chảy khoảng một giờ sau khi đèn được thắp."
     },
     {
       "id": "T18",
       "t": "10:25 tối",
       "m": 1345,
-      "text": "Pell gõ cửa phòng làm việc nhưng không có tiếng trả lời."
+      "text": "Pell gõ cửa phòng làm việc nhưng không nhận được câu trả lời."
     },
     {
       "id": "T19",
       "t": "10:30 tối",
       "m": 1350,
-      "text": "Lão gia rơi vào trạng thái hôn mê do ngộ độc khí đốt."
+      "text": "Đến thời điểm này, theo báo cáo của bác sĩ khám nghiệm, Lão gia đã bất tỉnh, muộn nhất là lúc này."
     },
     {
       "id": "T20",
       "t": "10:32 tối",
       "m": 1352,
-      "text": "Pell thông báo hoãn nâng ly chúc mừng."
+      "text": "Pell nói với đại sảnh rằng Lão gia xin thêm một chút thời gian."
     },
     {
       "id": "T21",
       "t": "10:35 tối",
       "m": 1355,
-      "text": "Corvane đứng ra đọc bài chúc mừng thay Lão gia."
+      "text": "Ông Corvane đứng ra đọc bài chúc mừng thay."
     },
     {
       "id": "T22",
       "t": "11:40 tối",
       "m": 1420,
-      "text": "Pell cùng Hob Larkin phá cửa phòng làm việc."
+      "text": "Pell và Hob phá cửa. Đèn đã tắt và căn phòng nồng nặc mùi gas. Pell khóa van gas và mở cửa chớp."
     },
     {
       "id": "T23",
       "t": "11:44 tối",
       "m": 1424,
-      "text": "Pell khóa van khí gas tổng và mở cửa chớp."
+      "text": "Bác sĩ Quillon được gọi đến và tuyên bố nguyên nhân là đột quỵ."
     },
     {
       "id": "T24",
       "t": "11:45 tối",
       "m": 1425,
-      "text": "Người hầu gái phụ 'Ida March' rời Biệt thự Vennard."
+      "text": "'Ida March' rời đi mà không nhận tiền công."
     }
   ],
   "texts": {
     "clue": {
       "C01": [
         {
-          "n": "Gỗ sồi dày hai inch và giờ hơi lệch khỏi vị trí. Ở mặt trong, chốt cửa đã được đẩy hết vào ngàm. Bên dưới là một chiếc chìa khóa cắm trong ổ, đã xoay. Chìa của Master, Ottley nói; trên đầu chìa có một thẻ mang chữ viết tắt của ông."
+          "n": "Gỗ sồi dày hai inch và giờ hơi lệch khỏi vị trí. Ở mặt trong, chốt cửa đã được đẩy hết vào ngàm. Bên dưới là một chiếc chìa khóa cắm trong ổ, đã xoay. Chìa của Lão gia, Ottley nói; trên đầu chìa có một thẻ mang chữ viết tắt của ông."
         },
         {
           "n": "Nơi bản chặn chốt gặp khung cửa, gỗ đã vỡ thành những mảnh dằm nhạt màu. Có người đã nhiều lần dùng vai thúc vào cánh cửa này."
@@ -1845,7 +1844,7 @@
       ],
       "C05": [
         {
-          "n": "Trên tấm lót bàn là một tờ giấy có huy hiệu của Master, viết bằng nét chữ nhanh, xiên và dừng lại giữa chừng. Một que diêm đã cháy hết nằm trong khay cạnh ly rượu brandy uống dở."
+          "n": "Trên tấm lót bàn là một tờ giấy có huy hiệu của Lão gia, viết bằng nét chữ nhanh, xiên và dừng lại giữa chừng. Một que diêm đã cháy hết nằm trong khay cạnh ly rượu brandy uống dở."
         },
         {
           "doc": [
@@ -1864,13 +1863,13 @@
             "<b>FENWICK & SONS</b>",
             "<i>Điều tra kín đáo — Tòa Tallow, ngoài phố Halberd</i>",
             "",
-            "<i>Kính gửi Master A. Vennard, riêng tư và bảo mật.</i>",
+            "<i>Kính gửi Lão gia A. Vennard, riêng tư và bảo mật.</i>",
             "",
             "<i>Thưa ông: tiếp theo chỉ thị ngày 20 vừa qua của ông, chúng tôi báo cáo như sau. Người phụ nữ nói trên, mỗi lần đều đến bằng xe ngựa kín và che mặt, đã gặp người đàn ông được nêu tên tại một địa chỉ trên phố Ashlar vào các ngày 3, 10, 17 và 24 Reapmonth, vào khoảng bốn giờ chiều, mỗi lần ở lại từ một đến hai giờ. Người đàn ông là Dr. F. Quillon. Nhân viên của chúng tôi không bị phát hiện. Phí được gửi kèm. — C. Fenwick, thay mặt công ty.</i>"
           ]
         },
         {
-          "n": "Bên lề, bằng nét chữ của Master, mực đen: <b>Đối chất sau dạ tiệc.</b>"
+          "n": "Bên lề, bằng nét chữ của Lão gia, mực đen: <b>Đối chất sau dạ tiệc.</b>"
         }
       ],
       "C07": [
@@ -1902,7 +1901,7 @@
           "n": "Sáu tờ bản vẽ trên loại giấy sợi tốt đã mềm ở các nếp gấp. Một chụp đèn gas có kiểu dáng khác thường, được vẽ từ ba mặt và cả mặt cắt, kích thước ghi bằng nét chữ nhỏ, cẩn thận."
         },
         {
-          "n": "Mỗi tờ đều ký tên <i>E. Marrow</i> và ghi ngày <i>1181</i>. Trên tờ đầu tiên, bằng nét chữ xiên của Master: <b>Lưu dưới dạng bằng sáng chế của Xưởng.</b>"
+          "n": "Mỗi tờ đều ký tên <i>E. Marrow</i> và ghi ngày <i>1181</i>. Trên tờ đầu tiên, bằng nét chữ xiên của Lão gia: <b>Lưu dưới dạng bằng sáng chế của Xưởng.</b>"
         }
       ],
       "C10": [
@@ -1911,11 +1910,11 @@
         },
         {
           "doc": [
-            "<i>Giữa Vennard Lampworks (Bên bán) và Osterhal League of Trading Cities (Bên mua), Bên mua sẽ nhận toàn bộ Xưởng, máy móc, bằng sáng chế và lợi thế thương mại…</i>"
+            "<i>Giữa Xưởng Đèn Vennard (Bên bán) và Osterhal League of Trading Cities (Bên mua), Bên mua sẽ nhận toàn bộ Xưởng, máy móc, bằng sáng chế và lợi thế thương mại…</i>"
           ]
         },
         {
-          "n": "Ký ở cuối: <i>Halvard Stenn, thay mặt League.</i> Phía trên chỗ dành cho tên Bên bán, một dòng bằng nét chữ của Master: <i>phải ký lúc nửa đêm.</i> Trong Phụ lục B, một điều khoản đã bị gạch bằng mực đỏ: <i>Tư vấn cho Bastian Corvane, Esq., theo các điều khoản đã thỏa thuận.</i> Bên lề: <b>Điện tín xác nhận cho Stenn.</b>"
+          "n": "Ký ở cuối: <i>Halvard Stenn, thay mặt League.</i> Phía trên chỗ dành cho tên Bên bán, một dòng bằng nét chữ của Lão gia: <i>phải ký lúc nửa đêm.</i> Trong Phụ lục B, một điều khoản đã bị gạch bằng mực đỏ: <i>Tư vấn cho Bastian Corvane, Esq., theo các điều khoản đã thỏa thuận.</i> Bên lề: <b>Điện tín xác nhận cho Stenn.</b>"
         }
       ],
       "C11": [
@@ -1938,11 +1937,11 @@
         },
         {
           "s": "Hob",
-          "t": "\"Bên ngoài hành lang phòng làm việc, Thanh tra. Ông Pell bảo tôi đứng đó lúc tám rưỡi. Ông ấy nói Master không muốn khách khứa đi lang thang.\""
+          "t": "\"Bên ngoài hành lang phòng làm việc, Thanh tra. Ông Pell bảo tôi đứng đó lúc tám rưỡi. Ông ấy nói Lão gia không muốn khách khứa đi lang thang.\""
         },
         {
           "s": "Hob",
-          "t": "\"Miss Odalys và Master, lúc tám giờ năm mươi. Cô ấy nói, <i>‘Ông sẽ bán xưởng của Mẹ cho người lạ sao?’</i> Và ông ấy nói, rất khẽ, <i>‘Nó không phải thứ con được quyền giữ, Odalys.’</i> Cô ấy đi nhanh xuống cầu thang.\""
+          "t": "\"Miss Odalys và Lão gia, lúc tám giờ năm mươi. Cô ấy nói, <i>‘Ông sẽ bán xưởng của Mẹ cho người lạ sao?’</i> Và ông ấy nói, rất khẽ, <i>‘Nó không phải thứ con được quyền giữ, Odalys.’</i> Cô ấy đi nhanh xuống cầu thang.\""
         },
         {
           "s": "Hob",
@@ -1959,7 +1958,7 @@
         },
         {
           "s": "Một nghị viên thành phố",
-          "t": "\"Rồi ông Pell bước vào, vẻ rất nghiêm trọng, và nói Master xin thêm chút thời gian. Hai phút sau nửa giờ, theo đồng hồ của tôi.\""
+          "t": "\"Rồi ông Pell bước vào, vẻ rất nghiêm trọng, và nói Lão gia xin thêm chút thời gian. Hai phút sau nửa giờ, theo đồng hồ của tôi.\""
         },
         {
           "s": "Quý bà mặc đồ xanh",
@@ -1970,7 +1969,7 @@
         },
         {
           "s": "Hob",
-          "t": "\"Ông Pell gõ cửa lúc mười giờ hai mươi lăm mà không được trả lời. Ông ấy nói Master đang xem ghi chú và không được quấy rầy. Đó là quy tắc, Thanh tra, khi ông ấy đã chốt cửa. Mười một rưỡi, Miss Odalys nói <i>phải có ai đó vào xem</i>. Ông Pell và tôi dùng vai thúc cửa lúc hai mươi phút trước nửa đêm. Mùi đó, Thanh tra. Đèn đã tắt. Ông Pell khóa gas và mở tung cửa chớp trước khi tôi kịp thở. Dr. Quillon đến lúc kém một phần tư. Nói là đột quỵ, rõ ràng như ban ngày.\""
+          "t": "\"Ông Pell gõ cửa lúc mười giờ hai mươi lăm mà không được trả lời. Ông ấy nói Lão gia đang xem ghi chú và không được quấy rầy. Đó là quy tắc, Thanh tra, khi ông ấy đã chốt cửa. Mười một rưỡi, Miss Odalys nói <i>phải có ai đó vào xem</i>. Ông Pell và tôi dùng vai thúc cửa lúc hai mươi phút trước nửa đêm. Mùi đó, Thanh tra. Đèn đã tắt. Ông Pell khóa gas và mở tung cửa chớp trước khi tôi kịp thở. Dr. Quillon đến lúc kém một phần tư. Nói là đột quỵ, rõ ràng như ban ngày.\""
         }
       ],
       "C14": [
@@ -1993,7 +1992,7 @@
         },
         {
           "s": "Ned",
-          "t": "\"Từ rạng sáng đến giờ. Lò sưởi cần được tiếp than. Bão dữ lắm. Chốt cửa sổ kiểu Pháp đã lỏng từ mùa xuân. Tôi đã báo họ. Cả ngày chẳng ai đến gần. Cho đến khi một cô hầu gái, khoảng hai mươi lăm phút trước bảy giờ, đi vào từ phía sân thượng và lẻn qua. Khoảng mười phút trước bảy giờ lại đi ra. Tôi tưởng cô ta làm việc gì đó cho Master.\""
+          "t": "\"Từ rạng sáng đến giờ. Lò sưởi cần được tiếp than. Bão dữ lắm. Chốt cửa sổ kiểu Pháp đã lỏng từ mùa xuân. Tôi đã báo họ. Cả ngày chẳng ai đến gần. Cho đến khi một cô hầu gái, khoảng hai mươi lăm phút trước bảy giờ, đi vào từ phía sân thượng và lẻn qua. Khoảng mười phút trước bảy giờ lại đi ra. Tôi tưởng cô ta làm việc gì đó cho Lão gia.\""
         },
         {
           "s": "Ned",
@@ -2019,7 +2018,7 @@
         },
         {
           "s": "Nell",
-          "t": "\"Sáng nay tôi chỉnh vòng cổ của đèn lúc bảy rưỡi. Sạch sẽ. Thẳng như kẻ chỉ. Master khóa phòng làm việc lúc tám giờ. Ông ấy luôn khóa, kể cả khi chỉ đi lấy tẩu thuốc sao?\""
+          "t": "\"Sáng nay tôi chỉnh vòng cổ của đèn lúc bảy rưỡi. Sạch sẽ. Thẳng như kẻ chỉ. Lão gia khóa phòng làm việc lúc tám giờ. Ông ấy luôn khóa, kể cả khi chỉ đi lấy tẩu thuốc sao?\""
         },
         {
           "s": "Hob",
@@ -2027,7 +2026,7 @@
         },
         {
           "s": "Hob",
-          "t": "\"Từ sáu đến bảy giờ tôi phục vụ trong thư viện. Ông Corvane và Master tập bài phát biểu nâng cốc. Tôi chưa từng rời phòng quá một phút. Tôi cho Miss Odalys vào lúc kém một phần tư bảy giờ rồi quay lại ngay. Ông Corvane ngồi bên lò sưởi, vẫn như trước.\""
+          "t": "\"Từ sáu đến bảy giờ tôi phục vụ trong thư viện. Ông Corvane và Lão gia tập bài phát biểu nâng cốc. Tôi chưa từng rời phòng quá một phút. Tôi cho Miss Odalys vào lúc kém một phần tư bảy giờ rồi quay lại ngay. Ông Corvane ngồi bên lò sưởi, vẫn như trước.\""
         }
       ],
       "C18": [
@@ -2086,9 +2085,9 @@
             "",
             "<i>Tôi không biết anh có đọc thư này không. Tôi đã gây tội với anh trai anh đến mức không thể sửa chữa, và tôi không còn nhiều thời gian để làm điều đó cho đúng.</i>",
             "",
-            "<i>Có một vụ cháy năm 1166 khiến mười bốn người thiệt mạng. Nó bắt đầu trong kho dầu mà Master Vennard, để tiết kiệm chi phí làm lỗ thông khí, đã bịt kín. Khi đó tôi là Ủy viên. Ba ngày sau, Master Vennard tìm đến và trả tôi ba nghìn crown để viết rằng Josiah đã bất cẩn. Tôi đã viết. Josiah bị sa thải và chết trong trại tế bần.</i>",
+            "<i>Có một vụ cháy năm 1166 khiến mười bốn người thiệt mạng. Nó bắt đầu trong kho dầu mà Lão gia Vennard, để tiết kiệm chi phí làm lỗ thông khí, đã bịt kín. Khi đó tôi là Ủy viên. Ba ngày sau, Lão gia Vennard tìm đến và trả tôi ba nghìn crown để viết rằng Josiah đã bất cẩn. Tôi đã viết. Josiah bị sa thải và chết trong trại tế bần.</i>",
             "",
-            "<i>Tôi đã viết lại tất cả và định nộp nó cho Hall of Records, nhưng tôi không tin mình sẽ sống đến ngày hồ sơ được gửi vào đó. Anh là người thân duy nhất của ông ấy. Đó là lý do tôi viết cho anh.</i>",
+            "<i>Tôi đã viết lại tất cả và định nộp nó cho Văn khố, nhưng tôi không tin mình sẽ sống đến ngày hồ sơ được gửi vào đó. Anh là người thân duy nhất của ông ấy. Đó là lý do tôi viết cho anh.</i>",
             "",
             "<i>Hãy tha thứ cho một ông già, nếu anh có thể. Tôi thì không thể. — Grimsby Loam</i>"
           ]
@@ -2107,7 +2106,7 @@
             "<i>B. Corvane — vào 6:10 sáng — ra 5:35 chiều</i>",
             "<i>O. Vennard — vào 8:20 sáng — ra 6:10 chiều</i>",
             "<i>A. Vennard — vào 8:40 sáng — ra 5:35 chiều</i>",
-            "<i>Ghi chú: Master và ông Corvane cùng rời đi, đi xe điện tới Marrowgate. Không ra ngoài ăn trưa (mưa).</i>"
+            "<i>Ghi chú: Lão gia và ông Corvane cùng rời đi, đi xe điện tới Marrowgate. Không ra ngoài ăn trưa (mưa).</i>"
           ]
         },
         {
@@ -2118,7 +2117,7 @@
       "C24": [
         {
           "doc": [
-            "<i>Sổ Nhân sự, Vennard Lampworks. Các mục dưới chữ P.</i>",
+            "<i>Sổ Nhân sự, Xưởng Đèn Vennard. Các mục dưới chữ P.</i>",
             "",
             "<b>PELL, T. — thợ lắp đặt tập sự, 1145–1150.</b> <i>Hạnh kiểm tốt. Đạt bậc thợ cả, từ chối làm việc tại bàn thao tác, rời đi để phục vụ.</i>",
             "",
@@ -2138,11 +2137,11 @@
             "<i>CHIẾC ĐÈN NÀY ĐƯỢC DÀNH TƯỞNG NIỆM CHO</i>",
             "<i>mười bốn người đã mất tại Cinder Row, 1166,</i>",
             "<i>do sự bất cẩn của Quản đốc J. Pell,</i>",
-            "<i>người đã được Master tha thứ.</i>"
+            "<i>người đã được Lão gia tha thứ.</i>"
           ]
         },
         {
-          "n": "Bên lề, bằng bút chì: <i>\"Người đã được Master tha thứ\" — làm đậm hơn, xin vui lòng. — A.V.</i>"
+          "n": "Bên lề, bằng bút chì: <i>\"Người đã được Lão gia tha thứ\" — làm đậm hơn, xin vui lòng. — A.V.</i>"
         }
       ],
       "C26": [
@@ -2248,7 +2247,7 @@
         },
         {
           "s": "Ilsa",
-          "t": "\"Tôi bỏ chạy khi nghe Master chết. Tôi không đợi tiền công. Tôi muốn ông ấy còn sống, Thanh tra. Còn sống và <i>ký tên</i>.\""
+          "t": "\"Tôi bỏ chạy khi nghe Lão gia chết. Tôi không đợi tiền công. Tôi muốn ông ấy còn sống, Thanh tra. Còn sống và <i>ký tên</i>.\""
         }
       ],
       "C33": [
@@ -2662,7 +2661,7 @@
             },
             {
               "s": "Pell",
-              "t": "\"Hob, Thanh tra. Ở hành lang. Tôi gõ cửa mà không được trả lời, và Master sẽ không cảm ơn tôi vì làm phiền ông ấy.\""
+              "t": "\"Hob, Thanh tra. Ở hành lang. Tôi gõ cửa mà không được trả lời, và Lão gia sẽ không cảm ơn tôi vì làm phiền ông ấy.\""
             }
           ]
         },
@@ -2674,7 +2673,7 @@
             },
             {
               "s": "Pell",
-              "t": "\"Tôi gõ cửa lúc mười rưỡi mà không được trả lời. Master sẽ không cảm ơn tôi vì làm phiền ông ấy, và dù sao trong giờ đầu tiên ông ấy vẫn sẽ rất yên ổn.\""
+              "t": "\"Tôi gõ cửa lúc mười rưỡi mà không được trả lời. Lão gia sẽ không cảm ơn tôi vì làm phiền ông ấy, và dù sao trong giờ đầu tiên ông ấy vẫn sẽ rất yên ổn.\""
             }
           ]
         }
@@ -2724,7 +2723,7 @@
             },
             {
               "s": "Odalys",
-              "t": "\"Mười bốn người chết, tại Xưởng Cũ. Tôi mười ba tuổi. Cuộc điều tra đổ lỗi cho quản đốc. Nó nằm trong Hall of Records, nếu anh muốn xem bản ghi chính thức.\""
+              "t": "\"Mười bốn người chết, tại Xưởng Cũ. Tôi mười ba tuổi. Cuộc điều tra đổ lỗi cho quản đốc. Nó nằm trong Văn khố, nếu anh muốn xem bản ghi chính thức.\""
             }
           ]
         },
@@ -2817,10 +2816,10 @@
           ]
         },
         "what_did_you_tell_the_household_about_th": {
-          "label": "Ông đã nói gì với gia đình về Master?",
+          "label": "Ông đã nói gì với gia đình về Lão gia?",
           "beats": [
             {
-              "y": "Ông đã nói gì với gia đình về Master?"
+              "y": "Ông đã nói gì với gia đình về Lão gia?"
             },
             {
               "s": "Quillon",
@@ -2949,7 +2948,7 @@
           "n": "Phòng làm việc có mùi brandy, xi đánh đồng và, bên dưới cả hai, một thứ gì đó ngọt rất nhạt bám ở cuống họng."
         },
         {
-          "n": "Cửa chớp giờ mở, gió bão đẩy rèm lay động. Master Aldous Vennard nằm trên ghế trường kỷ dưới chiếc áo khoác dạ tiệc, mặt quay vào tường. Ottley để nguyên hiện trường như lúc tìm thấy, trừ việc cửa chớp đã mở."
+          "n": "Cửa chớp giờ mở, gió bão đẩy rèm lay động. Lão gia Aldous Vennard nằm trên ghế trường kỷ dưới chiếc áo khoác dạ tiệc, mặt quay vào tường. Ottley để nguyên hiện trường như lúc tìm thấy, trừ việc cửa chớp đã mở."
         },
         {
           "n": "Một chiếc bàn lớn, lò sưởi đã tắt, bức chân dung một phụ nữ mắt đen phía trên bệ lò. Trên tường cạnh bàn là một giá đồng giữ chiếc đèn có ống khói thủy tinh cao: Steady Flame nổi tiếng, chiếc đèn cả thành phố tin cậy. Nó không cháy."
@@ -2985,7 +2984,7 @@
         },
         {
           "s": "Brine",
-          "t": "\"Thanh tra. Master Vennard được đưa tới đây một giờ trước. Có vẻ tôi vừa được giao một câu đố khá hay cho những giờ khuya.\""
+          "t": "\"Thanh tra. Lão gia Vennard được đưa tới đây một giờ trước. Có vẻ tôi vừa được giao một câu đố khá hay cho những giờ khuya.\""
         }
       ],
       "lampworks": [
@@ -3025,7 +3024,7 @@
       ],
       "records": [
         {
-          "n": "Hall of Records dài và lạnh, chỉ được chiếu sáng bởi đúng một chiếc đèn chụp màu xanh. Thang chạy dọc những bức tường đầy hộp xám. Đâu đó giữa các giá hồ sơ, một trang giấy lật qua, dù chẳng có ai đọc."
+          "n": "Văn khố dài và lạnh, chỉ được chiếu sáng bởi đúng một chiếc đèn chụp màu xanh. Thang chạy dọc những bức tường đầy hộp xám. Đâu đó giữa các giá hồ sơ, một trang giấy lật qua, dù chẳng có ai đọc."
         },
         {
           "n": "Miss Thorne, người lưu trữ hồ sơ, khô khan như chính giấy tờ của mình, đang làm việc muộn như mọi khi bà không muốn về nhà. Bà ngước lên qua cặp kính gọng thép."
@@ -3058,15 +3057,15 @@
         },
         {
           "s": "Pell",
-          "t": "\"Rồi lá thư. <i>Tôi đã gây tội với anh trai anh đến mức không thể sửa chữa.</i> Tôi đọc nó mười một lần. Đến lần thứ mười hai, tôi tới Hall of Records và xin xem hồ sơ. Miss Thorne rất tử tế. Nó do chính tay Ủy viên Loam viết.\""
+          "t": "\"Rồi lá thư. <i>Tôi đã gây tội với anh trai anh đến mức không thể sửa chữa.</i> Tôi đọc nó mười một lần. Đến lần thứ mười hai, tôi tới Văn khố và xin xem hồ sơ. Miss Thorne rất tử tế. Nó do chính tay Ủy viên Loam viết.\""
         },
         {
           "s": "Pell",
-          "t": "\"Tôi từng nghĩ đến việc tới Nhà Cảnh vệ. Nhưng Josiah đã chết mười tám năm, còn Master Vennard là người trả phí cho nhân viên khám nghiệm. Ai sẽ chịu nghe lời một quản gia?\""
+          "t": "\"Tôi từng nghĩ đến việc tới Nhà Cảnh vệ. Nhưng Josiah đã chết mười tám năm, còn Lão gia Vennard là người trả phí cho nhân viên khám nghiệm. Ai sẽ chịu nghe lời một quản gia?\""
         },
         {
           "s": "Pell",
-          "t": "\"Rồi bản in thử của tấm bảng được đưa lên phòng làm việc để duyệt. <i>Do sự bất cẩn của Quản đốc J. Pell, người đã được Master tha thứ.</i> Bằng đồng. Trên chính chiếc đèn đó. Đọc trước toàn thành phố lúc mười rưỡi.\""
+          "t": "\"Rồi bản in thử của tấm bảng được đưa lên phòng làm việc để duyệt. <i>Do sự bất cẩn của Quản đốc J. Pell, người đã được Lão gia tha thứ.</i> Bằng đồng. Trên chính chiếc đèn đó. Đọc trước toàn thành phố lúc mười rưỡi.\""
         },
         {
           "n": "Ông dừng lại. Giọng ông chưa từng cao lên một lần."
@@ -3080,7 +3079,7 @@
         },
         {
           "s": "Pell",
-          "t": "\"Dải kim loại cũ tôi biết từ Xưởng. Chiếc hộp thiếc là bộ đồ nghề thời tập sự của tôi. Tôi chưa mở nó từ năm ’50. Tôi cắt một góc chiếc bánh của bà Tallowby, lấy cờ-lê từ hầm, và nói với phòng đựng thức ăn rằng tôi phải chỉnh chiếc đèn phòng làm việc. Tôi chọn loại sáp đó vì nó sẽ giữ cứng khi lạnh và chảy trong một giờ, còn Master luôn tự tay thắp đèn lúc chín giờ. Hai mươi năm. Tôi không thắp nó. Tôi đã thắp mười nghìn chiếc đèn cho ngôi nhà này, và tôi không thể buộc mình thắp chiếc đó.\""
+          "t": "\"Dải kim loại cũ tôi biết từ Xưởng. Chiếc hộp thiếc là bộ đồ nghề thời tập sự của tôi. Tôi chưa mở nó từ năm ’50. Tôi cắt một góc chiếc bánh của bà Tallowby, lấy cờ-lê từ hầm, và nói với phòng đựng thức ăn rằng tôi phải chỉnh chiếc đèn phòng làm việc. Tôi chọn loại sáp đó vì nó sẽ giữ cứng khi lạnh và chảy trong một giờ, còn Lão gia luôn tự tay thắp đèn lúc chín giờ. Hai mươi năm. Tôi không thắp nó. Tôi đã thắp mười nghìn chiếc đèn cho ngôi nhà này, và tôi không thể buộc mình thắp chiếc đó.\""
         },
         {
           "y": "Ông đã đặt cả ngôi nhà vào nguy hiểm."
@@ -3161,13 +3160,11 @@
     }
   },
   "official": {
-    "text": "Lão gia Vennard chốt cửa phòng làm việc lúc 9:02 tối sau khi cãi nhau với con gái. Lợi dụng đêm bão, hơi gas rò rỉ do ngẫu nhiên gây ngạt thở.",
-    "challenged": "Dòng thời gian chính thức bị nghi vấn bởi dấu vết tác động cơ học trên van đèn và khớp nối sáp.",
+    "text": "Lão gia Vennard rút về phòng làm việc sau bữa tối, lên cơn đột quỵ và qua đời không lâu trước khi được phát hiện lúc hai mươi phút trước nửa đêm.",
+    "challenged": "Bản báo cáo chính thức bị nghi vấn khi báo cáo của bác sĩ khám nghiệm và báo cáo phòng thí nghiệm cho thấy cái chết không thể đơn giản là đột quỵ.",
     "challengedBy": [
-      "C03",
-      "C04",
-      "C16",
-      "C21"
+      "C38",
+      "C39"
     ]
   }
 }
