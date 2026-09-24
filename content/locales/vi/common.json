@@ -59,7 +59,15 @@
       "nothing_to_show": "Bạn chưa có bằng chứng nào để trình ra.",
       "never_mind": "Đừng bận tâm",
       "present_evidence_to": "Đưa bằng chứng cho {name}",
-      "make_your_accusation_btn": "ĐƯA RA LỜI KẾT TỘI"
+      "make_your_accusation_btn": "ĐƯA RA LỜI KẾT TỘI",
+      "defensive_text": "{name} cứng người và từ chối nói thêm bất cứ điều gì.",
+      "early_accuse_refusal": "“Tôi hiểu. Vậy thì tôi không còn gì để nói với ngài, Thanh tra. Ngài có thể làm việc với luật sư của tôi.”",
+      "grate_roars": "Ở đâu đó dưới tầng dưới, một cửa lưới sắt bật lên kêu rền, như thể vừa có một bó giấy bị ném xuống đó.",
+      "clue_discovered_label": "ĐÃ PHÁT HIỆN MANH MỐI",
+      "cannot_do_yet": "Bạn chưa thể làm việc đó lúc này.",
+      "ilsa_silent_text": "Ilsa vẫn quay lưng về phía bạn, hai tay đặt trên bàn làm việc. Cô ấy không chịu để bạn dẫn dắt.",
+      "present_evidence_narration": "Bạn đưa {title} cho {name}.",
+      "handle_reaction_prompt": "Bạn sẽ xử lý thế nào?"
     },
     "suspicion": {
       "unlikely": "Ít nghi vấn",
