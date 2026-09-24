@@ -59,7 +59,15 @@
       "nothing_to_show": "You have nothing to show yet.",
       "never_mind": "Never mind",
       "present_evidence_to": "Present evidence to {name}",
-      "make_your_accusation_btn": "MAKE YOUR ACCUSATION"
+      "make_your_accusation_btn": "MAKE YOUR ACCUSATION",
+      "defensive_text": "{name} stiffens and refuses to say anything further.",
+      "early_accuse_refusal": "\"I see. Then I have nothing more to say to you, Inspector. You may address yourself to my lawyer.\"",
+      "grate_roars": "Somewhere below stairs a grate roars up, as if a bundle of papers had just been thrown on it.",
+      "clue_discovered_label": "CLUE DISCOVERED",
+      "cannot_do_yet": "You cannot do that yet.",
+      "ilsa_silent_text": "Ilsa keeps her back to you and her hands on the bench. She will not be led.",
+      "present_evidence_narration": "You present {title} to {name}.",
+      "handle_reaction_prompt": "How do you handle it?"
     },
     "suspicion": {
       "unlikely": "Unlikely",
