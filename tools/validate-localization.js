@@ -59,6 +59,20 @@ const untranslated = Object.keys(ef).filter(k => {
   return /[A-Za-z]/.test(a) && !technicalValue.test(a) && !intentionalEnglish.has(a);
 });
 
+
+
+// Referenced ui.actions keys must exist in both merged locale dictionaries.
+{
+  const gameSource = fs.readFileSync(path.join(ROOT, 'game.js'), 'utf8');
+  const actionKeys = [...new Set([...gameSource.matchAll(/t\(['\"](ui\.actions\.[A-Za-z0-9_]+)['\"]/g)].map(m => m[1]))];
+  const missingActionKeys = actionKeys.filter(k => !(k in ef) || !(k in vf));
+  console.log(`ui.actions references: ${actionKeys.length} checked, missing: ${missingActionKeys.length}`);
+  if (missingActionKeys.length) {
+    console.log('MISSING ui.actions:');
+    missingActionKeys.forEach(k => console.log(`- ${k}`));
+  }
+}
+
 console.log(`English keys: ${Object.keys(ef).length}`);
 console.log(`Vietnamese keys: ${Object.keys(vf).length}`);
 console.log(`Missing Vietnamese keys: ${missing.length}`);
