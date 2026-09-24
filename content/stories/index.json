@@ -1,0 +1,10 @@
+{
+  "stories": [
+    {
+      "id": "last-lamp",
+      "title": "The Last Lamp at Vennard House",
+      "description": "A gaslight detective mystery in Verrenmoor.",
+      "default": true
+    }
+  ]
+}

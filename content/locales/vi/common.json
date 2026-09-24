@@ -1,0 +1,162 @@
+{
+  "ui": {
+    "topbar": {
+      "investigate": "Điều tra",
+      "map": "Bản đồ",
+      "evidence": "Bằng chứng",
+      "suspects": "Nghi phạm",
+      "timeline": "Dòng thời gian",
+      "deductions": "Suy luận",
+      "inventory": "Hành trang",
+      "save": "Lưu game",
+      "lang": "🌐 EN / VI"
+    },
+    "title": {
+      "eyebrow": "Vụ án trinh thám cổ điển",
+      "title": "Cây Đèn Cuối Cùng<br>tại Biệt Thự Vennard",
+      "new_game": "Bắt đầu mới",
+      "continue": "Tiếp tục",
+      "load_saved": "Tải bản lưu",
+      "endings_found": "Kết cục đã khám phá: {count} / 5",
+      "story_selector": "Câu chuyện"
+    },
+    "sound": {
+      "sound_off": "♪ Âm thanh: Tắt",
+      "sound_on": "♪ Âm thanh: Bật"
+    },
+    "drawer": {
+      "map_title": "Bản đồ",
+      "evidence_title": "Bằng chứng ({count} / 39)",
+      "suspects_title": "Nghi phạm",
+      "timeline_title": "Dòng thời gian ngày dạ tiệc",
+      "deductions_title": "Suy luận",
+      "inventory_title": "Hành trang",
+      "save_title": "Lưu / Tải game",
+      "accusation_title": "Đưa ra lời kết tội",
+      "close": "✕"
+    },
+    "actions": {
+      "continue": "Tiếp tục",
+      "in_conversation": "Đang trò chuyện với {name}",
+      "ottley_waiting_intro": "Thượng sĩ Ottley đứng bên cạnh bạn, sổ tay đã mở, nước mưa vẫn nhỏ xuống từ chiếc mũ của ông.",
+      "ottley_looks_up": "Ottley ngẩng lên khỏi cuốn sổ tay.",
+      "ask_ottley_hint_y": "Thưa Thượng sĩ, ông có suy nghĩ gì không?",
+      "back": "← Quay lại",
+      "investigate_heading": "Điều tra",
+      "speak_to_heading": "Nói chuyện với",
+      "move_on_heading": "Di chuyển",
+      "go_somewhere_else": "Đi đến nơi khác…",
+      "speak_to_person": "Trò chuyện với {name}",
+      "ask_heading": "Hỏi",
+      "press_heading": "Gây áp lực",
+      "leave_heading": "Rời đi",
+      "end_conversation": "Kết thúc cuộc trò chuyện",
+      "present_evidence_option": "Đưa ra bằng chứng…",
+      "accuse_suspect_option": "Buộc tội {name} về tội giết người",
+      "what_will_you_do": "Bạn sẽ làm gì?",
+      "what_will_you_say": "Bạn sẽ nói gì với {name}?",
+      "choose_what_to_show": "Chọn bằng chứng muốn đưa ra",
+      "nothing_to_show": "Bạn chưa có bằng chứng nào để trình ra.",
+      "never_mind": "Đừng bận tâm",
+      "present_evidence_to": "Đưa bằng chứng cho {name}",
+      "make_your_accusation_btn": "ĐƯA RA LỜI KẾT TỘI"
+    },
+    "suspicion": {
+      "unlikely": "Ít nghi vấn",
+      "doubtful": "Đáng ngờ nhẹ",
+      "suspicious": "Đáng ngờ",
+      "likely": "Có khả năng cao",
+      "prime_suspect": "Nghi phạm chính",
+      "your_suspicion": "Mức độ nghi vấn: {label}"
+    },
+    "safe": {
+      "title": "Nhập mật mã 4 chữ số",
+      "prompt": "Phía sau tấm vách phía bắc là một cánh cửa sắt. Núm vặn bằng đồng có bốn bánh răng.",
+      "btn_turn": "Xoay núm",
+      "btn_away": "Rút lui",
+      "wrong_msg": "Bánh răng xoay rồi dừng lại. Không có phản ứng."
+    },
+    "deductions": {
+      "warn_hypothesis": "Xây dựng giả thuyết từ các chứng cứ thu thập được. Bảng suy luận sẽ không báo cho bạn biết giả thuyết đúng hay sai.",
+      "lbl_suspect": "Nghi phạm",
+      "lbl_motive": "Động cơ",
+      "lbl_opportunity": "Cơ hội",
+      "lbl_evidence": "Bằng chứng (tối đa 3)",
+      "motive_placeholder": "— Động cơ —",
+      "opportunity_placeholder": "— Cơ hội —",
+      "btn_record_hypothesis": "Ghi lại giả thuyết",
+      "lbl_your_hypotheses": "Các giả thuyết đã lập",
+      "empty_hypotheses": "Chưa có giả thuyết nào.",
+      "lbl_ottley": "Ottley",
+      "btn_ask_ottley": "Xin gợi ý từ Ottley",
+      "lbl_when_ready": "Khi bạn đã sẵn sàng",
+      "btn_close_accident": "Khép lại vụ án như một tai nạn",
+      "confirm_close_accident": "Báo cáo với Cảnh sát trưởng rằng Lão gia Vennard qua đời vì đột quỵ và kết thúc điều tra?",
+      "no_motive": "chưa chọn động cơ",
+      "no_opportunity": "chưa chọn cơ hội",
+      "no_evidence": "không có bằng chứng",
+      "remove": "Xóa"
+    },
+    "inventory_tabs": {
+      "all": "Tất cả",
+      "doc": "Tài liệu",
+      "obj": "Vật phẩm",
+      "key": "Chìa khóa",
+      "note": "Ghi chép",
+      "empty": "Chưa có đồ vật nào.",
+      "chain_title": "Dây đồng hồ của Lão gia",
+      "chain_sum": "Bằng vàng nặng. Một chìa khóa nhỏ và một móc xích trống nơi từng treo chìa khóa lớn.",
+      "chain_desc": "Món dây đồng hồ vàng nặng lấy từ áo gile của Lão gia. Vòng móc giữ chìa khóa nhỏ mở ngăn kéo bàn làm việc, và một mắt xích trống nơi chìa khóa phòng làm việc từng treo."
+    },
+    "evidence": {
+      "empty": "Bạn chưa tìm thấy manh mối nào. Hãy tiếp tục quan sát.",
+      "already_in_evidence": "◆ Đã có trong sổ bằng chứng: {title}"
+    },
+    "timeline": {
+      "official_account_title": "BÁO CÁO CHÍNH THỨC",
+      "empty": "Chưa có dữ liệu. Dòng thời gian được tổng hợp từ lời khai, sổ ghi chép và văn bản."
+    },
+    "save": {
+      "info_saved": "Bản lưu: {clues} manh mối, {date}",
+      "info_none": "Chưa có bản lưu. Trò chơi có tính năng tự động lưu.",
+      "btn_save": "LƯU GAME",
+      "btn_load": "TẢI GAME",
+      "btn_new": "GAME MỚI",
+      "lbl_settings": "Cài đặt",
+      "typewriter_label": "Hiệu ứng chữ chạy (có thể nhấp để hiện ngay)",
+      "sound_label": "Âm thanh tiếng mưa",
+      "lbl_important_decisions": "Các quyết định quan trọng",
+      "confirm_new": "Chơi lại từ đầu? Mọi tiến trình chưa lưu sẽ bị mất."
+    },
+    "accusation": {
+      "warn": "Chọn một nghi phạm, sau đó chọn các bằng chứng chứng minh. Kết cục sẽ đánh giá lập luận của bạn.",
+      "who": "Thủ phạm là ai?",
+      "evidence_lbl": "Bằng chứng buộc tội? (tối đa 5)",
+      "no_evidence": "Bạn không có bằng chứng nào.",
+      "btn_submit": "Tuyên bố buộc tội",
+      "toast_five_max": "Tối đa 5 bằng chứng.",
+      "err_choose_suspect": "Hãy chọn nghi phạm trước.",
+      "err_no_evidence": "Bạn không thể buộc tội nếu thiếu bằng chứng."
+    },
+    "endings": {
+      "case_closed": "Vụ án kết thúc",
+      "btn_new_investigation": "Bắt đầu vụ án mới",
+      "btn_review_case": "Xem lại các bằng chứng",
+      "hidden_prompt": "Toàn bộ sự thật nằm trong tay bạn. Bạn sẽ quyết định ra sao?",
+      "opt_back_stair": "Dẫn Pell đi theo lối cầu thang sau.",
+      "opt_cinder_row": "Công khai toàn bộ sự thật về thảm kịch Cinder Row trước Giáo hội."
+    },
+    "toasts": {
+      "game_saved": "Đã lưu game thành công.",
+      "game_loaded": "Đã tải bản lưu.",
+      "no_save_found": "Không tìm thấy dữ liệu lưu.",
+      "finish_scene_first": "Hãy hoàn thành xong cảnh hiện tại.",
+      "new_location_map": "Mở địa điểm mới: {short}",
+      "three_ev_max": "Tối đa 3 bằng chứng cho một giả thuyết.",
+      "add_something": "Hãy chọn ít nhất một động cơ, cơ hội hoặc bằng chứng."
+    },
+    "labels": {
+      "you": "BẠN"
+    }
+  }
+}

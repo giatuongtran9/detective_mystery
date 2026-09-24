@@ -1,0 +1,51 @@
+{
+  "true": {
+    "title": "TRUE SOLUTION",
+    "img": "x-gold",
+    "beats": [
+      {
+        "n": "The Watch takes Pell down the back stair, by his own request, so that the guests will not see him. He walks with his hands in front of him, like a man carrying something that might spill."
+      },
+      {
+        "n": "Master Vennard's death is entered as murder, and his killer is named. Miss Odalys asks, very quietly, whether the fire of 1166 might be looked at again. It is a request, not an accusation."
+      },
+      {
+        "n": "You say you will see what the Hall of Records holds."
+      },
+      {
+        "n": "You keep the whistle in a drawer at the Watch House. Sometimes, on wet nights, you take it out."
+      }
+    ]
+  },
+  "partial": {
+    "title": "PARTIAL SOLUTION",
+    "img": "x-silver"
+  },
+  "wrong": {
+    "title": "WRONG ACCUSATION",
+    "img": "x-wrong"
+  },
+  "missed": {
+    "title": "MISSED CLUES",
+    "img": "x-wrong",
+    "beats": [
+      {
+        "n": "The Chief Constable reads your report twice, and reads the word <i>apoplexy</i> once more, aloud, with evident pleasure."
+      },
+      {
+        "s": "Grale",
+        "t": "\"Quite right, Hale. A great man, a great strain. Sensible of you.\""
+      },
+      {
+        "n": "Master Vennard is buried with speeches. The Memorial Lamp is unveiled a week late, and its plaque is very well engraved."
+      },
+      {
+        "n": "The wall bracket is repainted. The tin, the wrench, and the little brass whistle stay where they are, waiting for someone to look."
+      }
+    ]
+  },
+  "hidden": {
+    "title": "HIDDEN ENDING: THE FOURTEEN",
+    "img": "x-gold"
+  }
+}

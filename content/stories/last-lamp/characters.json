@@ -1,0 +1,733 @@
+{
+  "characters": {
+    "Ottley": {
+      "name": "Sergeant Pip Ottley",
+      "role": "Watch sergeant",
+      "npc": true,
+      "portrait": "p-ottley",
+      "topics": [
+        {
+          "id": "who",
+          "label": "Who found him?",
+          "beats": [
+            {
+              "y": "Who found him?"
+            },
+            {
+              "s": "Ottley",
+              "t": "\"The butler, Mr. Pell, and a footman, Hob Larkin. They forced the door at twenty to twelve. Mr. Pell shut off the gas and opened the shutters, which I gather was the right thing to do.\""
+            }
+          ]
+        },
+        {
+          "id": "chain",
+          "label": "Ask if there is anything else on the body.",
+          "when": {
+            "$fn": "() => has(\"C03\") && has(\"C04\")"
+          },
+          "hideIf": {
+            "$fn": "() => flag(\"chain\")"
+          },
+          "beats": [
+            {
+              "y": "Was anything else found on the Master?"
+            },
+            {
+              "s": "Ottley",
+              "t": "\"Inspector. The Master's watch-chain, from his waistcoat. I should have handed it over sooner.\""
+            },
+            {
+              "n": "It is heavy gold. The ring on it holds one small key, and a bare loop where a larger one once hung."
+            }
+          ],
+          "fx": {
+            "flag": {
+              "chain": true
+            },
+            "item": "chain"
+          }
+        },
+        {
+          "id": "hint",
+          "label": "Ask Ottley for a hint.",
+          "hint": true
+        }
+      ]
+    },
+    "Pell": {
+      "name": "Tobias Pell",
+      "role": "Butler",
+      "rel": "Nineteen years in the Vennard household.",
+      "portrait": "p-pell",
+      "startSus": 5,
+      "facts": [
+        {
+          "t": "Butler at Vennard House for nineteen years. Quiet, formal, punctual.",
+          "c": {
+            "$fn": "() => true"
+          }
+        },
+        {
+          "t": "Says he trimmed the study lamp at five: \"ten minutes' work\".",
+          "c": {
+            "$fn": "() => asked(\"Pell\", \"tell_me_about_the_study_lamp\")"
+          }
+        },
+        {
+          "t": "Says he knows \"wicks and mantles, not pipes\".",
+          "c": {
+            "$fn": "() => asked(\"Pell\", \"you_know_lamps\")"
+          }
+        },
+        {
+          "t": "Signed out the spare study key from 4:50 to 5:25 PM: thirty-five minutes.",
+          "c": {
+            "$fn": "() => has(\"C16\")"
+          }
+        },
+        {
+          "t": "Was at the study door at 10:25 and announced the Master 'indisposed' at 10:32. The cook puts him in the kitchen from 9:15.",
+          "c": {
+            "$fn": "() => has(\"C13\") && has(\"C19\")"
+          }
+        },
+        {
+          "t": "Trained as an apprentice fitter, 1145 to 1150. His brother Josiah was the foreman blamed for Cinder Row.",
+          "c": {
+            "$fn": "() => has(\"C24\")"
+          }
+        },
+        {
+          "t": "Was taught the Old Pattern method of pinning a valve strip.",
+          "c": {
+            "$fn": "() => has(\"C26\")"
+          }
+        },
+        {
+          "t": "Collected a wire from Commissioner Loam in person, read it twice, and left white as chalk.",
+          "c": {
+            "$fn": "() => has(\"C34\")"
+          }
+        },
+        {
+          "t": "Has asked to see the 1166 inquiry file every anniversary of the fire.",
+          "c": {
+            "$fn": "() => has(\"C37\")"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "id": "tell_me_about_the_study_lamp"
+        },
+        {
+          "id": "you_know_lamps"
+        },
+        {
+          "id": "what_do_you_make_of_the_fire_of_sixty_si"
+        },
+        {
+          "id": "where_were_you_tonight"
+        },
+        {
+          "id": "did_anyone_see_you_at_half_past_ten"
+        },
+        {
+          "id": "tell_me_again_about_half_past_ten",
+          "when": {
+            "$fn": "() => has(\"C39\")"
+          },
+          "fx": {
+            "flag": {
+              "slip": true
+            }
+          }
+        },
+        {
+          "id": "room",
+          "label": "Ask his leave to look at his room.",
+          "disabled": {
+            "$fn": "() => groundsCount() < 3 ? \"You have no grounds to search his room yet.\" : (!flag(\"consent\") ? \"You need the household's consent: Lady Cordelia or Miss Odalys.\" : null)"
+          },
+          "hideIf": {
+            "$fn": "() => flag(\"roomOpen\")"
+          },
+          "beats": [
+            {
+              "y": "I'd like to see your room."
+            },
+            {
+              "s": "Pell",
+              "t": "\"By all means, Inspector. I'd only ask that you leave the bed as it is.\""
+            },
+            {
+              "n": "<i>The way up to his room is now open to you.</i>"
+            }
+          ],
+          "fx": {
+            "flag": {
+              "roomOpen": true
+            }
+          }
+        }
+      ],
+      "reactions": {
+        "C16": {
+          "key": "r-Pell-C16",
+          "fx": {
+            "sus": {
+              "Pell": 5
+            }
+          }
+        },
+        "C17": {
+          "key": "r-Pell-C16"
+        },
+        "C24": {
+          "key": "r-Pell-C24",
+          "fx": {
+            "sus": {
+              "Pell": 5
+            }
+          }
+        },
+        "C26": {
+          "key": "r-Pell-C26",
+          "fx": {
+            "sus": {
+              "Pell": 5
+            }
+          }
+        },
+        "C22": {
+          "key": "r-Pell-motive",
+          "fx": {
+            "sus": {
+              "Pell": 5
+            }
+          }
+        },
+        "C33": {
+          "key": "r-Pell-motive"
+        },
+        "C34": {
+          "key": "r-Pell-motive"
+        },
+        "C37": {
+          "key": "r-Pell-motive"
+        },
+        "C39": {
+          "key": {
+            "$fn": "() => flag(\"slip\") ? \"r-Pell-C39#a\" : \"r-Pell-C39#b\""
+          },
+          "fx": {
+            "sus": {
+              "Pell": 5
+            }
+          }
+        }
+      },
+      "studyIntro": [
+        {
+          "n": "Ottley fetches Mr. Pell from the servants' hall. He arrives within a minute, coat brushed, and stands just inside the door without once looking at the settee."
+        },
+        {
+          "s": "Pell",
+          "t": "\"You've had a wet night of it, Inspector. If I may.\""
+        }
+      ]
+    },
+    "Odalys": {
+      "name": "Odalys Vennard",
+      "role": "Chief accountant and works manager",
+      "rel": "The Master's daughter, by his first wife Marguerite.",
+      "portrait": "p-odalys",
+      "startSus": 20,
+      "facts": [
+        {
+          "t": "Chief accountant. Daughter of the Master's first wife, whose dowry founded the Works.",
+          "c": {
+            "$fn": "() => true"
+          }
+        },
+        {
+          "t": "Says she was at the Works from twenty past eight until ten past six and reached the house by a quarter to seven.",
+          "c": {
+            "$fn": "() => asked(\"Odalys\", \"where_were_you_today\")"
+          }
+        },
+        {
+          "t": "Quarrelled with her father at ten to nine over the sale of 'Mother's works'.",
+          "c": {
+            "$fn": "() => has(\"C12\")"
+          }
+        },
+        {
+          "t": "Booked the extra maid 'Ida March' two weeks before the gala.",
+          "c": {
+            "$fn": "() => has(\"C11\")"
+          }
+        },
+        {
+          "t": "Has known about the sale for three weeks.",
+          "c": {
+            "$fn": "() => asked(\"Odalys\", \"you_argued_with_your_father_at_ten_to_ni\")"
+          }
+        },
+        {
+          "t": "Signed in at the Works at 8:20 AM and out at 6:10 PM.",
+          "c": {
+            "$fn": "() => has(\"C23\")"
+          }
+        },
+        {
+          "t": "Wrote to Ilsa Marrow: 'Come as a maid on the ninth… Bring me back what he took.'",
+          "c": {
+            "$fn": "() => has(\"C30\")"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "id": "where_were_you_today"
+        },
+        {
+          "id": "you_argued_with_your_father_at_ten_to_ni"
+        },
+        {
+          "id": "do_you_know_a_woman_named_ilsa_marrow"
+        },
+        {
+          "id": "ask_about_the_fire_at_cinder_row",
+          "fx": {
+            "flag": {
+              "askedFire": true
+            }
+          }
+        },
+        {
+          "id": "did_you_kill_your_father"
+        },
+        {
+          "id": "ask_where_ilsa_marrow_lives",
+          "when": {
+            "$fn": "() => flag(\"odalysAdmitted\")"
+          }
+        },
+        {
+          "id": "ask_leave_to_search_the_servants_rooms",
+          "when": {
+            "$fn": "() => flag(\"odalysAdmitted\")"
+          },
+          "fx": {
+            "flag": {
+              "consent": true
+            }
+          }
+        }
+      ],
+      "reactions": {
+        "C11": {
+          "key": "r-Odalys-C11",
+          "fx": {
+            "flag": {
+              "odalysAdmitted": true
+            },
+            "sus": {
+              "Odalys": 5
+            }
+          }
+        },
+        "C30": {
+          "key": "r-Odalys-C30"
+        }
+      }
+    },
+    "Corvane": {
+      "name": "Bastian Corvane",
+      "role": "Junior partner and chief engineer",
+      "rel": "The Master's partner; designer of the Safe-Valve.",
+      "portrait": "p-corvane",
+      "startSus": 25,
+      "facts": [
+        {
+          "t": "Junior partner, chief engineer, designer of the Safe-Valve. Charming; taps his signet ring when he lies.",
+          "c": {
+            "$fn": "() => true"
+          }
+        },
+        {
+          "t": "Says he knew nothing of any sale.",
+          "c": {
+            "$fn": "() => asked(\"Corvane\", \"you_knew_about_the_sale_of_the_works\")"
+          }
+        },
+        {
+          "t": "The toast would have struck him from the Works, and his consultancy in the contract is struck through in red.",
+          "c": {
+            "$fn": "() => has(\"C05\") || has(\"C10\")"
+          }
+        },
+        {
+          "t": "Slipped onto the terrace with Halvard Stenn of the Osterhal League from 9:45 to 10:05.",
+          "c": {
+            "$fn": "() => has(\"C14\")"
+          }
+        },
+        {
+          "t": "Was taught the old strip-pinning method.",
+          "c": {
+            "$fn": "() => has(\"C26\") || asked(\"Corvane\", \"do_you_know_the_old_strip_pinning_method\")"
+          }
+        },
+        {
+          "t": "At the Lampworks from 6:10 AM until 5:35 PM, and in the library under the footman's eye from six to seven.",
+          "c": {
+            "$fn": "() => has(\"C23\") || has(\"C17\")"
+          }
+        },
+        {
+          "t": "Stenn wired him that his League board seat follows the Master's signature.",
+          "c": {
+            "$fn": "() => has(\"C35\")"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "id": "you_knew_about_the_sale_of_the_works"
+        },
+        {
+          "id": "where_were_you_between_ten_to_ten_and_fi"
+        },
+        {
+          "id": "do_you_know_the_old_strip_pinning_method"
+        }
+      ],
+      "reactions": {
+        "C14": {
+          "key": "r-Corvane-C14"
+        },
+        "C10": {
+          "key": "r-Corvane-C10",
+          "fx": {
+            "sus": {
+              "Corvane": 5
+            }
+          }
+        },
+        "C35": {
+          "key": "r-Corvane-C35"
+        }
+      }
+    },
+    "Quillon": {
+      "name": "Dr. Ferris Quillon",
+      "role": "Family physician",
+      "rel": "The Master's physician and creditor's debtor.",
+      "portrait": "p-quillon",
+      "startSus": 20,
+      "facts": [
+        {
+          "t": "Family physician; owns the Quillon Infirmary on Ashlar Street. Smooth, evasive, drenched in clove.",
+          "c": {
+            "$fn": "() => true"
+          }
+        },
+        {
+          "t": "Says he never left the ballroom, and pronounced 'apoplexy'.",
+          "c": {
+            "$fn": "() => asked(\"Quillon\", \"where_were_you_tonight\") || asked(\"Quillon\", \"what_did_you_tell_the_household_about_th\")"
+          }
+        },
+        {
+          "t": "Owes the Master 1,200 crowns, due at month-end.",
+          "c": {
+            "$fn": "() => has(\"C28\")"
+          }
+        },
+        {
+          "t": "Meets Lady Cordelia weekly on Ashlar Street; the Master knew and meant to confront them after the gala.",
+          "c": {
+            "$fn": "() => has(\"C06\")"
+          }
+        },
+        {
+          "t": "Was alone with Lady Cordelia under the palms from 9:35 to 10:05.",
+          "c": {
+            "$fn": "() => has(\"C15\")"
+          }
+        },
+        {
+          "t": "At the infirmary from 4:30 to 5:50 PM, then by cab to Marrowgate with Lady Cordelia.",
+          "c": {
+            "$fn": "() => has(\"C27\")"
+          }
+        },
+        {
+          "t": "Knew the Master could not smell gas.",
+          "c": {
+            "$fn": "() => has(\"C29\")"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "id": "where_were_you_tonight"
+        },
+        {
+          "id": "what_did_you_tell_the_household_about_th"
+        },
+        {
+          "id": "and_at_half_past_four_today"
+        }
+      ],
+      "reactions": {
+        "C15": {
+          "key": "r-Quillon-C15",
+          "sus": 0,
+          "choice": [
+            {
+              "text": "Take him aside, and lower your voice.",
+              "key": "r-Quillon-aside",
+              "fx": {
+                "flag": {
+                  "exposed": false
+                }
+              },
+              "decision": "Kept the affair quiet."
+            },
+            {
+              "text": "Say it plainly, in front of them.",
+              "key": "r-Quillon-open",
+              "fx": {
+                "flag": {
+                  "exposed": true
+                },
+                "sus": {
+                  "Quillon": 5
+                }
+              },
+              "decision": "Exposed the affair in public."
+            }
+          ]
+        },
+        "C06": {
+          "key": "r-Quillon-C06"
+        },
+        "C38": {
+          "key": "r-Quillon-C38"
+        },
+        "C28": {
+          "key": "r-Quillon-C28"
+        }
+      }
+    },
+    "Cordelia": {
+      "name": "Lady Cordelia Vennard",
+      "role": "The Master's second wife",
+      "rel": "Stepmother to Odalys, only four years older.",
+      "portrait": "p-cordelia",
+      "startSus": 20,
+      "facts": [
+        {
+          "t": "The Master's second wife. Grief performed a beat too perfectly.",
+          "c": {
+            "$fn": "() => true"
+          }
+        },
+        {
+          "t": "Says she lay down in her rooms all afternoon.",
+          "c": {
+            "$fn": "() => asked(\"Cordelia\", \"you_were_here_all_afternoon\")"
+          }
+        },
+        {
+          "t": "The Master meant to confront her after the gala.",
+          "c": {
+            "$fn": "() => has(\"C06\")"
+          }
+        },
+        {
+          "t": "Was at the infirmary with Dr. Quillon from 4:30 to 5:50 PM.",
+          "c": {
+            "$fn": "() => has(\"C27\")"
+          }
+        },
+        {
+          "t": "Was under the palms with Dr. Quillon from 9:35 to 10:05.",
+          "c": {
+            "$fn": "() => has(\"C15\")"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "id": "you_were_here_all_afternoon"
+        },
+        {
+          "id": "how_did_you_and_your_husband_get_on"
+        },
+        {
+          "id": "consent",
+          "label": "Ask permission to search the servants' rooms.",
+          "beatsFn": {
+            "$fn": "() => flag(\"exposed\") ? [\n          { y: \"I may need to search the servants' rooms.\" },\n          { s: \"Cordelia\", t: \"\\\"I shall need to consult my stepdaughter.\\\"\" },\n          { n: \"She turns her face to the wall.\" },\n          { s: \"Cordelia\", t: \"\\\"Have Odalys sign. I will not.\\\"\" } ] : [\n          { y: \"I may need to search the servants' rooms.\" },\n          { s: \"Cordelia\", t: \"\\\"Search whatever you like. I have never much cared for the servants' stair, but I shall not stand in your way. Tell Pell I'm sorry.\\\"\" },\n          { n: \"<i>You have the household's consent.</i>\" } ]"
+          },
+          "fxFn": {
+            "$fn": "() => flag(\"exposed\") ? null : { flag: { consent: true } }"
+          }
+        }
+      ],
+      "reactions": {
+        "C27": {
+          "key": "r-Cordelia-C27"
+        },
+        "C06": {
+          "key": "r-Cordelia-C06"
+        }
+      }
+    },
+    "Ilsa": {
+      "name": "Ilsa Marrow",
+      "role": "Inventor and lamp-repairer ('Ida March')",
+      "rel": "Daughter of Emmeric Marrow, whose mantle design the Master patented.",
+      "portrait": "p-ilsa",
+      "startSus": 15,
+      "hostile": [
+        {
+          "s": "Ilsa",
+          "t": "\"I'm at my bench. I was here all day. I've never set foot in that house.\""
+        }
+      ],
+      "facts": [
+        {
+          "t": "Runs a workshop on Tinkers' Row. Brass burns on her hands.",
+          "c": {
+            "$fn": "() => true"
+          }
+        },
+        {
+          "t": "Her father Emmeric drew the mantle design the Master filed as a Works patent.",
+          "c": {
+            "$fn": "() => has(\"C09\") || has(\"C30\")"
+          }
+        },
+        {
+          "t": "Entered the study by the French window at 6:35 and left at 6:50, disguised as the maid 'Ida March'.",
+          "c": {
+            "$fn": "() => has(\"C07\") && has(\"C11\")"
+          }
+        },
+        {
+          "t": "Says the union was already packed with wax under a crooked collar when she saw it.",
+          "c": {
+            "$fn": "() => has(\"C32\")"
+          }
+        },
+        {
+          "t": "Owns only smooth-jaw spanners. Her chain-wrench is in pawn.",
+          "c": {
+            "$fn": "() => has(\"C31\")"
+          }
+        },
+        {
+          "t": "Her father's fitter's kit was sold in 1183.",
+          "c": {
+            "$fn": "() => has(\"C30\")"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "id": "tell",
+          "label": "Ask her to tell you what she did.",
+          "when": {
+            "$fn": "() => flag(\"ilsaTalks\")"
+          },
+          "clue": "C32"
+        },
+        {
+          "id": "you_re_a_fitter_s_daughter_you_could_hav",
+          "when": {
+            "$fn": "() => flag(\"ilsaTalks\")"
+          }
+        }
+      ],
+      "reactions": {
+        "C07": {
+          "key": {
+            "$fn": "() => (has(\"C07\") && has(\"C11\")) ? \"r-Ilsa-open#a\" : \"ilsa-partial\""
+          },
+          "fx": {
+            "$fn": "() => (has(\"C07\") && has(\"C11\")) ? { flag: { ilsaTalks: true } } : null"
+          }
+        },
+        "C11": {
+          "key": {
+            "$fn": "() => (has(\"C07\") && has(\"C11\")) ? \"r-Ilsa-open#a\" : \"ilsa-partial\""
+          },
+          "fx": {
+            "$fn": "() => (has(\"C07\") && has(\"C11\")) ? { flag: { ilsaTalks: true } } : null"
+          }
+        },
+        "C31": {
+          "key": "r-Ilsa-C31",
+          "fx": {
+            "flag": {
+              "ilsaTalks": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "You": "YOU",
+    "Ottley": "SERGEANT OTTLEY",
+    "Pell": "MR. PELL",
+    "Odalys": "MISS ODALYS VENNARD",
+    "Corvane": "MR. CORVANE",
+    "Quillon": "DR. QUILLON",
+    "Cordelia": "LADY CORDELIA",
+    "Ilsa": "ILSA MARROW",
+    "Brine": "DR. BRINE",
+    "Grale": "CHIEF CONSTABLE GRALE",
+    "Hob": "HOB LARKIN",
+    "Nell": "NELL SPARROW",
+    "Ned": "NED BRACKEN",
+    "Mrs. Tallowby": "MRS. TALLOWBY",
+    "Miss Thorne": "MISS THORNE",
+    "Dunstan": "OLD DUNSTAN",
+    "Amberley": "MR. AMBERLEY",
+    "Nurse Coll": "NURSE COLL"
+  },
+  "portraits": {
+    "You": "p-hale",
+    "Ottley": "p-ottley",
+    "Pell": "p-pell",
+    "Odalys": "p-odalys",
+    "Corvane": "p-corvane",
+    "Quillon": "p-quillon",
+    "Cordelia": "p-cordelia",
+    "Ilsa": "p-ilsa",
+    "Brine": "p-brine",
+    "Grale": "p-grale",
+    "Mrs. Tallowby": "p-tallowby",
+    "Miss Thorne": "p-thorne"
+  },
+  "extraReact": {
+    "ilsa-partial": [
+      {
+        "n": "She glances at it."
+      },
+      {
+        "s": "Ilsa",
+        "t": "\"Half the maids in the city wear that stamp.\""
+      },
+      {
+        "n": "You will need to put the cuff and the hiring list together."
+      }
+    ]
+  }
+}

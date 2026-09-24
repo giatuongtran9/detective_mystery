@@ -1,0 +1,571 @@
+{
+  "clues": {
+    "C01": {
+      "title": "The study door",
+      "kind": "obs",
+      "img": "e-door",
+      "summary": "Bolted on the inside, the Master's own key in the lock, the bolt-plate splintered where it was forced.",
+      "tl": []
+    },
+    "C02": {
+      "title": "The windows",
+      "kind": "obs",
+      "summary": "Every sash felted, shutters barred, hearth damper shut. The room was sealed against draughts.",
+      "tl": []
+    },
+    "C03": {
+      "title": "The wall lamp bracket",
+      "kind": "obj",
+      "inv": true,
+      "invTitle": "Wax sample (bracket)",
+      "img": "e-union",
+      "summary": "Collar crooked, the joint beneath a half-turn loose, yellow wax under the rim and a hardened drip below.",
+      "tl": []
+    },
+    "C04": {
+      "title": "The lamp valve",
+      "kind": "obj",
+      "inv": true,
+      "invTitle": "Brass shim (from the valve)",
+      "img": "e-lamp-valve",
+      "summary": "Burner tap wide open, a thin brass shim wedged in the valve's thermal strip.",
+      "tl": []
+    },
+    "C05": {
+      "title": "The toast draft",
+      "kind": "doc",
+      "inv": true,
+      "img": "e-toast-draft",
+      "summary": "A toast announcing retirement, the sale to the Osterhal League, Corvane dropped, and a public 'forgiveness' of the foreman of Cinder Row.",
+      "sus": {
+        "Corvane": 10,
+        "Odalys": 5
+      }
+    },
+    "C06": {
+      "title": "The desk drawer",
+      "kind": "doc",
+      "inv": true,
+      "invTitle": "Fenwick & Sons report",
+      "summary": "A private-inquiry report: Lady Cordelia and Dr. Quillon meet weekly. The Master's margin: 'Confront after the gala.'",
+      "sus": {
+        "Cordelia": 10,
+        "Quillon": 10
+      }
+    },
+    "C07": {
+      "title": "The French window",
+      "kind": "obj",
+      "inv": true,
+      "invTitle": "Torn maid's cuff",
+      "img": "e-cuff",
+      "summary": "The latch lifts from outside; lamp-black on the frame; a torn maid's cuff stamped Corby's Agency.",
+      "sus": {
+        "Ilsa": 15
+      }
+    },
+    "C08": {
+      "title": "Ledger page (safe)",
+      "kind": "doc",
+      "inv": true,
+      "summary": "3,000 crowns paid to G. Loam: 'Inquiry matter, 1166.'",
+      "sus": {}
+    },
+    "C09": {
+      "title": "Mantle drawings (safe)",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Mantle drawings signed E. Marrow, 1181, marked by the Master 'File as Works patent.'",
+      "sus": {
+        "Ilsa": 10
+      }
+    },
+    "C10": {
+      "title": "The sale contract (safe)",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Sale to the Osterhal League, signed by Stenn, awaiting the Master at midnight. Corvane's consultancy is struck through.",
+      "sus": {
+        "Corvane": 10
+      }
+    },
+    "C11": {
+      "title": "The hired-staff list",
+      "kind": "doc",
+      "inv": true,
+      "img": "p-ilsa-maid",
+      "summary": "An extra maid, 'Ida March', engaged on Miss Odalys's order; she left before collecting her wages.",
+      "sus": {
+        "Odalys": 10,
+        "Ilsa": 5
+      },
+      "tl": [
+        "T24"
+      ]
+    },
+    "C12": {
+      "title": "Hob's account",
+      "kind": "note",
+      "inv": true,
+      "summary": "Odalys and the Master quarrelled at ten to nine. He bolted himself in at 9:02 and had a light by 9:05.",
+      "sus": {
+        "Odalys": 10
+      },
+      "tl": [
+        "T11",
+        "T12"
+      ]
+    },
+    "C13": {
+      "title": "The missed toast, and the door",
+      "kind": "note",
+      "inv": true,
+      "summary": "Toast due 10:30; Pell announced a delay at 10:32; Corvane stood in; the door was forced at 11:40.",
+      "tl": [
+        "T18",
+        "T19",
+        "T20",
+        "T21",
+        "T22",
+        "T23"
+      ]
+    },
+    "C14": {
+      "title": "Corvane on the terrace",
+      "kind": "note",
+      "inv": true,
+      "summary": "Corvane left with Halvard Stenn at 9:45 and was back by 10:05.",
+      "sus": {
+        "Corvane": 10
+      },
+      "tl": [
+        "T15",
+        "T16"
+      ]
+    },
+    "C15": {
+      "title": "Ned's account",
+      "kind": "note",
+      "inv": true,
+      "summary": "Only one maid used the French window all day (6:35 to 6:50). Quillon and Cordelia were under the palms 9:35 to 10:05.",
+      "sus": {
+        "Ilsa": 5,
+        "Quillon": 5,
+        "Cordelia": 5
+      },
+      "tl": [
+        "T09",
+        "T10",
+        "T14"
+      ]
+    },
+    "C16": {
+      "title": "The key register",
+      "kind": "doc",
+      "inv": true,
+      "img": "e-key-register",
+      "summary": "Spare study key out 4:50 PM, in 5:25 PM, signed T.P. It is the only entry that day.",
+      "sus": {
+        "Pell": 20
+      },
+      "tl": [
+        "T04",
+        "T05"
+      ]
+    },
+    "C17": {
+      "title": "Household statements",
+      "kind": "note",
+      "inv": true,
+      "summary": "Collar clean at 7:30 AM; the study is always locked; a lamp trim takes 10 to 15 minutes; Corvane never left the library from 6 to 7.",
+      "sus": {
+        "Corvane": -10,
+        "Pell": 5
+      },
+      "tl": [
+        "T01",
+        "T02"
+      ]
+    },
+    "C18": {
+      "title": "The cabinet wax",
+      "kind": "obj",
+      "inv": true,
+      "invTitle": "Wax scraping (pantry cake)",
+      "summary": "A lavender beeswax cake, one corner freshly cut since four o'clock.",
+      "tl": [
+        "T25"
+      ]
+    },
+    "C19": {
+      "title": "The cook's account",
+      "kind": "note",
+      "inv": true,
+      "img": "p-tallowby",
+      "summary": "Pell was in the kitchen from 9:15, save a quarter-hour near 10:25. The cook never left her range.",
+      "tl": [
+        "T13"
+      ]
+    },
+    "C20": {
+      "title": "The cellar wrench",
+      "kind": "obj",
+      "inv": true,
+      "invTitle": "Chain-wrench (cellar)",
+      "summary": "A small chain-wrench with wax and brass dust in its jaws; one link of the chain is bent.",
+      "tl": []
+    },
+    "C21": {
+      "title": "The old tin",
+      "kind": "obj",
+      "inv": true,
+      "invTitle": "Fitter's tin of OW-6 shims",
+      "summary": "A fitter's tin of OW-6 brass shims, eleven of twelve; each has the same chipped '6'.",
+      "sus": {
+        "Pell": 25
+      }
+    },
+    "C22": {
+      "title": "The small box",
+      "kind": "obj",
+      "inv": true,
+      "invTitle": "Whistle and Loam's letter",
+      "img": "e-whistle-letter",
+      "summary": "Josiah Pell's whistle and Commissioner Loam's confession letter.",
+      "sus": {
+        "Pell": 30
+      }
+    },
+    "C23": {
+      "title": "The gate ledger",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Corvane at the Works 6:10 AM to 5:35 PM; Odalys 8:20 AM to 6:10 PM; the Master with Corvane until 5:35.",
+      "sus": {
+        "Corvane": -15,
+        "Odalys": -15
+      },
+      "tl": [
+        "T03",
+        "T06",
+        "T08"
+      ]
+    },
+    "C24": {
+      "title": "The personnel book",
+      "kind": "doc",
+      "inv": true,
+      "summary": "T. Pell, apprentice fitter, 1145 to 1150. J. Pell, foreman, dismissed 1166, died 1169. Next of kin: brother T. Pell.",
+      "sus": {
+        "Pell": 10
+      }
+    },
+    "C25": {
+      "title": "The plaque proof",
+      "kind": "doc",
+      "inv": true,
+      "img": "e-plaque-proof",
+      "summary": "A proof plaque naming Foreman J. Pell's 'negligence', 'whom the Master forgave'.",
+      "sus": {
+        "Pell": 10
+      }
+    },
+    "C26": {
+      "title": "The bypass page and training roll",
+      "kind": "doc",
+      "inv": true,
+      "summary": "The Old Pattern servicing job takes about twenty minutes. Taught to Corvane, E. Marrow, T. Pell and others. OW-6 shims went to apprentices before 1152.",
+      "sus": {
+        "Pell": 10,
+        "Corvane": 5
+      }
+    },
+    "C27": {
+      "title": "The appointment book and the cabs",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Cordelia and Quillon at the infirmary 4:30 to 5:50 PM; cab to Marrowgate at 5:52.",
+      "sus": {
+        "Quillon": -15,
+        "Cordelia": -15
+      },
+      "tl": [
+        "T07"
+      ]
+    },
+    "C28": {
+      "title": "The demand letter",
+      "kind": "doc",
+      "inv": true,
+      "summary": "The Master demanded 1,200 crowns from Quillon by month-end.",
+      "sus": {
+        "Quillon": 10
+      }
+    },
+    "C29": {
+      "title": "The medical file",
+      "kind": "doc",
+      "inv": true,
+      "summary": "The Master lost his sense of smell in 1181. Household aware. Gas-safe lamps advised, advice not taken.",
+      "sus": {}
+    },
+    "C30": {
+      "title": "Ilsa's papers",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Rejected patent petitions; her father's letters; his fitter's kit sold in 1183; a note from Odalys telling her to come as a maid.",
+      "sus": {
+        "Ilsa": 10,
+        "Odalys": 5
+      }
+    },
+    "C31": {
+      "title": "The tool roll and pawn ticket",
+      "kind": "obj",
+      "inv": true,
+      "summary": "Only smooth-jaw spanners. A chain-wrench pawned on the 17th of Reapmonth, still on Grubb's shelf.",
+      "sus": {
+        "Ilsa": -15
+      }
+    },
+    "C32": {
+      "title": "Ilsa's account",
+      "kind": "note",
+      "inv": true,
+      "summary": "Ilsa was in the study 6:35 to 6:50 and saw the union already packed with wax.",
+      "sus": {
+        "Ilsa": -5,
+        "Pell": 5
+      }
+    },
+    "C33": {
+      "title": "A wire to Vennard House",
+      "kind": "doc",
+      "inv": true,
+      "img": "e-telegram",
+      "summary": "Loam wired Pell on the 11th of Reapmonth: 'I have wronged your brother.'",
+      "sus": {
+        "Pell": 20
+      }
+    },
+    "C34": {
+      "title": "The clerk's memory",
+      "kind": "note",
+      "inv": true,
+      "summary": "Pell collected the wire in person, read it twice, and left white as chalk.",
+      "sus": {
+        "Pell": 10
+      }
+    },
+    "C35": {
+      "title": "A wire to Corvane",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Stenn to Corvane: the Master signs at midnight; his League board seat follows the signature.",
+      "sus": {
+        "Corvane": -10
+      }
+    },
+    "C36": {
+      "title": "The inquiry file, 1166",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Fourteen dead; an unvented oil store; blame placed on Foreman J. Pell; signed Commissioner Loam.",
+      "sus": {
+        "Pell": 5
+      }
+    },
+    "C37": {
+      "title": "The archivist's account",
+      "kind": "note",
+      "inv": true,
+      "summary": "Loam died on the 13th of Reapmonth; his sealed statement never arrived; the foreman's brother asked for the file every anniversary.",
+      "sus": {
+        "Pell": 15
+      }
+    },
+    "C38": {
+      "title": "The autopsy",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Coal-gas poisoning. Unconscious by about half past ten at the latest. No struggle.",
+      "sus": {},
+      "tl": [
+        "T19"
+      ]
+    },
+    "C39": {
+      "title": "The lab report",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Household wax that softens in about an hour; an old-works OW-6 shim with a chipped die; union scored by the bent-link wrench.",
+      "sus": {
+        "Pell": 10,
+        "Ilsa": -5
+      },
+      "tl": [
+        "T17"
+      ]
+    }
+  },
+  "timeline": [
+    {
+      "id": "T01",
+      "t": "7:30 AM",
+      "m": 450,
+      "text": "Nell polishes the study lamp's collar. It is straight and clean."
+    },
+    {
+      "id": "T02",
+      "t": "8:00 AM",
+      "m": 480,
+      "text": "The Master locks the study with his own key and leaves."
+    },
+    {
+      "id": "T03",
+      "t": "8:40 AM",
+      "m": 520,
+      "text": "The Master signs in at the Lampworks."
+    },
+    {
+      "id": "T25",
+      "t": "4:00 PM",
+      "m": 960,
+      "text": "The lavender wax cake in the pantry is still whole."
+    },
+    {
+      "id": "T04",
+      "t": "4:50 PM",
+      "m": 1010,
+      "text": "The spare study key is signed out: T.P."
+    },
+    {
+      "id": "T05",
+      "t": "5:25 PM",
+      "m": 1045,
+      "text": "The spare study key is signed back in."
+    },
+    {
+      "id": "T06",
+      "t": "5:35 PM",
+      "m": 1055,
+      "text": "The Master and Mr. Corvane leave the Lampworks together."
+    },
+    {
+      "id": "T07",
+      "t": "5:50 PM",
+      "m": 1070,
+      "text": "Lady Cordelia and Dr. Quillon leave the infirmary in one cab."
+    },
+    {
+      "id": "T08",
+      "t": "6:10 PM",
+      "m": 1090,
+      "text": "Miss Odalys leaves the Lampworks."
+    },
+    {
+      "id": "T09",
+      "t": "6:35 PM",
+      "m": 1115,
+      "text": "A maid slips through the French window into the study."
+    },
+    {
+      "id": "T10",
+      "t": "6:50 PM",
+      "m": 1130,
+      "text": "The maid slips out again."
+    },
+    {
+      "id": "T11",
+      "t": "8:50 PM",
+      "m": 1250,
+      "text": "Odalys and the Master quarrel in the passage outside the study."
+    },
+    {
+      "id": "T12",
+      "t": "9:02 PM",
+      "m": 1262,
+      "text": "The Master bolts himself in. A light shows under the door by five past."
+    },
+    {
+      "id": "T13",
+      "t": "9:15 PM",
+      "m": 1275,
+      "text": "Pell sits down with the cook in the kitchen."
+    },
+    {
+      "id": "T14",
+      "t": "9:35 PM",
+      "m": 1295,
+      "text": "Dr. Quillon and Lady Cordelia stand together under the palms until about five past ten."
+    },
+    {
+      "id": "T15",
+      "t": "9:45 PM",
+      "m": 1305,
+      "text": "Mr. Corvane leaves the ballroom with Halvard Stenn."
+    },
+    {
+      "id": "T16",
+      "t": "10:05 PM",
+      "m": 1325,
+      "text": "Mr. Corvane is back in the ballroom."
+    },
+    {
+      "id": "T17",
+      "t": "About 10:00 PM",
+      "m": 1320,
+      "text": "By the laboratory's reckoning the wax would begin to run about an hour after the lamp was lit."
+    },
+    {
+      "id": "T18",
+      "t": "10:25 PM",
+      "m": 1345,
+      "text": "Pell knocks at the study door and gets no answer."
+    },
+    {
+      "id": "T19",
+      "t": "10:30 PM",
+      "m": 1350,
+      "text": "The toast is due. By the surgeon's account the Master is already unconscious, at the latest."
+    },
+    {
+      "id": "T20",
+      "t": "10:32 PM",
+      "m": 1352,
+      "text": "Pell tells the hall that the Master begs a little time."
+    },
+    {
+      "id": "T21",
+      "t": "10:35 PM",
+      "m": 1355,
+      "text": "Mr. Corvane gives a stand-in toast."
+    },
+    {
+      "id": "T22",
+      "t": "11:40 PM",
+      "m": 1420,
+      "text": "Pell and Hob force the door. The lamp is out and the room reeks of gas. Pell shuts the supply and opens the shutters."
+    },
+    {
+      "id": "T23",
+      "t": "11:44 PM",
+      "m": 1424,
+      "text": "Dr. Quillon is called and pronounces apoplexy."
+    },
+    {
+      "id": "T24",
+      "t": "11:45 PM",
+      "m": 1425,
+      "text": "'Ida March' leaves without collecting her wages."
+    }
+  ],
+  "official": {
+    "text": "Master Vennard withdrew to his study after dinner, suffered a seizure of apoplexy, and died shortly before he was found at twenty to midnight.",
+    "challengedBy": [
+      "C38",
+      "C39"
+    ],
+    "challenged": "Challenged: the surgeon puts him unconscious by half past ten at the latest, and the laboratory says the lamp was made a trap hours before he died."
+  }
+}

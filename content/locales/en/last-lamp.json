@@ -1,0 +1,3167 @@
+{
+  "display": {
+    "You": "YOU",
+    "Ottley": "SERGEANT OTTLEY",
+    "Pell": "MR. PELL",
+    "Odalys": "MISS ODALYS VENNARD",
+    "Corvane": "MR. CORVANE",
+    "Quillon": "DR. QUILLON",
+    "Cordelia": "LADY CORDELIA",
+    "Ilsa": "ILSA MARROW",
+    "Brine": "DR. BRINE",
+    "Grale": "CHIEF CONSTABLE GRALE",
+    "Hob": "HOB LARKIN",
+    "Nell": "NELL SPARROW",
+    "Ned": "NED BRACKEN",
+    "Mrs. Tallowby": "MRS. TALLOWBY",
+    "Miss Thorne": "MISS THORNE",
+    "Dunstan": "OLD DUNSTAN",
+    "Amberley": "MR. AMBERLEY",
+    "Nurse Coll": "NURSE COLL"
+  },
+  "story": {
+    "title": "The Last Lamp at Vennard House",
+    "prologue": [
+      {
+        "n": "Marrowgate Square. Half past midnight."
+      },
+      {
+        "n": "Rain lashes the windows of Vennard House. The gale has torn the last of the bunting from the gala lamps, and scraps of coloured paper skate along the gutters like small, frightened animals."
+      },
+      {
+        "n": "Sixty guests remain inside. The Watch has ordered every one of them to stay."
+      },
+      {
+        "n": "Behind the tall windows the ballroom is empty. The chandeliers are still lit. A hundred glasses of champagne are going flat."
+      },
+      {
+        "n": "Sergeant Pip Ottley meets you on the steps. He is young, soaked through, and has plainly been holding his news for an hour."
+      },
+      {
+        "s": "Ottley",
+        "t": "\"Inspector. Thank you for coming out in this. Master Vennard is dead in his study. The doctor says apoplexy, and the Chief Constable would very much like to agree.\""
+      },
+      {
+        "n": "He glances back at the door."
+      },
+      {
+        "s": "Ottley",
+        "t": "\"But the study door was bolted from the inside, Inspector. The butler and a footman forced it at twenty to twelve, and the room still smells of gas. I don't like it.\""
+      },
+      {
+        "n": "He hands you a folded note, damp at the corners."
+      },
+      {
+        "doc": [
+          "<b>Hale. Apoplexy. Be discreet. Be brief. Do not upset the guests, several of whom sit on the Board of the Guild. — A. Grale, Chief Constable</b>"
+        ]
+      },
+      {
+        "y": "Show me the study."
+      },
+      {
+        "n": "The study door hangs a little wrong on its hinges. You step inside."
+      }
+    ],
+    "motives": [
+      {
+        "id": "m_od1",
+        "suspect": "Odalys",
+        "text": "Stop her father selling her mother's works to strangers",
+        "req": [
+          "C12",
+          "C10"
+        ]
+      },
+      {
+        "id": "m_od2",
+        "suspect": "Odalys",
+        "text": "Inherit the Works and the house",
+        "req": [
+          "C10",
+          "C05"
+        ]
+      },
+      {
+        "id": "m_co1",
+        "suspect": "Corvane",
+        "text": "Fury at being struck from the sale and humiliated in the toast",
+        "req": [
+          "C05",
+          "C10"
+        ]
+      },
+      {
+        "id": "m_qu1",
+        "suspect": "Quillon",
+        "text": "Wipe out a debt of 1,200 crowns",
+        "req": [
+          "C28"
+        ]
+      },
+      {
+        "id": "m_qu2",
+        "suspect": "Quillon",
+        "text": "Stop his affair being exposed",
+        "req": [
+          "C06"
+        ]
+      },
+      {
+        "id": "m_cd1",
+        "suspect": "Cordelia",
+        "text": "Avoid being put out on the pavement after the gala",
+        "req": [
+          "C06"
+        ]
+      },
+      {
+        "id": "m_il1",
+        "suspect": "Ilsa",
+        "text": "Avenge the theft of her father's mantle patent",
+        "req": [
+          "C09",
+          "C30"
+        ]
+      },
+      {
+        "id": "m_pe1",
+        "suspect": "Pell",
+        "text": "Avenge his brother Josiah, blamed for the Cinder Row fire",
+        "req": [
+          "C22",
+          "C33",
+          "C34",
+          "C37"
+        ]
+      },
+      {
+        "id": "m_pe2",
+        "suspect": "Pell",
+        "text": "Stop a plaque naming his brother's negligence being unveiled",
+        "req": [
+          "C25",
+          "C05"
+        ]
+      }
+    ],
+    "opportunities": [
+      {
+        "id": "o_pe1",
+        "suspect": "Pell",
+        "text": "Held the spare study key for thirty-five minutes on the afternoon of the gala",
+        "req": [
+          "C16"
+        ]
+      },
+      {
+        "id": "o_pe2",
+        "suspect": "Pell",
+        "text": "Knocked at the study door at 10:25 and announced a delay at 10:32",
+        "req": [
+          "C13"
+        ]
+      },
+      {
+        "id": "o_il1",
+        "suspect": "Ilsa",
+        "text": "Slipped through the French window into the study at 6:35",
+        "req": [
+          "C15",
+          "C07"
+        ]
+      },
+      {
+        "id": "o_co1",
+        "suspect": "Corvane",
+        "text": "Left the ballroom for the terrace between 9:45 and 10:05",
+        "req": [
+          "C14"
+        ]
+      },
+      {
+        "id": "o_qu1",
+        "suspect": "Quillon",
+        "text": "Was out of sight of the ballroom with Lady Cordelia from 9:35 to 10:05",
+        "req": [
+          "C15"
+        ]
+      },
+      {
+        "id": "o_cd1",
+        "suspect": "Cordelia",
+        "text": "Was out of sight of the ballroom with Dr. Quillon from 9:35 to 10:05",
+        "req": [
+          "C15"
+        ]
+      },
+      {
+        "id": "o_od1",
+        "suspect": "Odalys",
+        "text": "Quarrelled with her father outside the study at ten to nine",
+        "req": [
+          "C12"
+        ]
+      },
+      {
+        "id": "o_od2",
+        "suspect": "Odalys",
+        "text": "Booked the extra maid two weeks before the gala",
+        "req": [
+          "C11"
+        ]
+      }
+    ],
+    "hints": [
+      "\"Inspector, we've heard a great deal about the evening. Not so much about the afternoon.\"",
+      "\"The study was locked all day. Who could have got in, and for how long?\"",
+      "\"The key register has an odd entry, Inspector. It took him three-and-thirty minutes to trim one lamp.\""
+    ],
+    "proof": {
+      "opportunity": [
+        "C16"
+      ],
+      "means": [
+        "C39",
+        "C20",
+        "C18",
+        "C21"
+      ],
+      "motive": [
+        "C22",
+        "C24",
+        "C25",
+        "C33",
+        "C34",
+        "C36",
+        "C37"
+      ]
+    },
+    "coverUp": [
+      "C08",
+      "C36",
+      "C37"
+    ],
+    "prematureAccuse": [
+      {
+        "n": "You name him. The room goes very cold."
+      },
+      {
+        "n": "It was too soon, and you know it. You have suspicion, and no proof, and everyone in the room has heard the difference."
+      }
+    ],
+    "wrong": {
+      "Odalys": "Odalys keeps the ledgers from a cell for six weeks. When she is released she does not speak to you again, and she sells the house.",
+      "Corvane": "Corvane talks for two days without pause and is cleared on the third. He never forgives the humiliation, and neither does the Guild.",
+      "Quillon": "The affair comes out in open court. Dr. Quillon's infirmary closes before the month is out. He leaves Lumenhithe with the smell of clove on his coat.",
+      "Cordelia": "Lady Cordelia is released for want of evidence, and the scandal follows her to every drawing-room she enters. She does not enter many.",
+      "Ilsa": "Ilsa spends a winter in the cells. When she comes out, the Marrow patent is gone from the Patent Office altogether. The Works are sold within the year, as if none of it had ever happened."
+    },
+    "endings": {
+      "true": {
+        "title": "TRUE SOLUTION",
+        "img": "x-gold",
+        "beats": [
+          {
+            "n": "The Watch takes Pell down the back stair, by his own request, so that the guests will not see him. He walks with his hands in front of him, like a man carrying something that might spill."
+          },
+          {
+            "n": "Master Vennard's death is entered as murder, and his killer is named. Miss Odalys asks, very quietly, whether the fire of 1166 might be looked at again. It is a request, not an accusation."
+          },
+          {
+            "n": "You say you will see what the Hall of Records holds."
+          },
+          {
+            "n": "You keep the whistle in a drawer at the Watch House. Sometimes, on wet nights, you take it out."
+          }
+        ]
+      },
+      "partial": {
+        "title": "PARTIAL SOLUTION",
+        "img": "x-silver"
+      },
+      "wrong": {
+        "title": "WRONG ACCUSATION",
+        "img": "x-wrong"
+      },
+      "missed": {
+        "title": "MISSED CLUES",
+        "img": "x-wrong",
+        "beats": [
+          {
+            "n": "The Chief Constable reads your report twice, and reads the word <i>apoplexy</i> once more, aloud, with evident pleasure."
+          },
+          {
+            "s": "Grale",
+            "t": "\"Quite right, Hale. A great man, a great strain. Sensible of you.\""
+          },
+          {
+            "n": "Master Vennard is buried with speeches. The Memorial Lamp is unveiled a week late, and its plaque is very well engraved."
+          },
+          {
+            "n": "The wall bracket is repainted. The tin, the wrench, and the little brass whistle stay where they are, waiting for someone to look."
+          }
+        ]
+      },
+      "hidden": {
+        "title": "HIDDEN ENDING: THE FOURTEEN",
+        "img": "x-gold"
+      }
+    },
+    "title_blurb": "A mystery of gaslight and brass, in the Kingdom of Verrenmoor. About two hours. Contains death by gas, a historical disaster, adultery and class injustice. No gore."
+  },
+  "locations": {
+    "study": {
+      "name": "Vennard House: The Study",
+      "short": "The Study",
+      "img": "b-study",
+      "recap": "The study is as you left it. The shutters bang in the gale, and the sweet smell still clings to the room.",
+      "people": [
+        "Ottley",
+        "Pell"
+      ],
+      "objects": [
+        {
+          "id": "body",
+          "label": "Examine the body",
+          "beats": [
+            {
+              "n": "You kneel beside the settee and lift the dinner coat."
+            },
+            {
+              "n": "Master Aldous Vennard looks younger than his sixty-three years. There is no blood, no bruise, no mark at all."
+            },
+            {
+              "n": "But his face has a colour you did not expect: a warm, healthy, cherry-pink flush, as if he had come in from the cold."
+            },
+            {
+              "s": "Ottley",
+              "t": "\"Dr. Brine will want to see that at the Watch House, Inspector. I've never seen a man of a seizure look so well.\""
+            }
+          ]
+        },
+        {
+          "id": "door",
+          "label": "Inspect the locked door",
+          "clue": "C01",
+          "intro": "You cross to the door and crouch by the lock."
+        },
+        {
+          "id": "windows",
+          "label": "Examine the windows",
+          "clue": "C02",
+          "intro": "You walk the room's edge, window by window."
+        },
+        {
+          "id": "bracket",
+          "label": "Examine the wall lamp bracket",
+          "clue": "C03",
+          "intro": "You lift the lamp's chimney aside and look at the bracket behind it."
+        },
+        {
+          "id": "lamp",
+          "label": "Examine the gas lamp",
+          "clue": "C04",
+          "intro": "The brass lamp beside the desk is cold now. You turn it in your hands."
+        },
+        {
+          "id": "desk",
+          "label": "Search the desk",
+          "clue": "C05",
+          "intro": "The big desk faces the wall lamp. A blotter, a pen, a half-finished page."
+        },
+        {
+          "id": "drawer",
+          "label": "Unlock the desk drawer",
+          "clue": "C06",
+          "intro": "The small key from the watch-chain turns in the lower drawer."
+        },
+        {
+          "id": "french",
+          "label": "Examine the French window",
+          "clue": "C07",
+          "intro": "You go to the French window at the end of the room."
+        },
+        {
+          "id": "fire",
+          "label": "Look at the fireplace",
+          "beats": [
+            {
+              "n": "The grate is cold and swept. The damper is shut, and the ash lies undisturbed in the pan."
+            },
+            {
+              "n": "Nothing has come down this chimney tonight, and nothing has gone up it."
+            }
+          ]
+        },
+        {
+          "id": "safe",
+          "label": "Try the safe behind the north panel",
+          "type": "safe"
+        },
+        {
+          "id": "c08",
+          "label": "Take the ledger page from the safe",
+          "clue": "C08"
+        },
+        {
+          "id": "c09",
+          "label": "Take the drawings from the safe",
+          "clue": "C09"
+        },
+        {
+          "id": "c10",
+          "label": "Read the contract in the safe",
+          "clue": "C10"
+        }
+      ]
+    },
+    "hall": {
+      "name": "Vennard House: Grand Hall & Conservatory",
+      "short": "Grand Hall & Conservatory",
+      "img": "b-hall",
+      "recap": "The Grand Hall waits, hushed and half-lit. The household are scattered through the rooms beyond.",
+      "people": [
+        "Odalys",
+        "Corvane",
+        "Quillon",
+        "Cordelia"
+      ],
+      "objects": [
+        {
+          "id": "hire",
+          "label": "Examine the hired-staff list",
+          "clue": "C11",
+          "intro": "On the steward's table lies the night's hire-book."
+        },
+        {
+          "id": "hob",
+          "label": "Ask Hob Larkin, the footman",
+          "clue": "C12"
+        },
+        {
+          "id": "toast",
+          "label": "Ask the guests about the toast, and Hob about the door",
+          "clue": "C13"
+        },
+        {
+          "id": "terrace",
+          "label": "Ask the guests about Mr. Corvane",
+          "clue": "C14"
+        },
+        {
+          "id": "ned",
+          "label": "Ask Ned Bracken in the conservatory",
+          "clue": "C15"
+        }
+      ]
+    },
+    "stairs": {
+      "name": "Vennard House: Below Stairs",
+      "short": "Below Stairs",
+      "img": "b-below-stairs",
+      "recap": "The servants' hall is warm and full of murmuring. Everyone stops when you come in.",
+      "people": [
+        "Pell"
+      ],
+      "objects": [
+        {
+          "id": "register",
+          "label": "Examine the key register in the pantry",
+          "clue": "C16",
+          "intro": "In the pantry a slate hangs beside the key-board."
+        },
+        {
+          "id": "staff",
+          "label": "Ask Nell and Hob about the study lamp",
+          "clue": "C17"
+        },
+        {
+          "id": "wax",
+          "label": "Examine the pantry cabinet",
+          "clue": "C18"
+        },
+        {
+          "id": "cook",
+          "label": "Ask Mrs. Tallowby, the cook",
+          "clue": "C19"
+        },
+        {
+          "id": "wrench",
+          "label": "Examine the cellar tool board",
+          "clue": "C20",
+          "intro": "You take a lantern down the cellar stair."
+        },
+        {
+          "id": "roomgo",
+          "label": "Go up the back stair to Pell's room",
+          "go": "pellsroom"
+        }
+      ]
+    },
+    "pellsroom": {
+      "name": "Vennard House: Pell's Room",
+      "short": "Pell's Room",
+      "img": "b-below-stairs",
+      "hidden": true,
+      "recap": "A narrow room at the top of the back stair, squared to the edge of every piece of furniture.",
+      "people": [],
+      "objects": [
+        {
+          "id": "tin",
+          "label": "Search the washstand drawer",
+          "clue": "C21",
+          "emptyBeats": [
+            {
+              "n": "The washstand drawer is empty. Something has been taken out of it in a hurry, and lately: the dust is bright where it stood."
+            }
+          ]
+        },
+        {
+          "id": "box",
+          "label": "Search under the bed",
+          "clue": "C22",
+          "emptyBeats": [
+            {
+              "n": "Under the bed, only a clean square on the boards. Whatever lay here has gone."
+            },
+            {
+              "n": "In the grate downstairs, you are told later, a butler was seen burning papers."
+            }
+          ]
+        },
+        {
+          "id": "back",
+          "label": "Go back downstairs",
+          "go": "stairs"
+        }
+      ]
+    },
+    "watch": {
+      "name": "Watch House, Halberd Street",
+      "short": "Watch House",
+      "img": "b-watch-house",
+      "recap": "The morgue keeps its own quiet, tiled and gaslit. Dr. Brine looks up as you come down the steps.",
+      "people": [],
+      "objects": [
+        {
+          "id": "autopsy",
+          "label": "Read the surgeon's report",
+          "clue": "C38",
+          "intro": "Dr. Brine slides the report across the steel table."
+        },
+        {
+          "id": "brine_acc",
+          "label": "Ask Dr. Brine whether it could have been an accident"
+        },
+        {
+          "id": "brine_q",
+          "label": "Ask what Dr. Quillon said",
+          "beats": [
+            {
+              "y": "What did Dr. Quillon say?"
+            },
+            {
+              "s": "Brine",
+              "t": "\"Apoplexy. I'd rather he had been less certain. A physician who <i>smells</i> gas and says apoplexy is not a physician I would quote.\""
+            }
+          ]
+        },
+        {
+          "id": "lab",
+          "label": "Take samples to the laboratory",
+          "clue": "C39",
+          "intro": "You lay out the four samples on Brine's bench: wax, shim, cake and wrench.",
+          "lockedBeats": [
+            {
+              "s": "Brine",
+              "t": "\"I can tell you a great deal, but I need the wax from the bracket, the shim from the valve, a scraping from that pantry cake, and the wrench's jaws. Bring me those, and I'll bring you an answer.\""
+            }
+          ]
+        },
+        {
+          "id": "grale",
+          "label": "The Chief Constable arrives",
+          "beats": [
+            {
+              "n": "The Chief Constable comes down in a fur-collared coat, having clearly been fetched from his bed and not forgiven the fact."
+            },
+            {
+              "s": "Grale",
+              "t": "\"Well, Hale? Apoplexy, I understand. A great man, a great strain. I'd like the file closed by breakfast.\""
+            },
+            {
+              "y": "The doctor says gas."
+            },
+            {
+              "s": "Grale",
+              "t": "\"The doctor says a good many things. A murder at the Lamplighting Gala. Do you know what the Guild will say? Have your answer by morning, Hale, and have it be a <i>quiet</i> one.\""
+            }
+          ]
+        }
+      ]
+    },
+    "lampworks": {
+      "name": "Vennard Lampworks, Cinder Row",
+      "short": "Vennard Lampworks",
+      "img": "b-lampworks",
+      "recap": "Cinder Row is dark but for the gatehouse lamp. The furnaces tick as they cool.",
+      "people": [],
+      "objects": [
+        {
+          "id": "gate",
+          "label": "Ask Old Dunstan for the gate ledger",
+          "clue": "C23"
+        },
+        {
+          "id": "personnel",
+          "label": "Examine the personnel book in the office",
+          "clue": "C24"
+        },
+        {
+          "id": "plaque",
+          "label": "Examine the engraver's proof",
+          "clue": "C25"
+        },
+        {
+          "id": "manual",
+          "label": "Search the fitters' library",
+          "clue": "C26"
+        }
+      ]
+    },
+    "infirmary": {
+      "name": "Quillon Infirmary, Ashlar Street",
+      "short": "Quillon Infirmary",
+      "img": "b-infirmary",
+      "recap": "The infirmary is hushed and smells of carbolic. Nurse Coll watches you from the night desk.",
+      "people": [],
+      "objects": [
+        {
+          "id": "appts",
+          "label": "Examine the appointment book; ask Nurse Coll",
+          "clue": "C27"
+        },
+        {
+          "id": "demand",
+          "label": "Examine the doctor's desk",
+          "clue": "C28"
+        },
+        {
+          "id": "cabinet",
+          "label": "Examine the filing cabinet",
+          "clue": "C29"
+        }
+      ]
+    },
+    "tinkers": {
+      "name": "Tinkers' Row Workshop",
+      "short": "Tinkers' Row",
+      "img": "b-tinkers-row",
+      "recap": "The workshop is cold. The gale rattles the brass signs in the lane outside.",
+      "people": [
+        "Ilsa"
+      ],
+      "objects": [
+        {
+          "id": "papers",
+          "label": "Examine the papers on the bench",
+          "clue": "C30"
+        },
+        {
+          "id": "roll",
+          "label": "Examine the tool roll",
+          "clue": "C31"
+        }
+      ]
+    },
+    "wire": {
+      "name": "The Wire-Office",
+      "short": "The Wire-Office",
+      "img": "b-wire-office",
+      "recap": "The keys chatter on. Mr. Amberley waits at his counter, proud of his filing.",
+      "people": [],
+      "objects": [
+        {
+          "id": "wireto",
+          "label": "Ask for wires to Vennard House",
+          "clue": "C33"
+        },
+        {
+          "id": "amberley",
+          "label": "Ask Mr. Amberley what he remembers",
+          "clue": "C34"
+        },
+        {
+          "id": "wirecorvane",
+          "label": "Ask about wires to Mr. Corvane",
+          "clue": "C35"
+        }
+      ]
+    },
+    "records": {
+      "name": "The Hall of Records",
+      "short": "Hall of Records",
+      "img": "b-records",
+      "recap": "The green lamp burns on. Miss Thorne looks up over her steel spectacles.",
+      "people": [],
+      "objects": [
+        {
+          "id": "inquiry",
+          "label": "Ask for the inquiry file, 1166",
+          "clue": "C36"
+        },
+        {
+          "id": "thorne",
+          "label": "Ask Miss Thorne about Commissioner Loam",
+          "clue": "C37"
+        }
+      ]
+    }
+  },
+  "locked_text": {
+    "lampworks": "You have no reason to go there yet. Perhaps the laboratory will give you one.",
+    "infirmary": "You have no reason to go to Ashlar Street yet.",
+    "tinkers": "You have no reason to go to Tinkers' Row yet.",
+    "wire": "You have no reason to go to the Wire-Office yet.",
+    "records": "You have no reason to go to the Hall of Records yet."
+  },
+  "characters": {
+    "Ottley": {
+      "name": "Sergeant Pip Ottley",
+      "role": "Watch sergeant",
+      "npc": true,
+      "portrait": "p-ottley",
+      "topics": [
+        {
+          "id": "who",
+          "label": "Who found him?",
+          "beats": [
+            {
+              "y": "Who found him?"
+            },
+            {
+              "s": "Ottley",
+              "t": "\"The butler, Mr. Pell, and a footman, Hob Larkin. They forced the door at twenty to twelve. Mr. Pell shut off the gas and opened the shutters, which I gather was the right thing to do.\""
+            }
+          ]
+        },
+        {
+          "id": "chain",
+          "label": "Ask if there is anything else on the body.",
+          "beats": [
+            {
+              "y": "Was anything else found on the Master?"
+            },
+            {
+              "s": "Ottley",
+              "t": "\"Inspector. The Master's watch-chain, from his waistcoat. I should have handed it over sooner.\""
+            },
+            {
+              "n": "It is heavy gold. The ring on it holds one small key, and a bare loop where a larger one once hung."
+            }
+          ],
+          "fx": {
+            "flag": {
+              "chain": true
+            },
+            "item": "chain"
+          }
+        },
+        {
+          "id": "hint",
+          "label": "Ask Ottley for a hint.",
+          "hint": true
+        }
+      ]
+    },
+    "Pell": {
+      "name": "Tobias Pell",
+      "role": "Butler",
+      "rel": "Nineteen years in the Vennard household.",
+      "portrait": "p-pell",
+      "startSus": 5,
+      "facts": [
+        {
+          "t": "Butler at Vennard House for nineteen years. Quiet, formal, punctual."
+        },
+        {
+          "t": "Says he trimmed the study lamp at five: \"ten minutes' work\"."
+        },
+        {
+          "t": "Says he knows \"wicks and mantles, not pipes\"."
+        },
+        {
+          "t": "Signed out the spare study key from 4:50 to 5:25 PM: thirty-five minutes."
+        },
+        {
+          "t": "Was at the study door at 10:25 and announced the Master 'indisposed' at 10:32. The cook puts him in the kitchen from 9:15."
+        },
+        {
+          "t": "Trained as an apprentice fitter, 1145 to 1150. His brother Josiah was the foreman blamed for Cinder Row."
+        },
+        {
+          "t": "Was taught the Old Pattern method of pinning a valve strip."
+        },
+        {
+          "t": "Collected a wire from Commissioner Loam in person, read it twice, and left white as chalk."
+        },
+        {
+          "t": "Has asked to see the 1166 inquiry file every anniversary of the fire."
+        }
+      ],
+      "topics": [
+        {
+          "id": "tell_me_about_the_study_lamp"
+        },
+        {
+          "id": "you_know_lamps"
+        },
+        {
+          "id": "what_do_you_make_of_the_fire_of_sixty_si"
+        },
+        {
+          "id": "where_were_you_tonight"
+        },
+        {
+          "id": "did_anyone_see_you_at_half_past_ten"
+        },
+        {
+          "id": "tell_me_again_about_half_past_ten",
+          "fx": {
+            "flag": {
+              "slip": true
+            }
+          }
+        },
+        {
+          "id": "room",
+          "label": "Ask his leave to look at his room.",
+          "beats": [
+            {
+              "y": "I'd like to see your room."
+            },
+            {
+              "s": "Pell",
+              "t": "\"By all means, Inspector. I'd only ask that you leave the bed as it is.\""
+            },
+            {
+              "n": "<i>The way up to his room is now open to you.</i>"
+            }
+          ],
+          "fx": {
+            "flag": {
+              "roomOpen": true
+            }
+          }
+        }
+      ],
+      "reactions": {
+        "C16": {
+          "key": "r-Pell-C16",
+          "fx": {
+            "sus": {
+              "Pell": 5
+            }
+          }
+        },
+        "C17": {
+          "key": "r-Pell-C16"
+        },
+        "C24": {
+          "key": "r-Pell-C24",
+          "fx": {
+            "sus": {
+              "Pell": 5
+            }
+          }
+        },
+        "C26": {
+          "key": "r-Pell-C26",
+          "fx": {
+            "sus": {
+              "Pell": 5
+            }
+          }
+        },
+        "C22": {
+          "key": "r-Pell-motive",
+          "fx": {
+            "sus": {
+              "Pell": 5
+            }
+          }
+        },
+        "C33": {
+          "key": "r-Pell-motive"
+        },
+        "C34": {
+          "key": "r-Pell-motive"
+        },
+        "C37": {
+          "key": "r-Pell-motive"
+        },
+        "C39": {
+          "fx": {
+            "sus": {
+              "Pell": 5
+            }
+          }
+        }
+      },
+      "studyIntro": [
+        {
+          "n": "Ottley fetches Mr. Pell from the servants' hall. He arrives within a minute, coat brushed, and stands just inside the door without once looking at the settee."
+        },
+        {
+          "s": "Pell",
+          "t": "\"You've had a wet night of it, Inspector. If I may.\""
+        }
+      ]
+    },
+    "Odalys": {
+      "name": "Odalys Vennard",
+      "role": "Chief accountant and works manager",
+      "rel": "The Master's daughter, by his first wife Marguerite.",
+      "portrait": "p-odalys",
+      "startSus": 20,
+      "facts": [
+        {
+          "t": "Chief accountant. Daughter of the Master's first wife, whose dowry founded the Works."
+        },
+        {
+          "t": "Says she was at the Works from twenty past eight until ten past six and reached the house by a quarter to seven."
+        },
+        {
+          "t": "Quarrelled with her father at ten to nine over the sale of 'Mother's works'."
+        },
+        {
+          "t": "Booked the extra maid 'Ida March' two weeks before the gala."
+        },
+        {
+          "t": "Has known about the sale for three weeks."
+        },
+        {
+          "t": "Signed in at the Works at 8:20 AM and out at 6:10 PM."
+        },
+        {
+          "t": "Wrote to Ilsa Marrow: 'Come as a maid on the ninth… Bring me back what he took.'"
+        }
+      ],
+      "topics": [
+        {
+          "id": "where_were_you_today"
+        },
+        {
+          "id": "you_argued_with_your_father_at_ten_to_ni"
+        },
+        {
+          "id": "do_you_know_a_woman_named_ilsa_marrow"
+        },
+        {
+          "id": "ask_about_the_fire_at_cinder_row",
+          "fx": {
+            "flag": {
+              "askedFire": true
+            }
+          }
+        },
+        {
+          "id": "did_you_kill_your_father"
+        },
+        {
+          "id": "ask_where_ilsa_marrow_lives"
+        },
+        {
+          "id": "ask_leave_to_search_the_servants_rooms",
+          "fx": {
+            "flag": {
+              "consent": true
+            }
+          }
+        }
+      ],
+      "reactions": {
+        "C11": {
+          "key": "r-Odalys-C11",
+          "fx": {
+            "flag": {
+              "odalysAdmitted": true
+            },
+            "sus": {
+              "Odalys": 5
+            }
+          }
+        },
+        "C30": {
+          "key": "r-Odalys-C30"
+        }
+      }
+    },
+    "Corvane": {
+      "name": "Bastian Corvane",
+      "role": "Junior partner and chief engineer",
+      "rel": "The Master's partner; designer of the Safe-Valve.",
+      "portrait": "p-corvane",
+      "startSus": 25,
+      "facts": [
+        {
+          "t": "Junior partner, chief engineer, designer of the Safe-Valve. Charming; taps his signet ring when he lies."
+        },
+        {
+          "t": "Says he knew nothing of any sale."
+        },
+        {
+          "t": "The toast would have struck him from the Works, and his consultancy in the contract is struck through in red."
+        },
+        {
+          "t": "Slipped onto the terrace with Halvard Stenn of the Osterhal League from 9:45 to 10:05."
+        },
+        {
+          "t": "Was taught the old strip-pinning method."
+        },
+        {
+          "t": "At the Lampworks from 6:10 AM until 5:35 PM, and in the library under the footman's eye from six to seven."
+        },
+        {
+          "t": "Stenn wired him that his League board seat follows the Master's signature."
+        }
+      ],
+      "topics": [
+        {
+          "id": "you_knew_about_the_sale_of_the_works"
+        },
+        {
+          "id": "where_were_you_between_ten_to_ten_and_fi"
+        },
+        {
+          "id": "do_you_know_the_old_strip_pinning_method"
+        }
+      ],
+      "reactions": {
+        "C14": {
+          "key": "r-Corvane-C14"
+        },
+        "C10": {
+          "key": "r-Corvane-C10",
+          "fx": {
+            "sus": {
+              "Corvane": 5
+            }
+          }
+        },
+        "C35": {
+          "key": "r-Corvane-C35"
+        }
+      }
+    },
+    "Quillon": {
+      "name": "Dr. Ferris Quillon",
+      "role": "Family physician",
+      "rel": "The Master's physician and creditor's debtor.",
+      "portrait": "p-quillon",
+      "startSus": 20,
+      "facts": [
+        {
+          "t": "Family physician; owns the Quillon Infirmary on Ashlar Street. Smooth, evasive, drenched in clove."
+        },
+        {
+          "t": "Says he never left the ballroom, and pronounced 'apoplexy'."
+        },
+        {
+          "t": "Owes the Master 1,200 crowns, due at month-end."
+        },
+        {
+          "t": "Meets Lady Cordelia weekly on Ashlar Street; the Master knew and meant to confront them after the gala."
+        },
+        {
+          "t": "Was alone with Lady Cordelia under the palms from 9:35 to 10:05."
+        },
+        {
+          "t": "At the infirmary from 4:30 to 5:50 PM, then by cab to Marrowgate with Lady Cordelia."
+        },
+        {
+          "t": "Knew the Master could not smell gas."
+        }
+      ],
+      "topics": [
+        {
+          "id": "where_were_you_tonight"
+        },
+        {
+          "id": "what_did_you_tell_the_household_about_th"
+        },
+        {
+          "id": "and_at_half_past_four_today"
+        }
+      ],
+      "reactions": {
+        "C15": {
+          "key": "r-Quillon-C15",
+          "sus": 0,
+          "choice": [
+            {
+              "text": "Take him aside, and lower your voice.",
+              "key": "r-Quillon-aside",
+              "fx": {
+                "flag": {
+                  "exposed": false
+                }
+              },
+              "decision": "Kept the affair quiet."
+            },
+            {
+              "text": "Say it plainly, in front of them.",
+              "key": "r-Quillon-open",
+              "fx": {
+                "flag": {
+                  "exposed": true
+                },
+                "sus": {
+                  "Quillon": 5
+                }
+              },
+              "decision": "Exposed the affair in public."
+            }
+          ]
+        },
+        "C06": {
+          "key": "r-Quillon-C06"
+        },
+        "C38": {
+          "key": "r-Quillon-C38"
+        },
+        "C28": {
+          "key": "r-Quillon-C28"
+        }
+      }
+    },
+    "Cordelia": {
+      "name": "Lady Cordelia Vennard",
+      "role": "The Master's second wife",
+      "rel": "Stepmother to Odalys, only four years older.",
+      "portrait": "p-cordelia",
+      "startSus": 20,
+      "facts": [
+        {
+          "t": "The Master's second wife. Grief performed a beat too perfectly."
+        },
+        {
+          "t": "Says she lay down in her rooms all afternoon."
+        },
+        {
+          "t": "The Master meant to confront her after the gala."
+        },
+        {
+          "t": "Was at the infirmary with Dr. Quillon from 4:30 to 5:50 PM."
+        },
+        {
+          "t": "Was under the palms with Dr. Quillon from 9:35 to 10:05."
+        }
+      ],
+      "topics": [
+        {
+          "id": "you_were_here_all_afternoon"
+        },
+        {
+          "id": "how_did_you_and_your_husband_get_on"
+        },
+        {
+          "id": "consent",
+          "label": "Ask permission to search the servants' rooms."
+        }
+      ],
+      "reactions": {
+        "C27": {
+          "key": "r-Cordelia-C27"
+        },
+        "C06": {
+          "key": "r-Cordelia-C06"
+        }
+      }
+    },
+    "Ilsa": {
+      "name": "Ilsa Marrow",
+      "role": "Inventor and lamp-repairer ('Ida March')",
+      "rel": "Daughter of Emmeric Marrow, whose mantle design the Master patented.",
+      "portrait": "p-ilsa",
+      "startSus": 15,
+      "hostile": [
+        {
+          "s": "Ilsa",
+          "t": "\"I'm at my bench. I was here all day. I've never set foot in that house.\""
+        }
+      ],
+      "facts": [
+        {
+          "t": "Runs a workshop on Tinkers' Row. Brass burns on her hands."
+        },
+        {
+          "t": "Her father Emmeric drew the mantle design the Master filed as a Works patent."
+        },
+        {
+          "t": "Entered the study by the French window at 6:35 and left at 6:50, disguised as the maid 'Ida March'."
+        },
+        {
+          "t": "Says the union was already packed with wax under a crooked collar when she saw it."
+        },
+        {
+          "t": "Owns only smooth-jaw spanners. Her chain-wrench is in pawn."
+        },
+        {
+          "t": "Her father's fitter's kit was sold in 1183."
+        }
+      ],
+      "topics": [
+        {
+          "id": "tell",
+          "label": "Ask her to tell you what she did.",
+          "clue": "C32"
+        },
+        {
+          "id": "you_re_a_fitter_s_daughter_you_could_hav"
+        }
+      ],
+      "reactions": {
+        "C07": {},
+        "C11": {},
+        "C31": {
+          "key": "r-Ilsa-C31",
+          "fx": {
+            "flag": {
+              "ilsaTalks": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "clues": {
+    "C01": {
+      "title": "The study door",
+      "kind": "obs",
+      "img": "e-door",
+      "summary": "Bolted on the inside, the Master's own key in the lock, the bolt-plate splintered where it was forced.",
+      "tl": []
+    },
+    "C02": {
+      "title": "The windows",
+      "kind": "obs",
+      "summary": "Every sash felted, shutters barred, hearth damper shut. The room was sealed against draughts.",
+      "tl": []
+    },
+    "C03": {
+      "title": "The wall lamp bracket",
+      "kind": "obj",
+      "inv": true,
+      "invTitle": "Wax sample (bracket)",
+      "img": "e-union",
+      "summary": "Collar crooked, the joint beneath a half-turn loose, yellow wax under the rim and a hardened drip below.",
+      "tl": []
+    },
+    "C04": {
+      "title": "The lamp valve",
+      "kind": "obj",
+      "inv": true,
+      "invTitle": "Brass shim (from the valve)",
+      "img": "e-lamp-valve",
+      "summary": "Burner tap wide open, a thin brass shim wedged in the valve's thermal strip.",
+      "tl": []
+    },
+    "C05": {
+      "title": "The toast draft",
+      "kind": "doc",
+      "inv": true,
+      "img": "e-toast-draft",
+      "summary": "A toast announcing retirement, the sale to the Osterhal League, Corvane dropped, and a public 'forgiveness' of the foreman of Cinder Row.",
+      "sus": {
+        "Corvane": 10,
+        "Odalys": 5
+      }
+    },
+    "C06": {
+      "title": "The desk drawer",
+      "kind": "doc",
+      "inv": true,
+      "invTitle": "Fenwick & Sons report",
+      "summary": "A private-inquiry report: Lady Cordelia and Dr. Quillon meet weekly. The Master's margin: 'Confront after the gala.'",
+      "sus": {
+        "Cordelia": 10,
+        "Quillon": 10
+      }
+    },
+    "C07": {
+      "title": "The French window",
+      "kind": "obj",
+      "inv": true,
+      "invTitle": "Torn maid's cuff",
+      "img": "e-cuff",
+      "summary": "The latch lifts from outside; lamp-black on the frame; a torn maid's cuff stamped Corby's Agency.",
+      "sus": {
+        "Ilsa": 15
+      }
+    },
+    "C08": {
+      "title": "Ledger page (safe)",
+      "kind": "doc",
+      "inv": true,
+      "summary": "3,000 crowns paid to G. Loam: 'Inquiry matter, 1166.'",
+      "sus": {}
+    },
+    "C09": {
+      "title": "Mantle drawings (safe)",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Mantle drawings signed E. Marrow, 1181, marked by the Master 'File as Works patent.'",
+      "sus": {
+        "Ilsa": 10
+      }
+    },
+    "C10": {
+      "title": "The sale contract (safe)",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Sale to the Osterhal League, signed by Stenn, awaiting the Master at midnight. Corvane's consultancy is struck through.",
+      "sus": {
+        "Corvane": 10
+      }
+    },
+    "C11": {
+      "title": "The hired-staff list",
+      "kind": "doc",
+      "inv": true,
+      "img": "p-ilsa-maid",
+      "summary": "An extra maid, 'Ida March', engaged on Miss Odalys's order; she left before collecting her wages.",
+      "sus": {
+        "Odalys": 10,
+        "Ilsa": 5
+      },
+      "tl": [
+        "T24"
+      ]
+    },
+    "C12": {
+      "title": "Hob's account",
+      "kind": "note",
+      "inv": true,
+      "summary": "Odalys and the Master quarrelled at ten to nine. He bolted himself in at 9:02 and had a light by 9:05.",
+      "sus": {
+        "Odalys": 10
+      },
+      "tl": [
+        "T11",
+        "T12"
+      ]
+    },
+    "C13": {
+      "title": "The missed toast, and the door",
+      "kind": "note",
+      "inv": true,
+      "summary": "Toast due 10:30; Pell announced a delay at 10:32; Corvane stood in; the door was forced at 11:40.",
+      "tl": [
+        "T18",
+        "T19",
+        "T20",
+        "T21",
+        "T22",
+        "T23"
+      ]
+    },
+    "C14": {
+      "title": "Corvane on the terrace",
+      "kind": "note",
+      "inv": true,
+      "summary": "Corvane left with Halvard Stenn at 9:45 and was back by 10:05.",
+      "sus": {
+        "Corvane": 10
+      },
+      "tl": [
+        "T15",
+        "T16"
+      ]
+    },
+    "C15": {
+      "title": "Ned's account",
+      "kind": "note",
+      "inv": true,
+      "summary": "Only one maid used the French window all day (6:35 to 6:50). Quillon and Cordelia were under the palms 9:35 to 10:05.",
+      "sus": {
+        "Ilsa": 5,
+        "Quillon": 5,
+        "Cordelia": 5
+      },
+      "tl": [
+        "T09",
+        "T10",
+        "T14"
+      ]
+    },
+    "C16": {
+      "title": "The key register",
+      "kind": "doc",
+      "inv": true,
+      "img": "e-key-register",
+      "summary": "Spare study key out 4:50 PM, in 5:25 PM, signed T.P. It is the only entry that day.",
+      "sus": {
+        "Pell": 20
+      },
+      "tl": [
+        "T04",
+        "T05"
+      ]
+    },
+    "C17": {
+      "title": "Household statements",
+      "kind": "note",
+      "inv": true,
+      "summary": "Collar clean at 7:30 AM; the study is always locked; a lamp trim takes 10 to 15 minutes; Corvane never left the library from 6 to 7.",
+      "sus": {
+        "Corvane": -10,
+        "Pell": 5
+      },
+      "tl": [
+        "T01",
+        "T02"
+      ]
+    },
+    "C18": {
+      "title": "The cabinet wax",
+      "kind": "obj",
+      "inv": true,
+      "invTitle": "Wax scraping (pantry cake)",
+      "summary": "A lavender beeswax cake, one corner freshly cut since four o'clock.",
+      "tl": [
+        "T25"
+      ]
+    },
+    "C19": {
+      "title": "The cook's account",
+      "kind": "note",
+      "inv": true,
+      "img": "p-tallowby",
+      "summary": "Pell was in the kitchen from 9:15, save a quarter-hour near 10:25. The cook never left her range.",
+      "tl": [
+        "T13"
+      ]
+    },
+    "C20": {
+      "title": "The cellar wrench",
+      "kind": "obj",
+      "inv": true,
+      "invTitle": "Chain-wrench (cellar)",
+      "summary": "A small chain-wrench with wax and brass dust in its jaws; one link of the chain is bent.",
+      "tl": []
+    },
+    "C21": {
+      "title": "The old tin",
+      "kind": "obj",
+      "inv": true,
+      "invTitle": "Fitter's tin of OW-6 shims",
+      "summary": "A fitter's tin of OW-6 brass shims, eleven of twelve; each has the same chipped '6'.",
+      "sus": {
+        "Pell": 25
+      }
+    },
+    "C22": {
+      "title": "The small box",
+      "kind": "obj",
+      "inv": true,
+      "invTitle": "Whistle and Loam's letter",
+      "img": "e-whistle-letter",
+      "summary": "Josiah Pell's whistle and Commissioner Loam's confession letter.",
+      "sus": {
+        "Pell": 30
+      }
+    },
+    "C23": {
+      "title": "The gate ledger",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Corvane at the Works 6:10 AM to 5:35 PM; Odalys 8:20 AM to 6:10 PM; the Master with Corvane until 5:35.",
+      "sus": {
+        "Corvane": -15,
+        "Odalys": -15
+      },
+      "tl": [
+        "T03",
+        "T06",
+        "T08"
+      ]
+    },
+    "C24": {
+      "title": "The personnel book",
+      "kind": "doc",
+      "inv": true,
+      "summary": "T. Pell, apprentice fitter, 1145 to 1150. J. Pell, foreman, dismissed 1166, died 1169. Next of kin: brother T. Pell.",
+      "sus": {
+        "Pell": 10
+      }
+    },
+    "C25": {
+      "title": "The plaque proof",
+      "kind": "doc",
+      "inv": true,
+      "img": "e-plaque-proof",
+      "summary": "A proof plaque naming Foreman J. Pell's 'negligence', 'whom the Master forgave'.",
+      "sus": {
+        "Pell": 10
+      }
+    },
+    "C26": {
+      "title": "The bypass page and training roll",
+      "kind": "doc",
+      "inv": true,
+      "summary": "The Old Pattern servicing job takes about twenty minutes. Taught to Corvane, E. Marrow, T. Pell and others. OW-6 shims went to apprentices before 1152.",
+      "sus": {
+        "Pell": 10,
+        "Corvane": 5
+      }
+    },
+    "C27": {
+      "title": "The appointment book and the cabs",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Cordelia and Quillon at the infirmary 4:30 to 5:50 PM; cab to Marrowgate at 5:52.",
+      "sus": {
+        "Quillon": -15,
+        "Cordelia": -15
+      },
+      "tl": [
+        "T07"
+      ]
+    },
+    "C28": {
+      "title": "The demand letter",
+      "kind": "doc",
+      "inv": true,
+      "summary": "The Master demanded 1,200 crowns from Quillon by month-end.",
+      "sus": {
+        "Quillon": 10
+      }
+    },
+    "C29": {
+      "title": "The medical file",
+      "kind": "doc",
+      "inv": true,
+      "summary": "The Master lost his sense of smell in 1181. Household aware. Gas-safe lamps advised, advice not taken.",
+      "sus": {}
+    },
+    "C30": {
+      "title": "Ilsa's papers",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Rejected patent petitions; her father's letters; his fitter's kit sold in 1183; a note from Odalys telling her to come as a maid.",
+      "sus": {
+        "Ilsa": 10,
+        "Odalys": 5
+      }
+    },
+    "C31": {
+      "title": "The tool roll and pawn ticket",
+      "kind": "obj",
+      "inv": true,
+      "summary": "Only smooth-jaw spanners. A chain-wrench pawned on the 17th of Reapmonth, still on Grubb's shelf.",
+      "sus": {
+        "Ilsa": -15
+      }
+    },
+    "C32": {
+      "title": "Ilsa's account",
+      "kind": "note",
+      "inv": true,
+      "summary": "Ilsa was in the study 6:35 to 6:50 and saw the union already packed with wax.",
+      "sus": {
+        "Ilsa": -5,
+        "Pell": 5
+      }
+    },
+    "C33": {
+      "title": "A wire to Vennard House",
+      "kind": "doc",
+      "inv": true,
+      "img": "e-telegram",
+      "summary": "Loam wired Pell on the 11th of Reapmonth: 'I have wronged your brother.'",
+      "sus": {
+        "Pell": 20
+      }
+    },
+    "C34": {
+      "title": "The clerk's memory",
+      "kind": "note",
+      "inv": true,
+      "summary": "Pell collected the wire in person, read it twice, and left white as chalk.",
+      "sus": {
+        "Pell": 10
+      }
+    },
+    "C35": {
+      "title": "A wire to Corvane",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Stenn to Corvane: the Master signs at midnight; his League board seat follows the signature.",
+      "sus": {
+        "Corvane": -10
+      }
+    },
+    "C36": {
+      "title": "The inquiry file, 1166",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Fourteen dead; an unvented oil store; blame placed on Foreman J. Pell; signed Commissioner Loam.",
+      "sus": {
+        "Pell": 5
+      }
+    },
+    "C37": {
+      "title": "The archivist's account",
+      "kind": "note",
+      "inv": true,
+      "summary": "Loam died on the 13th of Reapmonth; his sealed statement never arrived; the foreman's brother asked for the file every anniversary.",
+      "sus": {
+        "Pell": 15
+      }
+    },
+    "C38": {
+      "title": "The autopsy",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Coal-gas poisoning. Unconscious by about half past ten at the latest. No struggle.",
+      "sus": {},
+      "tl": [
+        "T19"
+      ]
+    },
+    "C39": {
+      "title": "The lab report",
+      "kind": "doc",
+      "inv": true,
+      "summary": "Household wax that softens in about an hour; an old-works OW-6 shim with a chipped die; union scored by the bent-link wrench.",
+      "sus": {
+        "Pell": 10,
+        "Ilsa": -5
+      },
+      "tl": [
+        "T17"
+      ]
+    }
+  },
+  "timeline": [
+    {
+      "id": "T01",
+      "t": "7:30 AM",
+      "m": 450,
+      "text": "Nell polishes the study lamp's collar. It is straight and clean."
+    },
+    {
+      "id": "T02",
+      "t": "8:00 AM",
+      "m": 480,
+      "text": "The Master locks the study with his own key and leaves."
+    },
+    {
+      "id": "T03",
+      "t": "8:40 AM",
+      "m": 520,
+      "text": "The Master signs in at the Lampworks."
+    },
+    {
+      "id": "T25",
+      "t": "4:00 PM",
+      "m": 960,
+      "text": "The lavender wax cake in the pantry is still whole."
+    },
+    {
+      "id": "T04",
+      "t": "4:50 PM",
+      "m": 1010,
+      "text": "The spare study key is signed out: T.P."
+    },
+    {
+      "id": "T05",
+      "t": "5:25 PM",
+      "m": 1045,
+      "text": "The spare study key is signed back in."
+    },
+    {
+      "id": "T06",
+      "t": "5:35 PM",
+      "m": 1055,
+      "text": "The Master and Mr. Corvane leave the Lampworks together."
+    },
+    {
+      "id": "T07",
+      "t": "5:50 PM",
+      "m": 1070,
+      "text": "Lady Cordelia and Dr. Quillon leave the infirmary in one cab."
+    },
+    {
+      "id": "T08",
+      "t": "6:10 PM",
+      "m": 1090,
+      "text": "Miss Odalys leaves the Lampworks."
+    },
+    {
+      "id": "T09",
+      "t": "6:35 PM",
+      "m": 1115,
+      "text": "A maid slips through the French window into the study."
+    },
+    {
+      "id": "T10",
+      "t": "6:50 PM",
+      "m": 1130,
+      "text": "The maid slips out again."
+    },
+    {
+      "id": "T11",
+      "t": "8:50 PM",
+      "m": 1250,
+      "text": "Odalys and the Master quarrel in the passage outside the study."
+    },
+    {
+      "id": "T12",
+      "t": "9:02 PM",
+      "m": 1262,
+      "text": "The Master bolts himself in. A light shows under the door by five past."
+    },
+    {
+      "id": "T13",
+      "t": "9:15 PM",
+      "m": 1275,
+      "text": "Pell sits down with the cook in the kitchen."
+    },
+    {
+      "id": "T14",
+      "t": "9:35 PM",
+      "m": 1295,
+      "text": "Dr. Quillon and Lady Cordelia stand together under the palms until about five past ten."
+    },
+    {
+      "id": "T15",
+      "t": "9:45 PM",
+      "m": 1305,
+      "text": "Mr. Corvane leaves the ballroom with Halvard Stenn."
+    },
+    {
+      "id": "T16",
+      "t": "10:05 PM",
+      "m": 1325,
+      "text": "Mr. Corvane is back in the ballroom."
+    },
+    {
+      "id": "T17",
+      "t": "About 10:00 PM",
+      "m": 1320,
+      "text": "By the laboratory's reckoning the wax would begin to run about an hour after the lamp was lit."
+    },
+    {
+      "id": "T18",
+      "t": "10:25 PM",
+      "m": 1345,
+      "text": "Pell knocks at the study door and gets no answer."
+    },
+    {
+      "id": "T19",
+      "t": "10:30 PM",
+      "m": 1350,
+      "text": "The toast is due. By the surgeon's account the Master is already unconscious, at the latest."
+    },
+    {
+      "id": "T20",
+      "t": "10:32 PM",
+      "m": 1352,
+      "text": "Pell tells the hall that the Master begs a little time."
+    },
+    {
+      "id": "T21",
+      "t": "10:35 PM",
+      "m": 1355,
+      "text": "Mr. Corvane gives a stand-in toast."
+    },
+    {
+      "id": "T22",
+      "t": "11:40 PM",
+      "m": 1420,
+      "text": "Pell and Hob force the door. The lamp is out and the room reeks of gas. Pell shuts the supply and opens the shutters."
+    },
+    {
+      "id": "T23",
+      "t": "11:44 PM",
+      "m": 1424,
+      "text": "Dr. Quillon is called and pronounces apoplexy."
+    },
+    {
+      "id": "T24",
+      "t": "11:45 PM",
+      "m": 1425,
+      "text": "'Ida March' leaves without collecting her wages."
+    }
+  ],
+  "texts": {
+    "clue": {
+      "C01": [
+        {
+          "n": "The oak is two inches thick and hangs a little wrong now. On the inside, the draw-bolt is shot home in its keeper. Beneath it a key stands in the lock, turned. The Master's own, Ottley says; there is a tag on the bow with his initials."
+        },
+        {
+          "n": "Where the bolt-plate meets the jamb, the wood has burst into pale splinters. Someone put a shoulder to this door more than once."
+        }
+      ],
+      "C02": [
+        {
+          "n": "Every sash wears a rim of grey felt tacked into the frame, a dozen yards of it, neatly done. The shutters are barred from the inside and the bars are dropped. The hearth damper is shut."
+        },
+        {
+          "n": "The French window at the end of the room is latched. It has felt on it too. It gives onto the conservatory, and beyond the glass the palms are thrashing in the wind."
+        },
+        {
+          "s": "Ottley",
+          "t": "\"He hated a draught, Inspector. Everyone knew it.\""
+        }
+      ],
+      "C03": [
+        {
+          "n": "The collar under the bracket sits a hair off true. When you press it, the joint beneath gives a half-turn under your thumb."
+        },
+        {
+          "n": "Beneath the collar's rim, a crust of yellow wax. On the skirting board below, a single hardened drip, like a candle's tear."
+        }
+      ],
+      "C04": [
+        {
+          "n": "The lamp is out. Its burner tap is turned wide open. Inside the valve housing, a sliver of thin brass is wedged tight against the thermal strip."
+        },
+        {
+          "s": "Ottley",
+          "t": "\"The Steady Flame has never once failed, Inspector. Not once in thirty years.\""
+        },
+        {
+          "n": "The supply cock at the foot of the wall is shut. \"Mr. Pell did that, when the door gave.\""
+        }
+      ],
+      "C05": [
+        {
+          "n": "On the blotter, a sheet of the Master's crested paper, written in a fast, slanting hand and broken off mid-sentence. A spent match lies in the tray beside a half-drunk brandy."
+        },
+        {
+          "doc": [
+            "<i>Ladies and gentlemen, friends of Vennard House. Thirty years ago tonight the first lamp of Lumenhithe was lit, and I had the honour to trim it. Tonight I have the further honour to tell you that I retire, and that the Works go to our friends of the Osterhal League, with every pledge of continuity to the men and women who have made them. Mr. Corvane, whose services to this house have been <del>considerable</del> long, will not go forward with us into that new life. He knows my reasons.</i>",
+            "",
+            "<i>One duty remains, and it is the heaviest. This night we dedicate a Memorial Lamp to the fourteen lost at Cinder Row in 1166. I will not let their names be carried alone. It is time to forgive, in the sight of this city, the foreman whose carelessness lit that fire, and to say that a man may be forgiven for</i>"
+          ]
+        },
+        {
+          "n": "The sentence stops there. The pen has skidded a little off the line."
+        }
+      ],
+      "C06": [
+        {
+          "doc": [
+            "<b>FENWICK & SONS</b>",
+            "<i>Discreet Inquiries — Tallow Court, off Halberd Street</i>",
+            "",
+            "<i>To Master A. Vennard, private and confidential.</i>",
+            "",
+            "<i>Sir: further to your instruction of the 20th inst., we report as follows. The lady in question, arriving on each occasion by closed cab and veiled, has met the gentleman named at an address on Ashlar Street on the 3rd, 10th, 17th, and 24th of Reapmonth, at or near four in the afternoon, staying between one and two hours. The gentleman is Dr. F. Quillon. Our operative has not been observed. Fee accompanies. — C. Fenwick, for the firm.</i>"
+          ]
+        },
+        {
+          "n": "In the margin, in the Master's hand, in dark ink: <b>Confront after the gala.</b>"
+        }
+      ],
+      "C07": [
+        {
+          "n": "The window has a spring latch that drops when the sash is drawn shut. From the conservatory side, the flat of a blade slid into the gap lifts it easily. The catch is worn bright."
+        },
+        {
+          "n": "On the outer frame, a smudge of lamp-black. On the sash below it, a scrap of white linen snagged on a splinter: a maid's cuff, torn, stamped in blue ink <i>CORBY'S AGENCY</i>."
+        }
+      ],
+      "C08": [
+        {
+          "n": "A single loose leaf, folded once, tucked between account books. The columns are ruled in red."
+        },
+        {
+          "doc": [
+            "<i>8 Reapmonth 1166 … Brass, Old Works, 40 cwt … 212 cr.</i>",
+            "<i>9 \" \" … Guild subscription … 30 cr.</i>",
+            "<b>G. Loam — 3,000 cr. — Inquiry matter, 1166.</b>",
+            "<i>12 \" \" … Cellar racking, Old Works … 18 cr.</i>"
+          ]
+        },
+        {
+          "n": "The Loam line has been ticked, twice, in pencil."
+        }
+      ],
+      "C09": [
+        {
+          "n": "Six sheets of drawings, on a good rag paper gone soft at the folds. A gas mantle of an unusual pattern, drawn from three sides and in section, with the measurements in a cramped, careful hand."
+        },
+        {
+          "n": "Each sheet is signed <i>E. Marrow</i> and dated <i>1181</i>. Across the top sheet, in the Master's slanting hand: <b>File as Works patent.</b>"
+        }
+      ],
+      "C10": [
+        {
+          "n": "A long contract bound in blue ribbon."
+        },
+        {
+          "doc": [
+            "<i>Between Vennard Lampworks (the Vendor) and the Osterhal League of Trading Cities (the Purchaser), the Purchaser to acquire the whole of the Works, plant, patents and goodwill…</i>"
+          ]
+        },
+        {
+          "n": "Signed at the foot: <i>Halvard Stenn, for the League.</i> Above the space for the Vendor's name, a line in the Master's hand: <i>to be signed at midnight.</i> In Schedule B, one clause has been struck through in red: <i>Consultancy to Bastian Corvane, Esq., on the terms agreed.</i> In the margin: <b>Wire confirmation to Stenn.</b>"
+        }
+      ],
+      "C11": [
+        {
+          "doc": [
+            "<b>HIRED FOR THE NIGHT — 9th Ambermonth 1187</b>",
+            "<i>Musicians (4), through Halbrook's Rooms…</i>",
+            "<i>Extra footmen (2), through Guild Hall Service…</i>",
+            "<i>Ida March, extra maid, through Corby's Agency. On the order of Miss O. Vennard, by letter, booked 25th Reapmonth.</i>",
+            "<i>Cloak-room, 2, Nell's cousins.</i>"
+          ]
+        },
+        {
+          "n": "In another hand, in pencil against the March line: <i>Left without collecting wages, a quarter to twelve or thereabouts.</i>"
+        }
+      ],
+      "C12": [
+        {
+          "n": "Hob Larkin is nineteen and still in gala livery, one white glove gone. He keeps starting to answer before you finish asking."
+        },
+        {
+          "s": "Hob",
+          "t": "\"Outside the study passage, Inspector. Mr. Pell put me there at half past eight. Said the Master wanted no guests wandering.\""
+        },
+        {
+          "s": "Hob",
+          "t": "\"Miss Odalys and the Master, at ten to nine. She said, <i>'You'd sell Mother's works to strangers?'</i> And he said, quiet like, <i>'It isn't yours to keep, Odalys.'</i> She went off down the stairs, fast.\""
+        },
+        {
+          "s": "Hob",
+          "t": "\"He went in at nine. I heard the bolt at two past. Light under the door by five past. Nobody came near it, I'd have seen. It's what he does on gala nights. Twenty years. Shuts himself in with his lamp before the toast.\""
+        }
+      ],
+      "C13": [
+        {
+          "n": "A knot of guests has been left in the hall, waiting to be told they may go home."
+        },
+        {
+          "s": "A lady in green",
+          "t": "\"Half past ten, the toast was to be. I had my glass <i>up</i>.\""
+        },
+        {
+          "s": "An alderman",
+          "t": "\"Then Mr. Pell comes in, very grave, and says the Master begs a little time. Two minutes after the half hour, by my watch.\""
+        },
+        {
+          "s": "The lady in green",
+          "t": "\"And Mr. Corvane took the floor at twenty-five to eleven. Very graceful. Not a word about the Works, I noticed.\""
+        },
+        {
+          "n": "Hob, later, in the passage:"
+        },
+        {
+          "s": "Hob",
+          "t": "\"Mr. Pell had knocked at twenty-five past ten and got no answer. Said the Master was at his notes and wasn't to be disturbed. That's the rule, Inspector, when he's bolted in. Half past eleven, Miss Odalys said <i>somebody ought to look</i>. Mr. Pell and me put our shoulders to it at twenty to twelve. The smell, Inspector. The lamp was out. Mr. Pell shut off the gas and threw open the shutters before I'd even breathed. Dr. Quillon came at a quarter to. Said apoplexy, plain as day.\""
+        }
+      ],
+      "C14": [
+        {
+          "s": "A stout guest by the terrace door",
+          "t": "\"I saw Corvane go out at a quarter to ten. With a man in a grey coat. Not one of ours. A foreigner, by the cut.\""
+        },
+        {
+          "s": "His wife",
+          "t": "\"Back by five past ten, and pleased as a cat. Didn't say a word to anyone.\""
+        },
+        {
+          "s": "The stout guest",
+          "t": "\"The grey man was Halvard Stenn. Osterhal League. I've dined with him at the Exchange.\""
+        }
+      ],
+      "C15": [
+        {
+          "n": "Ned Bracken is broad and slow-voiced, with soil under his nails and a stove-poker across his knees."
+        },
+        {
+          "s": "Ned",
+          "t": "\"Dawn to now. Stoves want feeding. Storm's a beast. The French window latch has been loose since spring. I told them. Nobody went near it all day. Till a maid, twenty-five to seven, come in from the terrace end and slipped through. Out again about ten to seven. I thought it was an errand for the Master.\""
+        },
+        {
+          "s": "Ned",
+          "t": "\"Half past nine. The doctor and Lady Cordelia, under the palms. Stayed till five past ten. I kept my back turned. Not my business.\""
+        }
+      ],
+      "C16": [
+        {
+          "n": "A slate-backed register hangs on a nail beside the key-board, with a pencil on a string."
+        },
+        {
+          "doc": [
+            "<b>Study spare — out 4:50 PM T.P. — in 5:25 PM T.P.</b>"
+          ]
+        },
+        {
+          "n": "That is the only entry for the day. On the board above, the spare study key hangs on its own hook, the tag turned face-out."
+        }
+      ],
+      "C17": [
+        {
+          "n": "Nell Sparrow is seventeen, and holds her apron in both hands."
+        },
+        {
+          "s": "Nell",
+          "t": "\"I did the lamp collar at half past seven this morning. Clean. Straight as a rule. The Master locked the study at eight. He always locks it, even to fetch his pipe?\""
+        },
+        {
+          "s": "Hob",
+          "t": "\"A lamp trim takes ten minutes, Inspector. Fifteen at the very most, for the study's lamp. It's a two-burner and awkward.\""
+        },
+        {
+          "s": "Hob",
+          "t": "\"Between six and seven I was serving in the library. Mr. Corvane and the Master rehearsing the toast. I never left the room above a minute. I let Miss Odalys in at a quarter to seven and came straight back. Mr. Corvane was sat by the fire, same as before.\""
+        }
+      ],
+      "C18": [
+        {
+          "n": "A round cake of yellow beeswax sits beside the polishing cloths. It smells of lavender. One corner has been cut away cleanly with a knife. The cut is still bright and shows no dust."
+        },
+        {
+          "n": "<b>Mrs. Tallowby,</b> from the doorway: \"It was whole at four. I do the good cabinet with it once a week.\""
+        }
+      ],
+      "C19": [
+        {
+          "n": "Mrs. Tallowby is a broad woman with floury forearms who talks to you across a rolling-pin."
+        },
+        {
+          "s": "Mrs. Tallowby",
+          "t": "\"Pell? Sat there from a quarter past nine with his tea going cold. Save a quarter of an hour about half past ten, when he went up to see about the toast.\""
+        },
+        {
+          "s": "Mrs. Tallowby",
+          "t": "\"Ask the girls. I've not stirred from my range since noon. I've a custard that doesn't forgive.\" Two kitchen maids nod without being asked."
+        },
+        {
+          "s": "Mrs. Tallowby",
+          "t": "\"He's a good man, Inspector. Nineteen years, and never a cross word. If he's been anything, he's been <i>early</i>.\""
+        }
+      ],
+      "C20": [
+        {
+          "n": "The tool board is outlined in white paint, every tool on its own hook. The small chain-wrench hangs where it should, but its jaws are dull with dried wax, yellow-white and lavender-scented, and a glitter of brass dust."
+        },
+        {
+          "n": "One link of its chain is bent."
+        }
+      ],
+      "C21": [
+        {
+          "n": "In the drawer of the washstand, a flat tin with a hinged lid, worn silver at the corners. Inside, twelve small slots lined in green baize, each holding a thin brass shim. Eleven shims. One slot is empty."
+        },
+        {
+          "n": "Each shim is stamped <i>OW-6</i>. On every one, the loop of the 6 has a small chip out of it."
+        }
+      ],
+      "C22": [
+        {
+          "n": "Under the bed, a japanned box. Inside, a dented brass whistle on a cord. Scratched under the mouthpiece: <i>J.P.</i>"
+        },
+        {
+          "n": "Beneath it, a folded letter, soft with handling."
+        },
+        {
+          "doc": [
+            "<i>Lumenhithe, 11th Reapmonth. Written from my bed.</i>",
+            "",
+            "<i>Tobias Pell, Vennard House.</i>",
+            "",
+            "<i>I do not know if you will read this. I have wronged your brother past any mending, and I have not long to make it right.</i>",
+            "",
+            "<i>There was a fire in 1166 that killed fourteen. It began in an oil store that Master Vennard, to save the cost of a vent, had shut up tight. I was Commissioner then. Master Vennard came to me three days after and paid me three thousand crowns to write that Josiah had been negligent. I wrote it. Josiah was dismissed, and he died in a workhouse.</i>",
+            "",
+            "<i>I have written it all down and I mean to lodge it with the Hall of Records, but I do not trust that I shall live to see it lodged. You are his only kin. That is why I write to you.</i>",
+            "",
+            "<i>Forgive an old man, if you can. I cannot. — Grimsby Loam</i>"
+          ]
+        },
+        {
+          "n": "There is a faint ring on the paper where a cup once stood on it, and one line at the foot, in pencil, in a different hand: <i>Read 11 times.</i>"
+        }
+      ],
+      "C23": [
+        {
+          "n": "Old Dunstan slides the gate ledger across."
+        },
+        {
+          "doc": [
+            "<b>GATE LEDGER — 9th Ambermonth 1187</b>",
+            "<i>B. Corvane — in 6:10 AM — out 5:35 PM</i>",
+            "<i>O. Vennard — in 8:20 AM — out 6:10 PM</i>",
+            "<i>A. Vennard — in 8:40 AM — out 5:35 PM</i>",
+            "<i>Remarks: Master and Mr. Corvane out together, tram to Marrowgate. No lunch exits (rain).</i>"
+          ]
+        },
+        {
+          "s": "Dunstan",
+          "t": "\"I don't ask who they are. I write when they come and when they go. If it's in my book, it's so. Nobody left at midday. Rain. They sent out for pies.\""
+        }
+      ],
+      "C24": [
+        {
+          "doc": [
+            "<i>Personnel Book, Vennard Lampworks. Entries under P.</i>",
+            "",
+            "<b>PELL, T. — apprentice fitter, 1145–1150.</b> <i>Conduct good. Passed as journeyman, declined the bench, left for service.</i>",
+            "",
+            "<b>PELL, J. — foreman, 1152–1166. Dismissed for negligence, Cinder Row.</b> <i>Deceased 1169.</i> <b>Next of kin: brother T. Pell, in service.</b>"
+          ]
+        },
+        {
+          "n": "A blot beside the second entry, as though a pen was set down on it and left."
+        }
+      ],
+      "C25": [
+        {
+          "n": "The engraver's bench is still strewn with the gala's leavings. One brass proof plate lies on the leather, facing up, pencil marks in the margin."
+        },
+        {
+          "doc": [
+            "<i>THIS LAMP IS DEDICATED TO THE MEMORY OF</i>",
+            "<i>the fourteen lost at Cinder Row, 1166,</i>",
+            "<i>through the negligence of Foreman J. Pell,</i>",
+            "<i>whom the Master forgave.</i>"
+          ]
+        },
+        {
+          "n": "In the margin, in pencil: <i>\"Whom the Master forgave\" — bolder, please. — A.V.</i>"
+        }
+      ],
+      "C26": [
+        {
+          "doc": [
+            "<b>OLD PATTERN WALL BRACKET — SERVICING. WITHDRAWN 1174.</b>",
+            "",
+            "<i>For the servicing of unions and safe-valves of the Old Pattern:</i>",
+            "<i>1. Pinning the strip. Insert a shim of OW-6 pattern between the thermal strip and its seat. Five minutes.</i>",
+            "<i>2. Freeing and re-seating the union under its collar. Eight minutes.</i>",
+            "<i>3. Packing and dressing the joint with a cold-sealing wax. Seven minutes.</i>",
+            "<b>Twenty minutes for a practised hand; never in haste.</b>",
+            "",
+            "<i>Note: this pattern is withdrawn. OW-6 shim kits were issued to apprentices only, before 1152.</i>"
+          ]
+        },
+        {
+          "n": "Pinned to it, a second sheet: <b>Fitters taught the Old Pattern method.</b> <i>B. Corvane. E. Marrow (dec.). T. Pell. And six others, dead or abroad.</i>"
+        }
+      ],
+      "C27": [
+        {
+          "doc": [
+            "<b>APPOINTMENTS — Ambermonth 9th.</b>",
+            "<i>9:00 Mr. Jessop, chest.</i>",
+            "<i>2:30 Mrs. Fallow, child.</i>",
+            "<b>4:30 Private consultation, Lady V.</b>"
+          ]
+        },
+        {
+          "n": "On the desk, the cab-counterfoil book. Under the 9th: <i>5:52 PM, closed cab, Ashlar Street to Marrowgate. Two passengers. Paid by the Infirmary.</i>"
+        },
+        {
+          "s": "Nurse Coll",
+          "t": "\"They came in together at half past four and went out together at ten to six. I put them in the cab myself. The consulting room, Inspector, has a door, and I am not paid to open it. But they came out together. Ten to six. That I'll swear.\""
+        }
+      ],
+      "C28": [
+        {
+          "doc": [
+            "<i>Vennard House, 21st Reapmonth.</i>",
+            "<i>Dr. Quillon: I have waited a year and will wait no longer. The sum of one thousand two hundred crowns is due at the end of this month. You will find me a patient creditor and an impatient enemy. — A. Vennard.</i>"
+          ]
+        },
+        {
+          "n": "A ring of clove-scented oil has stained the corner, as though someone had held it a long time."
+        }
+      ],
+      "C29": [
+        {
+          "doc": [
+            "<b>VENNARD, Aldous. Marsh fever, 1181.</b> <i>Recovered, but with loss of the sense of smell, permanent.</i>",
+            "",
+            "<i>Household aware. Advise gas-safe lamps in the study and bedroom, since patient cannot detect a leak. Advice not taken. — F.Q.</i>"
+          ]
+        }
+      ],
+      "C30": [
+        {
+          "n": "Three letters from the Patent Office, each on a different date, each declining the petition of E. Marrow, and after him, I. Marrow."
+        },
+        {
+          "n": "A letter from her father: <i>Ilsa. He has had them from me and he will not give them back. I have not the strength to fight. Make something with your hands that he cannot take. — E.M.</i>"
+        },
+        {
+          "n": "A receipt: <i>Sold this day, 1183, the whole of a fitter's kit, complete, to Mr. Grubb, for eleven crowns. Burial debts.</i>"
+        },
+        {
+          "n": "A folded note, in a sharp, small hand:"
+        },
+        {
+          "doc": [
+            "<i>Come as a maid on the ninth. The safe is behind the north panel; I have never known the number. Bring me back what he took. — O.</i>"
+          ]
+        }
+      ],
+      "C31": [
+        {
+          "n": "A canvas roll holding smooth-jaw brass spanners only, each in its pocket, none of them toothed."
+        },
+        {
+          "n": "Beside it, a pawn ticket: <b>Grubb's Loans, the Wick. One chain-wrench. 17th Reapmonth. Nine crowns.</b>"
+        },
+        {
+          "n": "<i>(Ottley, by dawn, from Grubb's: \"Still on his shelf, Inspector. Chain straight as a die.\")</i>"
+        }
+      ],
+      "C32": [
+        {
+          "n": "Ilsa Marrow, without turning from the bench:"
+        },
+        {
+          "s": "Ilsa",
+          "t": "\"Odalys hired me. Said I'd have a chance at the safe. The study door is kept locked, so I went by the French window. The latch has been loose since spring. In at twenty-five to seven. Out at ten to.\""
+        },
+        {
+          "s": "Ilsa",
+          "t": "\"The safe. Behind the north panel. I couldn't open it. I tried for ten minutes and gave up.\""
+        },
+        {
+          "s": "Ilsa",
+          "t": "\"Under the crooked collar the union had been packed with wax. Neat work. Somebody took their time.\""
+        },
+        {
+          "s": "Ilsa",
+          "t": "\"I ran when I heard the Master was dead. I didn't wait for my wages. I'd have liked him alive, Inspector. Alive and <i>signing</i>.\""
+        }
+      ],
+      "C33": [
+        {
+          "doc": [
+            "<b>LUMENHITHE WIRE-OFFICE — COPY</b>",
+            "<i>Received 11th Reapmonth, 3:40 PM.</i>",
+            "<i>TO: T. PELL, VENNARD HOUSE.</i>",
+            "<i>I HAVE WRONGED YOUR BROTHER. LETTER FOLLOWS. FORGIVE AN OLD MAN. LOAM.</i>"
+          ]
+        }
+      ],
+      "C34": [
+        {
+          "s": "Amberley",
+          "t": "\"Collected in person. Not usual, for a household. Butler's name was Pell. Gentleman of fifty, grey, upright. Read it standing at the counter. Read it <i>twice</i>. I remember because he folded it very small, Inspector, and left as white as chalk. I thought he might be ill. I offered him water. He said, <i>Thank you, no. I only wanted to be sure.</i>\""
+        }
+      ],
+      "C35": [
+        {
+          "doc": [
+            "<b>LUMENHITHE WIRE-OFFICE — COPY</b>",
+            "<i>Received 9th Ambermonth, 12:10 PM.</i>",
+            "<i>TO: B. CORVANE, VENNARD LAMPWORKS.</i>",
+            "<i>THE MASTER SIGNS AT MIDNIGHT. YOUR SEAT ON THE LEAGUE BOARD FOLLOWS THE SIGNATURE. STENN.</i>"
+          ]
+        }
+      ],
+      "C36": [
+        {
+          "doc": [
+            "<b>CINDER ROW INQUIRY — 1166.</b> <i>Commissioner G. Loam presiding.</i>",
+            "",
+            "<i>Fourteen dead. The Old Lampworks destroyed by fire in the small hours of the 8th of Reapmonth.</i>",
+            "<i>Cause: a store of lamp-oil, kept in an unvented cellar, ignited by a spark.</i>",
+            "<i>Finding: negligence on the part of Foreman J. Pell, who had charge of the cellar.</i>",
+            "",
+            "<i>Signed: G. Loam, Commissioner.</i>"
+          ]
+        },
+        {
+          "n": "The signature is very steady. Steadier, you think, than the rest of the page."
+        }
+      ],
+      "C37": [
+        {
+          "s": "Miss Thorne",
+          "t": "\"Commissioner Loam died on the thirteenth of Reapmonth. He had promised me a sealed statement for deposit. It never arrived.\""
+        },
+        {
+          "s": "Miss Thorne",
+          "t": "\"One man asked for the file. Every anniversary of the fire, for years. Quiet. Grey suit. He gave the name <i>Pell</i>. He never asked to take it away. He only asked to <i>look</i>. I always thought that was a very particular kind of grief.\""
+        }
+      ],
+      "C38": [
+        {
+          "doc": [
+            "<b>WATCH HOUSE — SURGEON'S REPORT</b>",
+            "<i>Subject: Aldous Vennard, 63, of Vennard House, Marrowgate Square.</i>",
+            "<i>Complexion: cherry-pink, uniformly; lips and nail-beds likewise.</i>",
+            "<i>Blood: bright, cherry-red, resistant to darkening.</i>",
+            "<i>Cause: poisoning by coal-gas.</i>",
+            "<i>Time: unconscious by about half past ten of the clock at the latest; death some time after. No signs of struggle. No wounds. Stomach: brandy, a little cold meat.</i>",
+            "<i>Remarks: the lungs are otherwise sound. A vigorous man for his years. — A. Brine</i>"
+          ]
+        }
+      ],
+      "C39": [
+        {
+          "doc": [
+            "<b>WATCH HOUSE — LABORATORY NOTE</b>",
+            "<b>(a) Wax.</b> <i>Lavender beeswax with a pinch of turpentine. Indistinguishable from the pantry cake at Vennard House. Ordinary household cabinet wax; not a fitter's compound. Softens at bracket heat in about an hour.</i>",
+            "<b>(b) Shim.</b> <i>Thin brass, old-works pattern, stamped OW-6, with a chipped die: a flaw in the 6. This brass has not been made since the fire of 1166.</i>",
+            "<b>(c) Union marks.</b> <i>The scoring on the union is from a toothed chain-wrench with one bent link. It agrees with the wrench in the cellar tool board at Vennard House.</i>"
+          ]
+        },
+        {
+          "s": "Brine",
+          "t": "\"The wax needs an hour of warmth to run, Inspector. Whatever was done to that lamp was done hours before he died.\""
+        }
+      ]
+    },
+    "react": {
+      "r-Pell-C16": [
+        {
+          "n": "You lay the slate register on the table between you. Pell looks at it for a long moment, as though it were a slightly disappointing pupil."
+        },
+        {
+          "s": "Pell",
+          "t": "\"I took the spare to trim the study lamp, Inspector. It's a two-burner and it wants the glass polished, the hinge oiled, the wick turned. Thirty-five minutes is not so very long.\""
+        },
+        {
+          "y": "Hob says a trim takes fifteen."
+        },
+        {
+          "s": "Pell",
+          "t": "\"Hob is nineteen.\" He says it kindly. \"I've been thorough all my life.\""
+        }
+      ],
+      "r-Pell-C24": [
+        {
+          "n": "You set the personnel book in front of him."
+        },
+        {
+          "s": "Pell",
+          "t": "\"I was a fitter, Inspector. Five years. I found I had not the heart for the bench. I told you <i>wicks and mantles</i>. I meant now.\""
+        },
+        {
+          "n": "His eyes go to his own hands."
+        }
+      ],
+      "r-Pell-C26": [
+        {
+          "s": "Pell",
+          "t": "\"That page has been withdrawn thirteen years, Inspector. I could not have told you the times of it.\""
+        },
+        {
+          "y": "Yet your name is on the roll."
+        },
+        {
+          "s": "Pell",
+          "t": "\"So is half the Works'.\""
+        }
+      ],
+      "r-Pell-motive": [
+        {
+          "n": "You say his brother's name. Pell does not move."
+        },
+        {
+          "s": "Pell",
+          "t": "\"I would ask, Inspector, that you not speak of my brother in that tone. He is dead eighteen years. I had believed what was written of him. I am told I was mistaken.\""
+        },
+        {
+          "n": "That is all he will say. It is very courteous, and it is a door closing."
+        }
+      ],
+      "r-Pell-C39#a": [
+        {
+          "y": "The first hour?"
+        },
+        {
+          "n": "The teapot stops halfway to the cup."
+        },
+        {
+          "s": "Pell",
+          "t": "\"A figure of speech, Inspector.\""
+        },
+        {
+          "y": "\"The wax needs an hour of warmth.\""
+        },
+        {
+          "s": "Pell",
+          "t": "\"Then it seems I have a good ear for figures.\""
+        },
+        {
+          "n": "He sets the pot down very carefully. It is the first time you have seen him look at the floor."
+        }
+      ],
+      "r-Pell-C39#b": [
+        {
+          "n": "Pell reads the laboratory note with polite interest, as a man reads about the affairs of a stranger."
+        },
+        {
+          "s": "Pell",
+          "t": "\"How very thorough, Inspector.\""
+        }
+      ],
+      "r-Odalys-C11": [
+        {
+          "n": "She stops writing. The pencil goes back behind her ear."
+        },
+        {
+          "s": "Odalys",
+          "t": "\"The twenty-fifth of Reapmonth. Two weeks. One extra maid, at four crowns.\""
+        },
+        {
+          "y": "Who was Ida March?"
+        },
+        {
+          "s": "Odalys",
+          "t": "\"Ilsa Marrow.\" A breath. \"Her father drew the mantle my father patented in 'eighty-one. He died without a bit to his name. I wished to have the drawings back. I wished to have them in a lawyer's hands <i>before</i> the sale. That is all.\""
+        },
+        {
+          "n": "<i>Tinkers' Row is now on your map.</i>"
+        }
+      ],
+      "r-Odalys-C30": [
+        {
+          "s": "Odalys",
+          "t": "\"I never knew the number. He kept the safe behind the north panel. If you've opened it, you know more than I ever did.\""
+        },
+        {
+          "y": "Do you know the combination?"
+        },
+        {
+          "s": "Odalys",
+          "t": "\"No.\" She considers the ledgers. \"But my father used the same number for everything that mattered. The year of the fire, for the plaque. The year on the safe. I never asked why.\""
+        }
+      ],
+      "r-Corvane-C14": [
+        {
+          "s": "Corvane",
+          "t": "\"Ah. Stenn. Yes. A courtesy. He'd come a long way, and it would have been rude to leave him among strangers.\" Tap, tap, tap. \"You mustn't make a mystery of a handshake.\""
+        }
+      ],
+      "r-Corvane-C10": [
+        {
+          "s": "Corvane",
+          "t": "\"Well. You've been in the safe. I hadn't imagined he'd struck the clause. I'd hoped he wouldn't be so petty.\" He stops turning the ring. \"Yes. I brokered it. I found Stenn and I found the League and I brought the two of them to the table. And Aldous took the credit, and the consultancy, and I was to be a name in a toast.\""
+        }
+      ],
+      "r-Corvane-C35": [
+        {
+          "s": "Corvane",
+          "t": "\"<i>My seat on the League Board follows the signature.</i> Do you understand, Inspector? <i>The signature.</i> Do you imagine I would kill the one man whose signature the whole edifice rested on?\""
+        },
+        {
+          "y": "The contract is unsigned."
+        },
+        {
+          "s": "Corvane",
+          "t": "\"It was to be signed at midnight. With Aldous dead it isn't signed at all. I have lost everything tonight, Inspector. I'd have to be a great fool to arrange it.\""
+        }
+      ],
+      "r-Quillon-C15": [
+        {
+          "s": "Quillon",
+          "t": "\"The palms. Yes. I felt the air of the ballroom heavy and I took Lady Cordelia for a turn.\" He smiles thinly. \"You will not, I hope, read anything into a turn under a palm tree.\""
+        },
+        {
+          "n": "There are guests within earshot."
+        }
+      ],
+      "r-Quillon-aside": [
+        {
+          "n": "You steer him to the window. Quillon's charm slips a little."
+        },
+        {
+          "s": "Quillon",
+          "t": "\"Two years, Inspector. Lady Cordelia and I. I did not kill him for it. Aldous had known for a fortnight and was pleased with himself for knowing. He would have put us both in the street after the gala.\""
+        },
+        {
+          "n": "Nobody else has heard."
+        }
+      ],
+      "r-Quillon-open": [
+        {
+          "y": "\"Two years of weekly visits, Doctor. Ashlar Street.\""
+        },
+        {
+          "n": "A glass is set down somewhere behind you. The murmur in the hall stops, and starts again lower."
+        },
+        {
+          "s": "Quillon",
+          "t": "\"Well,\" he says, quite softly. \"That is that. Two years, Inspector. I did not kill him for it. He would have put us both in the street after the gala.\""
+        },
+        {
+          "n": "Word will reach Lady Cordelia before you do."
+        }
+      ],
+      "r-Quillon-C06": [
+        {
+          "s": "Quillon",
+          "t": "\"Fenwick and Sons.\" He lets go of your hand at last. \"Two years, Inspector. And I did not kill him for it. Aldous had known for a fortnight and was pleased with himself for knowing.\""
+        }
+      ],
+      "r-Quillon-C38": [
+        {
+          "s": "Quillon",
+          "t": "\"I smelled it. Of course I smelled it. The room was a <i>cellar</i>. But a gas death opens the house to the Watch, and I have patients in half the drawing-rooms of Marrowgate. I said what would let a family bury its dead in peace.\""
+        }
+      ],
+      "r-Quillon-C28": [
+        {
+          "s": "Quillon",
+          "t": "\"Twelve hundred crowns by the end of the month. Yes. I owed him. I owed him a good deal more than that, but I'd never have put the flame out on him.\" He tries a laugh. \"Do have a glass of wine, Inspector.\""
+        }
+      ],
+      "r-Cordelia-C27": [
+        {
+          "s": "Cordelia",
+          "t": "\"Nurse Coll was always too honest.\" She lets the handkerchief fall. \"Yes. I was at the infirmary. I went every week. Dr. Quillon has known me for eleven years.\""
+        },
+        {
+          "y": "What was the consultation?"
+        },
+        {
+          "s": "Cordelia",
+          "t": "\"I think you know what it was.\""
+        }
+      ],
+      "r-Cordelia-C06": [
+        {
+          "s": "Cordelia",
+          "t": "\"So Aldous had me followed.\" A dry little laugh. \"He'd have put me out on the pavement after the gala. He said so, last week, at dinner, in front of the footmen.\""
+        },
+        {
+          "y": "Did you kill him?"
+        },
+        {
+          "s": "Cordelia",
+          "t": "\"I was under the palm trees with a man who has no hands for a wrench, Inspector, and I have never lit a gas lamp in my life. I should have had to <i>learn</i>.\""
+        }
+      ],
+      "r-Ilsa-open#a": [
+        {
+          "n": "She turns. There is a scrap of white linen missing from the cuff of her workman's shirt."
+        },
+        {
+          "s": "Ilsa",
+          "t": "\"Corby's Agency. All right.\""
+        },
+        {
+          "n": "<i>She will talk to you now.</i>"
+        }
+      ],
+      "r-Ilsa-open#b": [
+        {
+          "n": "She glances at it. <b>Ilsa:</b> \"Half the maids in the city wear that stamp.\" You will need to put the cuff and the hiring list together."
+        }
+      ],
+      "r-Ilsa-C31": [
+        {
+          "s": "Ilsa",
+          "t": "\"Grubb's on the Wick. Nine crowns. Seventeenth of Reapmonth.\" She looks at her hands. \"I had a debt. Grubb's shelf takes the whole of a fitter's kit, one piece at a time.\""
+        },
+        {
+          "y": "Then you have the chain-wrench?"
+        },
+        {
+          "s": "Ilsa",
+          "t": "\"It's still on his shelf. Ask him.\""
+        },
+        {
+          "n": "<i>(Ottley confirms it, by dawn: still on the shelf, chain straight. She will talk to you now.)</i>"
+        }
+      ],
+      "r-none": [
+        {
+          "n": "They look at it, and give nothing away. Either it means little to them, or you have not yet learned what it means."
+        }
+      ],
+      "ilsa-partial": [
+        {
+          "n": "She glances at it."
+        },
+        {
+          "s": "Ilsa",
+          "t": "\"Half the maids in the city wear that stamp.\""
+        },
+        {
+          "n": "You will need to put the cuff and the hiring list together."
+        }
+      ]
+    },
+    "topic": {
+      "Pell": {
+        "tell_me_about_the_study_lamp": {
+          "label": "Tell me about the study lamp.",
+          "beats": [
+            {
+              "y": "Tell me about the study lamp."
+            },
+            {
+              "s": "Pell",
+              "t": "\"I trimmed it at five, Inspector. Ten minutes' work. It was in order when I left it.\""
+            }
+          ]
+        },
+        "you_know_lamps": {
+          "label": "You know lamps?",
+          "beats": [
+            {
+              "y": "You know lamps?"
+            },
+            {
+              "s": "Pell",
+              "t": "\"Wicks and mantles, Inspector. Not pipes. I'd not presume to touch a joint.\""
+            }
+          ]
+        },
+        "what_do_you_make_of_the_fire_of_sixty_si": {
+          "label": "What do you make of the fire of sixty-six?",
+          "beats": [
+            {
+              "y": "What do you make of the fire of sixty-six?"
+            },
+            {
+              "s": "Pell",
+              "t": "\"A tragedy, Inspector. Fourteen souls. I never thought it more.\""
+            }
+          ]
+        },
+        "where_were_you_tonight": {
+          "label": "Where were you tonight?",
+          "beats": [
+            {
+              "y": "Where were you tonight?"
+            },
+            {
+              "s": "Pell",
+              "t": "\"The front door for the musicians at half past five. Then the hall, the wine, the guests. From a quarter past nine I sat with Mrs. Tallowby, and I went up at half past ten to see about the toast.\""
+            }
+          ]
+        },
+        "did_anyone_see_you_at_half_past_ten": {
+          "label": "Did anyone see you at half past ten?",
+          "beats": [
+            {
+              "y": "Did anyone see you at half past ten?"
+            },
+            {
+              "s": "Pell",
+              "t": "\"Hob, Inspector. At the passage. I knocked and had no answer, and the Master would not thank me for disturbing him.\""
+            }
+          ]
+        },
+        "tell_me_again_about_half_past_ten": {
+          "label": "Tell me again about half past ten.",
+          "beats": [
+            {
+              "y": "Tell me again about half past ten."
+            },
+            {
+              "s": "Pell",
+              "t": "\"I knocked at half past ten and had no answer. The Master would not thank me for disturbing him, and he'd have been quite comfortable for the first hour in any case.\""
+            }
+          ]
+        }
+      },
+      "Odalys": {
+        "where_were_you_today": {
+          "label": "Where were you today?",
+          "beats": [
+            {
+              "y": "Where were you today?"
+            },
+            {
+              "s": "Odalys",
+              "t": "\"The Works, from twenty past eight till ten past six. The tram takes twenty-five minutes. I was in this house by a quarter to seven.\""
+            }
+          ]
+        },
+        "you_argued_with_your_father_at_ten_to_ni": {
+          "label": "You argued with your father at ten to nine.",
+          "beats": [
+            {
+              "y": "You argued with your father at ten to nine."
+            },
+            {
+              "s": "Odalys",
+              "t": "\"I told him he was selling my mother's works to strangers. He told me it wasn't mine to keep. It was the seventh time we had had that conversation in a fortnight. I keep the ledgers, Inspector. I have known about the sale for three weeks. Tonight was the last row.\""
+            }
+          ]
+        },
+        "do_you_know_a_woman_named_ilsa_marrow": {
+          "label": "Do you know a woman named Ilsa Marrow?",
+          "beats": [
+            {
+              "y": "Do you know a woman named Ilsa Marrow?"
+            },
+            {
+              "s": "Odalys",
+              "t": "\"I have never met Ilsa Marrow.\""
+            }
+          ]
+        },
+        "ask_about_the_fire_at_cinder_row": {
+          "label": "Ask about the fire at Cinder Row.",
+          "beats": [
+            {
+              "y": "Tell me about the fire at Cinder Row."
+            },
+            {
+              "s": "Odalys",
+              "t": "\"Fourteen dead, in the Old Works. I was thirteen. The inquiry blamed the foreman. It is in the Hall of Records, if you want it in ink.\""
+            }
+          ]
+        },
+        "did_you_kill_your_father": {
+          "label": "Did you kill your father?",
+          "beats": [
+            {
+              "y": "Did you kill your father?"
+            },
+            {
+              "s": "Odalys",
+              "t": "\"I was at the Works till ten past six, and in the hall by a quarter to seven with Hob Larkin at the door. I <i>wanted</i> him to reconsider, Inspector. I did not want him dead. It would have been a very bad quarter for the accounts.\""
+            }
+          ]
+        },
+        "ask_where_ilsa_marrow_lives": {
+          "label": "Ask where Ilsa Marrow lives.",
+          "beats": [
+            {
+              "y": "Where does she live?"
+            },
+            {
+              "s": "Odalys",
+              "t": "\"Tinkers' Row. Bottom of the second lane. You'll find the plate rubbed nearly blank.\""
+            }
+          ]
+        },
+        "ask_leave_to_search_the_servants_rooms": {
+          "label": "Ask leave to search the servants' rooms.",
+          "beats": [
+            {
+              "y": "I may need to search the servants' rooms."
+            },
+            {
+              "s": "Odalys",
+              "t": "\"Then search them. I will put my name to it.\" She signs a slip of paper without looking at it. <i>(You have the household's consent.)</i>"
+            }
+          ]
+        }
+      },
+      "Corvane": {
+        "you_knew_about_the_sale_of_the_works": {
+          "label": "You knew about the sale of the Works?",
+          "beats": [
+            {
+              "y": "You knew about the sale of the Works?"
+            },
+            {
+              "s": "Corvane",
+              "t": "\"I knew nothing of any sale. I'd have been the last man told, I imagine. Aldous was rather a private person, you know, as men of his kind are. He kept things in his head and his safe, and one never quite knew which was the more secure.\" He taps the ring."
+            }
+          ]
+        },
+        "where_were_you_between_ten_to_ten_and_fi": {
+          "label": "Where were you between ten to ten and five past?",
+          "beats": [
+            {
+              "y": "Where were you between ten to ten and five past?"
+            },
+            {
+              "s": "Corvane",
+              "t": "\"The terrace. For air. It's frightfully warm in that ballroom and the Guild will go on so about the Works.\""
+            }
+          ]
+        },
+        "do_you_know_the_old_strip_pinning_method": {
+          "label": "Do you know the old strip-pinning method?",
+          "beats": [
+            {
+              "y": "Do you know the old strip-pinning method?"
+            },
+            {
+              "s": "Corvane",
+              "t": "\"I designed the Safe-Valve, Inspector. I was taught the old method as an apprentice, along with half the Works of my day. I don't say I could do it blindfolded. I say I have been at the Works since ten past six this morning, and in the library with the footman for an hour after.\""
+            }
+          ]
+        }
+      },
+      "Quillon": {
+        "where_were_you_tonight": {
+          "label": "Where were you tonight?",
+          "beats": [
+            {
+              "y": "Where were you tonight?"
+            },
+            {
+              "s": "Quillon",
+              "t": "\"The ballroom, Inspector. All evening. I never left it.\""
+            }
+          ]
+        },
+        "what_did_you_tell_the_household_about_th": {
+          "label": "What did you tell the household about the Master?",
+          "beats": [
+            {
+              "y": "What did you tell the household about the Master?"
+            },
+            {
+              "s": "Quillon",
+              "t": "\"Apoplexy. Plainly. A man of that age, that temperament, that <i>strain</i>. I'd have said the same to a Commissioner.\""
+            }
+          ]
+        },
+        "and_at_half_past_four_today": {
+          "label": "And at half past four today?",
+          "beats": [
+            {
+              "y": "And at half past four today?"
+            },
+            {
+              "s": "Quillon",
+              "t": "\"At my infirmary, Inspector. Ask Nurse Coll. I was with Lady Cordelia till ten to six, and we took a cab to Marrowgate together. I <i>never</i> touched a lamp.\""
+            }
+          ]
+        }
+      },
+      "Cordelia": {
+        "you_were_here_all_afternoon": {
+          "label": "You were here all afternoon?",
+          "beats": [
+            {
+              "y": "You were here all afternoon?"
+            },
+            {
+              "s": "Cordelia",
+              "t": "\"I lay down in my rooms all afternoon, Inspector. My maid will say so.\""
+            }
+          ]
+        },
+        "how_did_you_and_your_husband_get_on": {
+          "label": "How did you and your husband get on?",
+          "beats": [
+            {
+              "y": "How did you and your husband get on?"
+            },
+            {
+              "s": "Cordelia",
+              "t": "\"Quite beautifully. A great man. We never had a cross word.\" Her fingers go to the pearls."
+            }
+          ]
+        }
+      },
+      "Ilsa": {
+        "you_re_a_fitter_s_daughter_you_could_hav": {
+          "label": "You're a fitter's daughter. You could have done that to the lamp.",
+          "beats": [
+            {
+              "y": "You're a fitter's daughter. You could have done that to the lamp."
+            },
+            {
+              "s": "Ilsa",
+              "t": "\"Twenty minutes, for a hand that knows the Old Pattern. I had fifteen, and I wasn't there for the lamp.\" She puts the spanner down. \"And I don't own a chain-wrench any more.\""
+            }
+          ]
+        }
+      }
+    },
+    "intro": {
+      "Pell": [
+        {
+          "n": "The servants' hall has gone quiet by the time you sit down. Pell rises, pours tea from a heavy brown pot, and sets a folded towel beside the cup before you've said a word."
+        },
+        {
+          "s": "Pell",
+          "t": "\"You've had a wet night of it, Inspector. If I may.\""
+        },
+        {
+          "n": "He is fifty-eight and straight-backed, with grey hair combed flat and a long, patient face. His hands are steady. He apologises for the state of the hall."
+        }
+      ],
+      "Odalys": [
+        {
+          "n": "Odalys is at a small writing-table in the morning room with the household ledgers open, doing sums. She has not been to bed. There are ink smudges on her cuff and a pencil behind her ear, and she does not stop writing when you enter."
+        },
+        {
+          "s": "Odalys",
+          "t": "\"Inspector. I'll be brief. I've two weeks of accounts to close before the Guild sits.\""
+        },
+        {
+          "n": "She is thirty-four, tired and exact, in a black dress she must have put on in a hurry."
+        }
+      ],
+      "Corvane": [
+        {
+          "n": "Corvane greets you in the library with both hands, as if you were an old friend arriving late. He is forty-seven, with a shrewd, handsome face, silver at the temples, and a heavy signet ring he turns round and round on his finger."
+        },
+        {
+          "s": "Corvane",
+          "t": "\"Inspector Hale. What a dreadful night. Poor Aldous. Poor, <i>poor</i> Aldous. I do hope you'll let me be of use.\""
+        }
+      ],
+      "Quillon": [
+        {
+          "n": "Quillon is a smooth, well-kept man of fifty-two who has drenched himself, tonight, in clove. He takes your hand in both of his by the cold buffet and does not seem to want to release it."
+        },
+        {
+          "s": "Quillon",
+          "t": "\"Inspector. You look quite done in. Have you eaten? I could have Pell send something.\""
+        }
+      ],
+      "Cordelia": [
+        {
+          "n": "The curtains are drawn in her morning room and there is a handkerchief on the arm of the sofa. Lady Cordelia lies on a chaise with her hand at her throat, where a rope of pearls sits like a second collar. She is thirty-eight and lovely, and grieves as though she had rehearsed it in front of a glass."
+        },
+        {
+          "s": "Cordelia",
+          "t": "\"Poor, dear Aldous. I cannot believe it. I have been lying quite prostrate since teatime.\""
+        }
+      ],
+      "Ilsa": [
+        {
+          "n": "The stove is cold. The bench is dark with old oil. Ilsa Marrow is standing at it when you come in, with her back to you and a spanner in her hand as if she meant to use it."
+        },
+        {
+          "n": "She is twenty-nine, thin, with brass burns like small coins across the backs of her hands. She does not look round."
+        }
+      ]
+    },
+    "loc": {
+      "study": [
+        {
+          "n": "The study smells of brandy, brass polish and, underneath both, something faintly sweet that clings to the back of the throat."
+        },
+        {
+          "n": "The shutters stand open now, and the gale pushes the curtains about. Master Aldous Vennard lies on the settee beneath a dinner coat, his face turned to the wall. Ottley has left him as found, save for the shutters."
+        },
+        {
+          "n": "A big desk, a dead fire, a portrait of a dark-eyed woman over the mantel. On the wall beside the desk, a brass bracket holds a lamp with a tall glass chimney: the famous Steady Flame, the one the whole city trusts. It isn't burning."
+        }
+      ],
+      "hall": [
+        {
+          "n": "The Grand Hall has the look of a party held up mid-breath. Chairs pushed back. A violin case open on the bandstand, the players gone. On the long table the toast glasses stand in lines, and a full third of them are still on their trays."
+        },
+        {
+          "n": "In the conservatory beyond, the stoves tick and the palms drip. A small sign has been chalked on the door: <i>Mind the step. Stove fires.</i>"
+        }
+      ],
+      "stairs": [
+        {
+          "n": "The stairs go down into warmth and a smell of bread and blacking. The servants' hall is a long low room with a scrubbed table and eleven chairs, and every chair is occupied by someone pretending not to listen."
+        },
+        {
+          "n": "The passage beyond runs past the pantry, the still-room and a green baize door. At its end a stair drops to the cellar."
+        }
+      ],
+      "pellsroom": [
+        {
+          "n": "A narrow room at the top of the back stair. A bed made with hospital corners. A washstand, a pressed suit on a peg, a shelf with three books. Everything squared to the edge of the furniture. It is the room of a man who has spent nineteen years arranging himself so as to be no trouble."
+        }
+      ],
+      "watch": [
+        {
+          "n": "The Watch House at night smells of cold tea, lamp-oil and wet wool. The night desk is manned by a constable asleep with his eyes open. Down a flight of stairs the morgue keeps its own quiet, tiled and gaslit and unhurried."
+        },
+        {
+          "n": "Dr. Ansel Brine is waiting there, sleeves rolled, wiping his hands on a cloth as if they had wronged him."
+        },
+        {
+          "s": "Brine",
+          "t": "\"Inspector. Your Master Vennard was brought in an hour ago. I find I've been given a rather good puzzle for the small hours.\""
+        }
+      ],
+      "lampworks": [
+        {
+          "n": "Cinder Row is a street of brick and old soot. Nothing lit at the works but the gatehouse lamp, and the wind whistles through the empty yards the way it must have on the night of the fire."
+        },
+        {
+          "n": "Behind the gate, the big sheds loom. The furnaces are banked and the chimneys stand up black against the moons. You can feel the heat of the day still stored in the bricks."
+        },
+        {
+          "n": "Old Dunstan, gatekeeper, sleeves rolled to the elbow and a pipe he isn't allowed to light, lets you in without a word and hands you the ledger before you ask."
+        }
+      ],
+      "infirmary": [
+        {
+          "n": "Ashlar Street is a quiet street of brass plates and drawn blinds. The infirmary smells of carbolic and, very faintly, of clove."
+        },
+        {
+          "n": "Nurse Coll sits at the night desk with her spectacles pushed up into her cap. She is brisk, kind and a little afraid of the Inspector, in the way of women who have kept many doctors' secrets."
+        }
+      ],
+      "tinkers": [
+        {
+          "n": "Tinkers' Row is all little shopfronts and chimney-pots and small brass signs swinging in the gale. The workshop is at the bottom of a lane too narrow for a cab, above a door with a brass plate that has been rubbed until the name is almost gone."
+        },
+        {
+          "n": "Inside, a cold stove. A bench dark with old oil. A smell of filings and stale tea. A tin mug with a tea-leaf ring."
+        }
+      ],
+      "wire": [
+        {
+          "n": "The Wire-Office never sleeps. A hundred small keys chatter in the dark like beetles, and the night clerks scribble without looking up. The air smells of ink and warm brass."
+        },
+        {
+          "n": "Mr. Fitch Amberley is small, neat and fussy, in a paper collar and sleeve-guards. He is proud of two things: his memory and his filing."
+        }
+      ],
+      "records": [
+        {
+          "n": "The Hall of Records is long and cold, and lit by exactly one green-shaded lamp. Ladders run up walls of grey boxes. Somewhere in the stacks a page turns, though nobody is reading."
+        },
+        {
+          "n": "Miss Thorne, archivist, dry as her own paper, is working late, as she does when she does not care to go home. She looks up over a pair of steel spectacles."
+        },
+        {
+          "s": "Miss Thorne",
+          "t": "\"You'll be here about the fire. Everyone is, eventually.\""
+        }
+      ]
+    },
+    "end": {
+      "Confront-Gold": [
+        {
+          "n": "You have asked Ottley to stand at the door. Pell does not look at him. He looks at the tin, still open on the table between you, and the little empty slot."
+        },
+        {
+          "s": "Pell",
+          "t": "\"I wondered whether you would find the box or the tin first.\""
+        },
+        {
+          "n": "He lays his hands flat on the cloth."
+        },
+        {
+          "s": "Pell",
+          "t": "\"May I sit, Inspector?\""
+        },
+        {
+          "s": "Pell",
+          "t": "\"The wire came on the eleventh of Reapmonth. I had known Josiah was blamed. I had believed it, for twenty years. It is very hard, Inspector, to be a good servant to a man who has been kind to you, and to believe you owe him gratitude.\""
+        },
+        {
+          "s": "Pell",
+          "t": "\"Then the letter. <i>I have wronged your brother past any mending.</i> I read it eleven times. On the twelfth I went to the Hall of Records and asked to see the file. Miss Thorne was very kind. It was in Commissioner Loam's own hand.\""
+        },
+        {
+          "s": "Pell",
+          "t": "\"I had thought of going to the Watch. But Josiah had been dead eighteen years, and Master Vennard was the man who paid the coroner's fees. Who was to listen to a butler?\""
+        },
+        {
+          "s": "Pell",
+          "t": "\"Then the plaque proof came up to the study for approval. <i>Through the negligence of Foreman J. Pell, whom the Master forgave.</i> In brass. On the very lamp. Read out before the whole city at half past ten.\""
+        },
+        {
+          "n": "He stops. His voice has not risen once."
+        },
+        {
+          "s": "Pell",
+          "t": "\"I trimmed every lamp in this house for nineteen years, Inspector. It seemed only right that I should be the one to see the last one burn.\""
+        },
+        {
+          "y": "How did you do it?"
+        },
+        {
+          "s": "Pell",
+          "t": "\"The old strip I knew from the Works. The tin was my apprentice kit. I had not opened it since 'fifty. I cut a corner from Mrs. Tallowby's cake, took the wrench from the cellar, and told the pantry I was to trim the study lamp. The wax I chose because it would hold cold and run in an hour, and the Master always lit the lamp himself at nine. Twenty years. I did not light it. I have lit ten thousand lamps for that house, and I could not bring myself to light that one.\""
+        },
+        {
+          "y": "You risked the house."
+        },
+        {
+          "s": "Pell",
+          "t": "\"The door was bolted. The passage was Hob's to guard. No other soul was in danger. I made very sure of that.\""
+        },
+        {
+          "y": "And Mrs. Tallowby?"
+        },
+        {
+          "s": "Pell",
+          "t": "\"She knows nothing, Inspector. She gave me tea. You'll see that she isn't troubled.\""
+        },
+        {
+          "n": "He rises. He straightens the cuffs of his coat."
+        },
+        {
+          "s": "Pell",
+          "t": "\"I did not mean to be clever. I only meant that it should be finished before he could say that word in front of them.\""
+        },
+        {
+          "n": "Ottley steps forward, and for a moment neither of you moves."
+        },
+        {
+          "s": "Pell",
+          "t": "\"The whistle, Inspector. If it may go with him. It was Josiah's.\""
+        }
+      ],
+      "Gold": [
+        {
+          "n": "The Watch takes Pell down the back stair, by his own request, so that the guests will not see him. He walks with his hands in front of him, like a man carrying something that might spill."
+        },
+        {
+          "n": "Miss Odalys Vennard reads the truth of Cinder Row aloud at the Guild sitting, in a voice that gives nothing away. She melts the plaque herself. The Guild goes very quiet."
+        },
+        {
+          "n": "The Marrow patent is restored to Ilsa within the month. She sends you a brass pocket lamp, plain and unadorned, with one small note inside the case: <i>Never fails.</i>"
+        },
+        {
+          "n": "On the anniversary of the fire, fourteen small lamps are lit in Cinder Row, and a fifteenth for Josiah. The fourteen are remembered as victims, and no longer as a warning."
+        },
+        {
+          "n": "You keep the whistle in a drawer at the Watch House. Sometimes, on wet nights, you take it out."
+        },
+        {
+          "n": "<b>THE END</b>"
+        }
+      ],
+      "Confront-Silver": [
+        {
+          "n": "You name him. Pell listens with his hands folded, and lets you finish."
+        },
+        {
+          "s": "Pell",
+          "t": "\"It was I, Inspector. The lamp. I will sign whatever you like.\""
+        },
+        {
+          "y": "Why?"
+        },
+        {
+          "s": "Pell",
+          "t": "\"I would rather not say.\""
+        },
+        {
+          "n": "You have too little to make him. Ottley writes it down."
+        }
+      ],
+      "Silver": [
+        {
+          "n": "Pell confesses to the killing, and only the killing. He will not say why, and you have too little to make him. The Guild is relieved. The story is that a servant, bitter about a dismissal he never suffered, turned on his master."
+        },
+        {
+          "n": "The record of 1166 stays as it was. You go on seeing the name of Foreman J. Pell on a brass plaque in a shop window on Cinder Row, and you go on knowing it is wrong."
+        }
+      ]
+    }
+  },
+  "official": {
+    "text": "Master Vennard withdrew to his study after dinner, suffered a seizure of apoplexy, and died shortly before he was found at twenty to midnight.",
+    "challengedBy": [
+      "C38",
+      "C39"
+    ],
+    "challenged": "Challenged: the surgeon puts him unconscious by half past ten at the latest, and the laboratory says the lamp was made a trap hours before he died."
+  }
+}

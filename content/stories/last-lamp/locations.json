@@ -1,0 +1,477 @@
+{
+  "locations": {
+    "study": {
+      "name": "Vennard House: The Study",
+      "short": "The Study",
+      "img": "b-study",
+      "recap": "The study is as you left it. The shutters bang in the gale, and the sweet smell still clings to the room.",
+      "people": [
+        "Ottley",
+        "Pell"
+      ],
+      "objects": [
+        {
+          "id": "body",
+          "label": "Examine the body",
+          "beats": [
+            {
+              "n": "You kneel beside the settee and lift the dinner coat."
+            },
+            {
+              "n": "Master Aldous Vennard looks younger than his sixty-three years. There is no blood, no bruise, no mark at all."
+            },
+            {
+              "n": "But his face has a colour you did not expect: a warm, healthy, cherry-pink flush, as if he had come in from the cold."
+            },
+            {
+              "s": "Ottley",
+              "t": "\"Dr. Brine will want to see that at the Watch House, Inspector. I've never seen a man of a seizure look so well.\""
+            }
+          ]
+        },
+        {
+          "id": "door",
+          "label": "Inspect the locked door",
+          "clue": "C01",
+          "intro": "You cross to the door and crouch by the lock."
+        },
+        {
+          "id": "windows",
+          "label": "Examine the windows",
+          "clue": "C02",
+          "intro": "You walk the room's edge, window by window."
+        },
+        {
+          "id": "bracket",
+          "label": "Examine the wall lamp bracket",
+          "clue": "C03",
+          "intro": "You lift the lamp's chimney aside and look at the bracket behind it."
+        },
+        {
+          "id": "lamp",
+          "label": "Examine the gas lamp",
+          "clue": "C04",
+          "intro": "The brass lamp beside the desk is cold now. You turn it in your hands."
+        },
+        {
+          "id": "desk",
+          "label": "Search the desk",
+          "clue": "C05",
+          "intro": "The big desk faces the wall lamp. A blotter, a pen, a half-finished page."
+        },
+        {
+          "id": "drawer",
+          "label": "Unlock the desk drawer",
+          "clue": "C06",
+          "vis": {
+            "$fn": "() => flag(\"chain\")"
+          },
+          "intro": "The small key from the watch-chain turns in the lower drawer."
+        },
+        {
+          "id": "french",
+          "label": "Examine the French window",
+          "clue": "C07",
+          "intro": "You go to the French window at the end of the room."
+        },
+        {
+          "id": "fire",
+          "label": "Look at the fireplace",
+          "beats": [
+            {
+              "n": "The grate is cold and swept. The damper is shut, and the ash lies undisturbed in the pan."
+            },
+            {
+              "n": "Nothing has come down this chimney tonight, and nothing has gone up it."
+            }
+          ]
+        },
+        {
+          "id": "safe",
+          "label": "Try the safe behind the north panel",
+          "type": "safe"
+        },
+        {
+          "id": "c08",
+          "label": "Take the ledger page from the safe",
+          "clue": "C08",
+          "vis": {
+            "$fn": "() => flag(\"safeOpen\")"
+          }
+        },
+        {
+          "id": "c09",
+          "label": "Take the drawings from the safe",
+          "clue": "C09",
+          "vis": {
+            "$fn": "() => flag(\"safeOpen\")"
+          }
+        },
+        {
+          "id": "c10",
+          "label": "Read the contract in the safe",
+          "clue": "C10",
+          "vis": {
+            "$fn": "() => flag(\"safeOpen\")"
+          }
+        }
+      ]
+    },
+    "hall": {
+      "name": "Vennard House: Grand Hall & Conservatory",
+      "short": "Grand Hall & Conservatory",
+      "img": "b-hall",
+      "recap": "The Grand Hall waits, hushed and half-lit. The household are scattered through the rooms beyond.",
+      "people": [
+        "Odalys",
+        "Corvane",
+        "Quillon",
+        "Cordelia"
+      ],
+      "objects": [
+        {
+          "id": "hire",
+          "label": "Examine the hired-staff list",
+          "clue": "C11",
+          "intro": "On the steward's table lies the night's hire-book."
+        },
+        {
+          "id": "hob",
+          "label": "Ask Hob Larkin, the footman",
+          "clue": "C12"
+        },
+        {
+          "id": "toast",
+          "label": "Ask the guests about the toast, and Hob about the door",
+          "clue": "C13"
+        },
+        {
+          "id": "terrace",
+          "label": "Ask the guests about Mr. Corvane",
+          "clue": "C14"
+        },
+        {
+          "id": "ned",
+          "label": "Ask Ned Bracken in the conservatory",
+          "clue": "C15"
+        }
+      ]
+    },
+    "stairs": {
+      "name": "Vennard House: Below Stairs",
+      "short": "Below Stairs",
+      "img": "b-below-stairs",
+      "recap": "The servants' hall is warm and full of murmuring. Everyone stops when you come in.",
+      "people": [
+        "Pell"
+      ],
+      "objects": [
+        {
+          "id": "register",
+          "label": "Examine the key register in the pantry",
+          "clue": "C16",
+          "intro": "In the pantry a slate hangs beside the key-board."
+        },
+        {
+          "id": "staff",
+          "label": "Ask Nell and Hob about the study lamp",
+          "clue": "C17"
+        },
+        {
+          "id": "wax",
+          "label": "Examine the pantry cabinet",
+          "clue": "C18"
+        },
+        {
+          "id": "cook",
+          "label": "Ask Mrs. Tallowby, the cook",
+          "clue": "C19"
+        },
+        {
+          "id": "wrench",
+          "label": "Examine the cellar tool board",
+          "clue": "C20",
+          "intro": "You take a lantern down the cellar stair."
+        },
+        {
+          "id": "roomgo",
+          "label": "Go up the back stair to Pell's room",
+          "go": "pellsroom",
+          "vis": {
+            "$fn": "() => flag(\"roomOpen\")"
+          }
+        }
+      ]
+    },
+    "pellsroom": {
+      "name": "Vennard House: Pell's Room",
+      "short": "Pell's Room",
+      "img": "b-below-stairs",
+      "hidden": true,
+      "recap": "A narrow room at the top of the back stair, squared to the edge of every piece of furniture.",
+      "people": [],
+      "objects": [
+        {
+          "id": "tin",
+          "label": "Search the washstand drawer",
+          "clue": "C21",
+          "emptied": {
+            "$fn": "() => flag(\"roomEmptied\")"
+          },
+          "emptyBeats": [
+            {
+              "n": "The washstand drawer is empty. Something has been taken out of it in a hurry, and lately: the dust is bright where it stood."
+            }
+          ]
+        },
+        {
+          "id": "box",
+          "label": "Search under the bed",
+          "clue": "C22",
+          "emptied": {
+            "$fn": "() => flag(\"roomEmptied\")"
+          },
+          "emptyBeats": [
+            {
+              "n": "Under the bed, only a clean square on the boards. Whatever lay here has gone."
+            },
+            {
+              "n": "In the grate downstairs, you are told later, a butler was seen burning papers."
+            }
+          ]
+        },
+        {
+          "id": "back",
+          "label": "Go back downstairs",
+          "go": "stairs"
+        }
+      ]
+    },
+    "watch": {
+      "name": "Watch House, Halberd Street",
+      "short": "Watch House",
+      "img": "b-watch-house",
+      "recap": "The morgue keeps its own quiet, tiled and gaslit. Dr. Brine looks up as you come down the steps.",
+      "people": [],
+      "objects": [
+        {
+          "id": "autopsy",
+          "label": "Read the surgeon's report",
+          "clue": "C38",
+          "intro": "Dr. Brine slides the report across the steel table."
+        },
+        {
+          "id": "brine_acc",
+          "label": "Ask Dr. Brine whether it could have been an accident",
+          "beatsFn": {
+            "$fn": "() => (has(\"C03\") && has(\"C04\")) ? [\n          { y: \"Could it have been an accident?\" },\n          { s: \"Brine\", t: \"\\\"A pinned valve <i>and</i> a loosened joint. The soot in the burner says the flame died for want of air. Then the pinned valve kept pouring raw gas through the dead burner. Either fault alone might have left him a headache. Together, Inspector, they are a recipe.\\\"\" } ] : [\n          { y: \"Could it have been an accident?\" },\n          { s: \"Brine\", t: \"\\\"Coal-gas doesn't leak from a sound lamp. If you've looked at the lamp, tell me what you saw.\\\"\" } ]"
+          }
+        },
+        {
+          "id": "brine_q",
+          "label": "Ask what Dr. Quillon said",
+          "beats": [
+            {
+              "y": "What did Dr. Quillon say?"
+            },
+            {
+              "s": "Brine",
+              "t": "\"Apoplexy. I'd rather he had been less certain. A physician who <i>smells</i> gas and says apoplexy is not a physician I would quote.\""
+            }
+          ]
+        },
+        {
+          "id": "lab",
+          "label": "Take samples to the laboratory",
+          "clue": "C39",
+          "req": {
+            "$fn": "() => has(\"C03\") && has(\"C04\") && has(\"C18\") && has(\"C20\")"
+          },
+          "intro": "You lay out the four samples on Brine's bench: wax, shim, cake and wrench.",
+          "lockedBeats": [
+            {
+              "s": "Brine",
+              "t": "\"I can tell you a great deal, but I need the wax from the bracket, the shim from the valve, a scraping from that pantry cake, and the wrench's jaws. Bring me those, and I'll bring you an answer.\""
+            }
+          ]
+        },
+        {
+          "id": "grale",
+          "label": "The Chief Constable arrives",
+          "beats": [
+            {
+              "n": "The Chief Constable comes down in a fur-collared coat, having clearly been fetched from his bed and not forgiven the fact."
+            },
+            {
+              "s": "Grale",
+              "t": "\"Well, Hale? Apoplexy, I understand. A great man, a great strain. I'd like the file closed by breakfast.\""
+            },
+            {
+              "y": "The doctor says gas."
+            },
+            {
+              "s": "Grale",
+              "t": "\"The doctor says a good many things. A murder at the Lamplighting Gala. Do you know what the Guild will say? Have your answer by morning, Hale, and have it be a <i>quiet</i> one.\""
+            }
+          ]
+        }
+      ]
+    },
+    "lampworks": {
+      "name": "Vennard Lampworks, Cinder Row",
+      "short": "Vennard Lampworks",
+      "img": "b-lampworks",
+      "recap": "Cinder Row is dark but for the gatehouse lamp. The furnaces tick as they cool.",
+      "people": [],
+      "objects": [
+        {
+          "id": "gate",
+          "label": "Ask Old Dunstan for the gate ledger",
+          "clue": "C23"
+        },
+        {
+          "id": "personnel",
+          "label": "Examine the personnel book in the office",
+          "clue": "C24"
+        },
+        {
+          "id": "plaque",
+          "label": "Examine the engraver's proof",
+          "clue": "C25"
+        },
+        {
+          "id": "manual",
+          "label": "Search the fitters' library",
+          "clue": "C26"
+        }
+      ]
+    },
+    "infirmary": {
+      "name": "Quillon Infirmary, Ashlar Street",
+      "short": "Quillon Infirmary",
+      "img": "b-infirmary",
+      "recap": "The infirmary is hushed and smells of carbolic. Nurse Coll watches you from the night desk.",
+      "people": [],
+      "objects": [
+        {
+          "id": "appts",
+          "label": "Examine the appointment book; ask Nurse Coll",
+          "clue": "C27"
+        },
+        {
+          "id": "demand",
+          "label": "Examine the doctor's desk",
+          "clue": "C28"
+        },
+        {
+          "id": "cabinet",
+          "label": "Examine the filing cabinet",
+          "clue": "C29"
+        }
+      ]
+    },
+    "tinkers": {
+      "name": "Tinkers' Row Workshop",
+      "short": "Tinkers' Row",
+      "img": "b-tinkers-row",
+      "recap": "The workshop is cold. The gale rattles the brass signs in the lane outside.",
+      "people": [
+        "Ilsa"
+      ],
+      "objects": [
+        {
+          "id": "papers",
+          "label": "Examine the papers on the bench",
+          "clue": "C30"
+        },
+        {
+          "id": "roll",
+          "label": "Examine the tool roll",
+          "clue": "C31"
+        }
+      ]
+    },
+    "wire": {
+      "name": "The Wire-Office",
+      "short": "The Wire-Office",
+      "img": "b-wire-office",
+      "recap": "The keys chatter on. Mr. Amberley waits at his counter, proud of his filing.",
+      "people": [],
+      "objects": [
+        {
+          "id": "wireto",
+          "label": "Ask for wires to Vennard House",
+          "clue": "C33"
+        },
+        {
+          "id": "amberley",
+          "label": "Ask Mr. Amberley what he remembers",
+          "clue": "C34",
+          "vis": {
+            "$fn": "() => has(\"C33\")"
+          }
+        },
+        {
+          "id": "wirecorvane",
+          "label": "Ask about wires to Mr. Corvane",
+          "clue": "C35"
+        }
+      ]
+    },
+    "records": {
+      "name": "The Hall of Records",
+      "short": "Hall of Records",
+      "img": "b-records",
+      "recap": "The green lamp burns on. Miss Thorne looks up over her steel spectacles.",
+      "people": [],
+      "objects": [
+        {
+          "id": "inquiry",
+          "label": "Ask for the inquiry file, 1166",
+          "clue": "C36"
+        },
+        {
+          "id": "thorne",
+          "label": "Ask Miss Thorne about Commissioner Loam",
+          "clue": "C37"
+        }
+      ]
+    }
+  },
+  "unlocks": {
+    "study": {
+      "$fn": "() => true"
+    },
+    "hall": {
+      "$fn": "() => true"
+    },
+    "stairs": {
+      "$fn": "() => true"
+    },
+    "watch": {
+      "$fn": "() => true"
+    },
+    "lampworks": {
+      "$fn": "() => flag(\"labVisited\")"
+    },
+    "infirmary": {
+      "$fn": "() => has(\"C06\") || has(\"C14\") || has(\"C15\")"
+    },
+    "tinkers": {
+      "$fn": "() => flag(\"odalysAdmitted\") || has(\"C09\")"
+    },
+    "wire": {
+      "$fn": "() => has(\"C10\") || has(\"C14\")"
+    },
+    "records": {
+      "$fn": "() => has(\"C08\") || has(\"C25\") || flag(\"askedFire\")"
+    }
+  },
+  "lockedText": {
+    "lampworks": "You have no reason to go there yet. Perhaps the laboratory will give you one.",
+    "infirmary": "You have no reason to go to Ashlar Street yet.",
+    "tinkers": "You have no reason to go to Tinkers' Row yet.",
+    "wire": "You have no reason to go to the Wire-Office yet.",
+    "records": "You have no reason to go to the Hall of Records yet."
+  }
+}

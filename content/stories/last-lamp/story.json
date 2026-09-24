@@ -1,0 +1,240 @@
+{
+  "title": "The Last Lamp at Vennard House",
+  "prologue": [
+    {
+      "n": "Marrowgate Square. Half past midnight."
+    },
+    {
+      "n": "Rain lashes the windows of Vennard House. The gale has torn the last of the bunting from the gala lamps, and scraps of coloured paper skate along the gutters like small, frightened animals."
+    },
+    {
+      "n": "Sixty guests remain inside. The Watch has ordered every one of them to stay."
+    },
+    {
+      "n": "Behind the tall windows the ballroom is empty. The chandeliers are still lit. A hundred glasses of champagne are going flat."
+    },
+    {
+      "n": "Sergeant Pip Ottley meets you on the steps. He is young, soaked through, and has plainly been holding his news for an hour."
+    },
+    {
+      "s": "Ottley",
+      "t": "\"Inspector. Thank you for coming out in this. Master Vennard is dead in his study. The doctor says apoplexy, and the Chief Constable would very much like to agree.\""
+    },
+    {
+      "n": "He glances back at the door."
+    },
+    {
+      "s": "Ottley",
+      "t": "\"But the study door was bolted from the inside, Inspector. The butler and a footman forced it at twenty to twelve, and the room still smells of gas. I don't like it.\""
+    },
+    {
+      "n": "He hands you a folded note, damp at the corners."
+    },
+    {
+      "doc": [
+        "<b>Hale. Apoplexy. Be discreet. Be brief. Do not upset the guests, several of whom sit on the Board of the Guild. — A. Grale, Chief Constable</b>"
+      ]
+    },
+    {
+      "y": "Show me the study."
+    },
+    {
+      "n": "The study door hangs a little wrong on its hinges. You step inside."
+    }
+  ],
+  "motives": [
+    {
+      "id": "m_od1",
+      "suspect": "Odalys",
+      "text": "Stop her father selling her mother's works to strangers",
+      "req": [
+        "C12",
+        "C10"
+      ]
+    },
+    {
+      "id": "m_od2",
+      "suspect": "Odalys",
+      "text": "Inherit the Works and the house",
+      "req": [
+        "C10",
+        "C05"
+      ]
+    },
+    {
+      "id": "m_co1",
+      "suspect": "Corvane",
+      "text": "Fury at being struck from the sale and humiliated in the toast",
+      "req": [
+        "C05",
+        "C10"
+      ]
+    },
+    {
+      "id": "m_qu1",
+      "suspect": "Quillon",
+      "text": "Wipe out a debt of 1,200 crowns",
+      "req": [
+        "C28"
+      ]
+    },
+    {
+      "id": "m_qu2",
+      "suspect": "Quillon",
+      "text": "Stop his affair being exposed",
+      "req": [
+        "C06"
+      ]
+    },
+    {
+      "id": "m_cd1",
+      "suspect": "Cordelia",
+      "text": "Avoid being put out on the pavement after the gala",
+      "req": [
+        "C06"
+      ]
+    },
+    {
+      "id": "m_il1",
+      "suspect": "Ilsa",
+      "text": "Avenge the theft of her father's mantle patent",
+      "req": [
+        "C09",
+        "C30"
+      ]
+    },
+    {
+      "id": "m_pe1",
+      "suspect": "Pell",
+      "text": "Avenge his brother Josiah, blamed for the Cinder Row fire",
+      "req": [
+        "C22",
+        "C33",
+        "C34",
+        "C37"
+      ]
+    },
+    {
+      "id": "m_pe2",
+      "suspect": "Pell",
+      "text": "Stop a plaque naming his brother's negligence being unveiled",
+      "req": [
+        "C25",
+        "C05"
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "o_pe1",
+      "suspect": "Pell",
+      "text": "Held the spare study key for thirty-five minutes on the afternoon of the gala",
+      "req": [
+        "C16"
+      ]
+    },
+    {
+      "id": "o_pe2",
+      "suspect": "Pell",
+      "text": "Knocked at the study door at 10:25 and announced a delay at 10:32",
+      "req": [
+        "C13"
+      ]
+    },
+    {
+      "id": "o_il1",
+      "suspect": "Ilsa",
+      "text": "Slipped through the French window into the study at 6:35",
+      "req": [
+        "C15",
+        "C07"
+      ]
+    },
+    {
+      "id": "o_co1",
+      "suspect": "Corvane",
+      "text": "Left the ballroom for the terrace between 9:45 and 10:05",
+      "req": [
+        "C14"
+      ]
+    },
+    {
+      "id": "o_qu1",
+      "suspect": "Quillon",
+      "text": "Was out of sight of the ballroom with Lady Cordelia from 9:35 to 10:05",
+      "req": [
+        "C15"
+      ]
+    },
+    {
+      "id": "o_cd1",
+      "suspect": "Cordelia",
+      "text": "Was out of sight of the ballroom with Dr. Quillon from 9:35 to 10:05",
+      "req": [
+        "C15"
+      ]
+    },
+    {
+      "id": "o_od1",
+      "suspect": "Odalys",
+      "text": "Quarrelled with her father outside the study at ten to nine",
+      "req": [
+        "C12"
+      ]
+    },
+    {
+      "id": "o_od2",
+      "suspect": "Odalys",
+      "text": "Booked the extra maid two weeks before the gala",
+      "req": [
+        "C11"
+      ]
+    }
+  ],
+  "hints": [
+    "\"Inspector, we've heard a great deal about the evening. Not so much about the afternoon.\"",
+    "\"The study was locked all day. Who could have got in, and for how long?\"",
+    "\"The key register has an odd entry, Inspector. It took him three-and-thirty minutes to trim one lamp.\""
+  ],
+  "proof": {
+    "opportunity": [
+      "C16"
+    ],
+    "means": [
+      "C39",
+      "C20",
+      "C18",
+      "C21"
+    ],
+    "motive": [
+      "C22",
+      "C24",
+      "C25",
+      "C33",
+      "C34",
+      "C36",
+      "C37"
+    ]
+  },
+  "coverUp": [
+    "C08",
+    "C36",
+    "C37"
+  ],
+  "prematureAccuse": [
+    {
+      "n": "You name him. The room goes very cold."
+    },
+    {
+      "n": "It was too soon, and you know it. You have suspicion, and no proof, and everyone in the room has heard the difference."
+    }
+  ],
+  "wrong": {
+    "Odalys": "Odalys keeps the ledgers from a cell for six weeks. When she is released she does not speak to you again, and she sells the house.",
+    "Corvane": "Corvane talks for two days without pause and is cleared on the third. He never forgives the humiliation, and neither does the Guild.",
+    "Quillon": "The affair comes out in open court. Dr. Quillon's infirmary closes before the month is out. He leaves Lumenhithe with the smell of clove on his coat.",
+    "Cordelia": "Lady Cordelia is released for want of evidence, and the scandal follows her to every drawing-room she enters. She does not enter many.",
+    "Ilsa": "Ilsa spends a winter in the cells. When she comes out, the Marrow patent is gone from the Patent Office altogether. The Works are sold within the year, as if none of it had ever happened."
+  },
+  "title_blurb": "A mystery of gaslight and brass, in the Kingdom of Verrenmoor. About two hours. Contains death by gas, a historical disaster, adultery and class injustice. No gore."
+}

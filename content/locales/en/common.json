@@ -1,0 +1,162 @@
+{
+  "ui": {
+    "topbar": {
+      "investigate": "Investigate",
+      "map": "Map",
+      "evidence": "Evidence",
+      "suspects": "Suspects",
+      "timeline": "Timeline",
+      "deductions": "Deductions",
+      "inventory": "Inventory",
+      "save": "Save",
+      "lang": "🌐 EN / VI"
+    },
+    "title": {
+      "eyebrow": "A detective mystery",
+      "title": "The Last Lamp<br>at Vennard House",
+      "new_game": "New game",
+      "continue": "Continue",
+      "load_saved": "Load saved game",
+      "endings_found": "Endings discovered: {count} of 5",
+      "story_selector": "Story"
+    },
+    "sound": {
+      "sound_off": "♪ Sound off",
+      "sound_on": "♪ Sound on"
+    },
+    "drawer": {
+      "map_title": "Map",
+      "evidence_title": "Evidence ({count} of 39)",
+      "suspects_title": "Suspects",
+      "timeline_title": "Timeline of the gala day",
+      "deductions_title": "Deductions",
+      "inventory_title": "Inventory",
+      "save_title": "Save / Load",
+      "accusation_title": "Make your accusation",
+      "close": "✕"
+    },
+    "actions": {
+      "continue": "Continue",
+      "in_conversation": "In conversation with {name}",
+      "ottley_waiting_intro": "Sergeant Ottley waits at your elbow, notebook open, water still dripping from his cap.",
+      "ottley_looks_up": "Ottley looks up from his notebook.",
+      "ask_ottley_hint_y": "Have you any thoughts, Sergeant?",
+      "back": "← Back",
+      "investigate_heading": "Investigate",
+      "speak_to_heading": "Speak to",
+      "move_on_heading": "Move on",
+      "go_somewhere_else": "Go somewhere else…",
+      "speak_to_person": "Speak to {name}",
+      "ask_heading": "Ask",
+      "press_heading": "Press",
+      "leave_heading": "Leave",
+      "end_conversation": "End the conversation",
+      "present_evidence_option": "Present evidence…",
+      "accuse_suspect_option": "Accuse {name} of murder",
+      "what_will_you_do": "What will you do?",
+      "what_will_you_say": "What will you say to {name}?",
+      "choose_what_to_show": "Choose what to show",
+      "nothing_to_show": "You have nothing to show yet.",
+      "never_mind": "Never mind",
+      "present_evidence_to": "Present evidence to {name}",
+      "make_your_accusation_btn": "MAKE YOUR ACCUSATION"
+    },
+    "suspicion": {
+      "unlikely": "Unlikely",
+      "doubtful": "Doubtful",
+      "suspicious": "Suspicious",
+      "likely": "Likely",
+      "prime_suspect": "Prime suspect",
+      "your_suspicion": "Your suspicion: {label}"
+    },
+    "safe": {
+      "title": "Enter the four-digit combination",
+      "prompt": "Behind the north panel, an iron door. A brass dial with four wheels.",
+      "btn_turn": "Turn the dial",
+      "btn_away": "Step away",
+      "wrong_msg": "The wheels turn and stop. Nothing."
+    },
+    "deductions": {
+      "warn_hypothesis": "Build a hypothesis from what you have found. The board never tells you whether you are right.",
+      "lbl_suspect": "Suspect",
+      "lbl_motive": "Motive",
+      "lbl_opportunity": "Opportunity",
+      "lbl_evidence": "Evidence (up to three)",
+      "motive_placeholder": "— Motive —",
+      "opportunity_placeholder": "— Opportunity —",
+      "btn_record_hypothesis": "Record hypothesis",
+      "lbl_your_hypotheses": "Your hypotheses",
+      "empty_hypotheses": "None recorded.",
+      "lbl_ottley": "Ottley",
+      "btn_ask_ottley": "Ask Ottley for a hint",
+      "lbl_when_ready": "When you are ready",
+      "btn_close_accident": "Close the case as an accident",
+      "confirm_close_accident": "Report to the Chief Constable that Master Vennard died of apoplexy, and close the case?",
+      "no_motive": "no motive chosen",
+      "no_opportunity": "no opportunity chosen",
+      "no_evidence": "no evidence",
+      "remove": "Remove"
+    },
+    "inventory_tabs": {
+      "all": "All",
+      "doc": "Documents",
+      "obj": "Objects",
+      "key": "Keys",
+      "note": "Notes",
+      "empty": "Nothing here yet.",
+      "chain_title": "The Master's watch-chain",
+      "chain_sum": "Heavy gold. One small key, and a bare loop where a larger one hung.",
+      "chain_desc": "A heavy gold watch-chain from the Master's waistcoat. The ring holds one small key, which opens the lower desk drawer, and a bare loop where the larger study key once hung."
+    },
+    "evidence": {
+      "empty": "You have found nothing yet. Look around.",
+      "already_in_evidence": "◆ Already in your evidence: {title}"
+    },
+    "timeline": {
+      "official_account_title": "THE OFFICIAL ACCOUNT",
+      "empty": "Nothing is established yet. Timelines are built from testimony, registers and documents."
+    },
+    "save": {
+      "info_saved": "Saved game: {clues} clues, {date}",
+      "info_none": "No saved game yet. The game also autosaves.",
+      "btn_save": "SAVE GAME",
+      "btn_load": "LOAD GAME",
+      "btn_new": "NEW GAME",
+      "lbl_settings": "Settings",
+      "typewriter_label": "Typewriter effect (you can always skip by tapping the text)",
+      "sound_label": "Ambient rain sound",
+      "lbl_important_decisions": "Important decisions so far",
+      "confirm_new": "Start again? Unsaved progress will be lost."
+    },
+    "accusation": {
+      "warn": "Name one person, then choose the clues that prove it. The ending will judge both.",
+      "who": "Who?",
+      "evidence_lbl": "What is your evidence? (up to five)",
+      "no_evidence": "You have no evidence at all.",
+      "btn_submit": "Make the accusation",
+      "toast_five_max": "Five pieces of evidence at most.",
+      "err_choose_suspect": "Choose a suspect first.",
+      "err_no_evidence": "You cannot accuse anyone without evidence."
+    },
+    "endings": {
+      "case_closed": "The case is closed",
+      "btn_new_investigation": "Begin a new investigation",
+      "btn_review_case": "Review the case",
+      "hidden_prompt": "You hold the whole truth in your notebook. What will you do with it?",
+      "opt_back_stair": "Take Pell down the back stair.",
+      "opt_cinder_row": "Lay the whole truth of Cinder Row before the Guild."
+    },
+    "toasts": {
+      "game_saved": "Game saved.",
+      "game_loaded": "Game loaded.",
+      "no_save_found": "No saved game found.",
+      "finish_scene_first": "Finish the scene first.",
+      "new_location_map": "New location on the map: {short}",
+      "three_ev_max": "Three pieces of evidence per hypothesis.",
+      "add_something": "Add a motive, an opportunity or some evidence."
+    },
+    "labels": {
+      "you": "YOU"
+    }
+  }
+}
