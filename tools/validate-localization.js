@@ -16,6 +16,7 @@ const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
 const ctx = { window: {}, console };
+const readJson = file => JSON.parse(fs.readFileSync(file, "utf8"));
 ctx.i18n = { registerTranslations: (lang, dict) => { ctx["__" + lang] = dict; } };
 vm.createContext(ctx);
 
@@ -77,4 +78,63 @@ if (extra.length) {
   extra.forEach(k => console.log(`- ${k}`));
 }
 
-process.exitCode = missing.length ? 1 : 0;
+// Runtime overlay sanity check: story-specific locale data must be loaded and
+// must cover player-facing base fields that are localized in the current story.
+function validateRuntimeOverlay(root) {
+  const storyRoot = path.join(root, 'content', 'stories', 'last-lamp');
+  const viPath = path.join(root, 'content', 'locales', 'vi', 'last-lamp.json');
+  const enPath = path.join(root, 'content', 'locales', 'en', 'last-lamp.json');
+  const chars = readJson(path.join(storyRoot, 'characters.json')).characters || {};
+  const locs = readJson(path.join(storyRoot, 'locations.json')).locations || {};
+  const clues = readJson(path.join(storyRoot, 'clues.json')).clues || {};
+  const story = readJson(path.join(storyRoot, 'story.json')) || {};
+  const vi = readJson(viPath), en = readJson(enPath);
+  const errors = [];
+
+  if (!vi.characters || !vi.characters.Ottley || !vi.characters.Ottley.topics) {
+    errors.push('Vietnamese story locale is missing characters.Ottley.topics.');
+  }
+  const baseOttley = (chars.Ottley && chars.Ottley.topics) || [];
+  const viOttley = (vi.characters && vi.characters.Ottley && vi.characters.Ottley.topics) || [];
+  for (const topic of baseOttley) {
+    const translated = viOttley.find(x => x.id === topic.id);
+    if (!translated || typeof translated.label !== 'string') {
+      errors.push(`Vietnamese Ottley topic is incomplete: ${topic.id}`);
+    }
+    if (topic.beats && !translated.beats) {
+      errors.push(`Vietnamese Ottley topic beats are missing: ${topic.id}`);
+    }
+  }
+
+  const checkParallel = (section, baseObj, viObj, fields) => {
+    Object.keys(baseObj || {}).forEach(id => {
+      const b = baseObj[id], v = (viObj || {})[id];
+      fields.forEach(field => {
+        if (b && b[field] !== undefined && (!v || v[field] === undefined)) {
+          errors.push(`Vietnamese ${section}.${id}.${field} is missing.`);
+        }
+      });
+    });
+  };
+  checkParallel('characters', chars, vi.characters, ['name','role','rel','studyIntro','hostile']);
+  checkParallel('locations', locs, vi.locations, ['name','short','recap']);
+  checkParallel('clues', clues, vi.clues, ['title','summary','invTitle']);
+  checkParallel('story', {story}, {story: vi.story}, ['title','subtitle','prologue','hints','prematureAccuse','proof']);
+
+  if (!vi.texts || !vi.texts.topic || !vi.texts.intro || !vi.texts.clue) {
+    errors.push('Vietnamese story locale is missing one or more player-facing text sections (texts.intro/topic/clue).');
+  }
+  return errors;
+}
+
+if (require.main === module) {
+  const root = path.resolve(__dirname, '..');
+  const runtimeErrors = validateRuntimeOverlay(root);
+  if (runtimeErrors.length) {
+    console.error('\nRuntime overlay errors:');
+    runtimeErrors.forEach(e => console.error('- ' + e));
+  } else {
+    console.log('\nRuntime overlay check: PASS');
+  }
+  process.exitCode = (missing.length || runtimeErrors.length) ? 1 : 0;
+}
