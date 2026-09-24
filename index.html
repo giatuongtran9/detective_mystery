@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b1416">
+<title>The Last Lamp at Vennard House</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+  <nav id="topbar" aria-label="Game menu">
+    <button data-act="investigate" title="Return to the scene" id="nav-investigate">Investigate</button>
+    <button data-panel="map" id="nav-map">Map</button>
+    <button data-panel="evidence" id="nav-evidence">Evidence <span class="badge" id="badge-evidence">0</span></button>
+    <button data-panel="suspects" id="nav-suspects">Suspects</button>
+    <button data-panel="timeline" id="nav-timeline">Timeline</button>
+    <button data-panel="deductions" id="nav-deductions">Deductions</button>
+    <button data-panel="inventory" id="nav-inventory">Inventory</button>
+    <button data-panel="save" id="nav-save">Save</button>
+    <button id="langBtn" class="lang-toggle" title="Switch Language">🌐 EN | VI</button>
+  </nav>
+
+  <section id="stage" aria-label="Scene">
+    <div class="bg" id="bgA"></div>
+    <div class="bg" id="bgB"></div>
+    <canvas id="rain"></canvas>
+    <div id="glow"></div>
+    <div id="locname"></div>
+    <button id="soundBtn" title="Ambient sound">♪ Sound off</button>
+  </section>
+
+  <main id="panel">
+    <div id="log" aria-live="polite"></div>
+    <div id="actions"></div>
+  </main>
+</div>
+
+<div id="drawer" hidden>
+  <div class="sheet" role="dialog" aria-modal="true">
+    <header><h2 id="drawerTitle"></h2><button id="drawerClose" aria-label="Close">✕</button></header>
+    <div id="drawerBody"></div>
+  </div>
+</div>
+
+<div id="toast" hidden></div>
+
+<div id="title">
+  <div class="title-inner">
+    <button id="titleLangBtn" class="lang-toggle title-lang" title="Switch Language">🌐 EN | VI</button>
+    <div class="eyebrow" id="titleEyebrow">A detective mystery</div>
+    <h1 id="titleHeading">The Last Lamp<br>at Vennard House</h1>
+    <p id="titleBlurb"></p>
+    <div class="title-buttons">
+      <button id="btnNew" class="big">New game</button>
+      <button id="btnContinue" class="big" hidden>Continue</button>
+      <button id="btnLoad" class="big" hidden>Load saved game</button>
+    </div>
+    <p class="endings-found" id="endingsFound"></p>
+  </div>
+</div>
+
+<script src="js/language.js"></script>
+<script src="story-loader.js"></script>
+</body>
+</html>
